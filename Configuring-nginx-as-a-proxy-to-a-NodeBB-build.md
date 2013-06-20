@@ -1,0 +1,35 @@
+NodeBB by default runs on port `4567`, meaning that builds are usually accessed using a port number in addition to their hostname:
+
+    http://example.org:4567
+
+In order to allow NodeBB to be served without a port, nginx can be set up to proxy all requests to a particular hostname (or subdomain) to an upstream NodeBB build running on any port.
+
+Below is the basic nginx configuration for a NodeBB build running on port `4567`:
+
+    upstream nodebb {
+        server 127.0.0.1:4567;
+    }
+
+    server {
+        listen 80;
+
+        server_name forum.example.org;
+        root /path/to/nodebb/install;
+
+        location / {
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Host $http_host;
+            proxy_set_header X-NginX-Proxy true;
+
+            proxy_pass http://nodebb/;
+            proxy_redirect off;
+
+            # Socket.IO Support
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection "upgrade";
+        }
+    }
+
+Keep in mind that the `upstream nodebb` line must be unique for different builds of NodeBB being managed by the same nginx server.
