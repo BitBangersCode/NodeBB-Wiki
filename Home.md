@@ -9,4 +9,4 @@ Report any issues to this project's [issue tracker](https://github.com/designcre
 
 ## If all else fails...
 
-[[Troubleshooting]]
+* [[Troubleshooting]]
