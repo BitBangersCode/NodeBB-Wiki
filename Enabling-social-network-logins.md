@@ -8,6 +8,8 @@ Create a new application, and obtain an Application Key and Application Secret:
 
 ![Facebook Application Settings](http://i.imgur.com/hfy0eVo.png)
 
+Ensure that "Website with Facebook Login" is checked, and that the URL to your NodeBB instance is specified in the "Site URL" box. Add that site's domain to the "App Domains" field.
+
 Paste this key and secret into the appropriate boxes in the NodeBB Administration Panel (accessible via /admin on your NodeBB install)
 
 ## Twitter
@@ -16,4 +18,14 @@ Register an application at the [Twitter Developers](https://dev.twitter.com/) pa
 
 ![Twitter Application Settings](http://i.imgur.com/ksrHkgN.png)
 
-Paste this key and secret into the appropriate boxes in the NodeBB Administration Panel (accessible via /admin on your NodeBB install)
+**Important**: While setting up your application, be sure to specify a Callback URL. It does not have to correspond to your installation, it just cannot be blank.
+
+Paste this token and secret into the appropriate boxes in the NodeBB Administration Panel (accessible via /admin on your NodeBB install)
+
+## Google
+
+Register an application at the [Google API Console](https://code.google.com/apis/console/), and obtain a Client ID and Secret.
+
+![Google Application Settings](http://i.imgur.com/xutDs1R.png)
+
+Paste this ID and secret into the appropriate boxes in the NodeBB Administration Panel (accessible via /admin on your NodeBB install)
