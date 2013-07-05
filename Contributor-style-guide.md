@@ -14,9 +14,10 @@ NodeBB uses tabbed indentation. Bracing should follow the [One True Brace Style]
         // otherwise ...
     }
 
-Single line conditionals are preferably rendered inline:
+Put conditionals and statements on separate lines :
 
-    if (leTired) haveANap();
+    if (leTired) 
+        haveANap();
 
 ### Variables
 
