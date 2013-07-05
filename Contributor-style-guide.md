@@ -9,3 +9,14 @@ NodeBB uses tabbed indentation. Bracing should follow the [One True Brace Style]
     } else {
         // otherwise ...
     }
+
+### Variables
+
+Local variables should always be prefaced with the `var` keyword
+
+    var foo = 'bar';
+
+Multiple declarations are to be included in the same `var` statement:
+
+    var foo = 'bar',
+        bar = 'baz';
