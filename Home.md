@@ -1,6 +1,8 @@
-Welcome to the NodeBB wiki!
+Welcome to the NodeBB wiki! We'll try to keep this wiki up-to-date regarding various aspects of NodeBB
 
-Report any issues to this project's [issue tracker](https://github.com/designcreateplay/NodeBB/issues)
+Report any issues to this project's [issue tracker](https://github.com/designcreateplay/NodeBB/issues).
+
+The project's rough roadmap/version history can be found at [[Version History/Roadmap]]
 
 ## Guides
 
