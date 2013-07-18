@@ -10,6 +10,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 * [[Configuring nginx as a proxy to NodeBB]]
 * [[Enabling Social Network Logins]]
 * [[Contributor Style Guide]]
+* [[Theming NodeBB]]
 
 ## If all else fails...
 
