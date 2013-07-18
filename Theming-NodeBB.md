@@ -9,7 +9,7 @@ NodeBB expects any installed themes to be found in the `/public/themes` folder. 
 The theme's folder contain the following files:
 
 * One of `bootstrap.min.css`, `bootstrap.css`, or `style.css`
-* theme.json
+* `theme.json`
 
 ## `theme.json`
 The theme configuration file is a simple JSON string containing all appropriate meta data regarding the theme. Please take not of the following properties:
