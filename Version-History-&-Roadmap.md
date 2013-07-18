@@ -3,7 +3,9 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 ## Upcoming Releases / Roadmap
 
 ### v0.0.4
-* Theming manager to allow third-party bootstrap themes to be uploaded/installed
+* Theming manager to allow third-party bootstrap themes to be uploaded/installed ([issue #92](https://github.com/designcreateplay/NodeBB/issues/92))
+* Ability to add/delete categories in the admin panel ([issue #93](https://github.com/designcreateplay/NodeBB/issues/93))
+* `sitemap.xml` for better search engine indexing ([issue #96](https://github.com/designcreateplay/NodeBB/issues/96))
 * Bugfixes and stability updates
 
 ## Version History
