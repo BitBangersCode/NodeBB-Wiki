@@ -6,10 +6,7 @@ Using [bootswatch/swatchmaker](https://github.com/thomaspark/bootswatch/tree/gh-
 
 NodeBB expects any installed themes to be found in the `/public/themes` folder. Each individual theme has their own folder here.
 
-The theme's folder contain the following files:
-
-* One of `bootstrap.min.css`, `bootstrap.css`, or `style.css`
-* `theme.json`
+The theme's folder must contain at least a `theme.json` file for it to be a valid theme.
 
 ## `theme.json`
 The theme configuration file is a simple JSON string containing all appropriate meta data regarding the theme. Please take note of the following properties:
