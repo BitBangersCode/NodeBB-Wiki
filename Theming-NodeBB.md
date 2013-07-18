@@ -12,7 +12,7 @@ The theme's folder contain the following files:
 * `theme.json`
 
 ## `theme.json`
-The theme configuration file is a simple JSON string containing all appropriate meta data regarding the theme. Please take not of the following properties:
+The theme configuration file is a simple JSON string containing all appropriate meta data regarding the theme. Please take note of the following properties:
 
 * `id`: A unique id for a theme (e.g. "my-theme")
 * `src`: The filename (in the same folder) that should be interpreted by NodeBB as the theme CSS
