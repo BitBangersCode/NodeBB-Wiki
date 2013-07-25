@@ -8,7 +8,7 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 * `sitemap.xml` for better search engine indexing ([issue #96](https://github.com/designcreateplay/NodeBB/issues/96))
 * Fixed Twitter Registrations ([issue #131](https://github.com/designcreateplay/NodeBB/issues/131))
 * Open Graph tags present on most pages ([issue #116](https://github.com/designcreateplay/NodeBB/issues/116))
-* Improved post composer styling
+* Improved post composer styling ([issue #137](https://github.com/designcreateplay/NodeBB/issues/137), etc)
 * Various UI fixes ([issue #95](https://github.com/designcreateplay/NodeBB/issues/95), etc)
 * Bugfixes and stability updates
 
