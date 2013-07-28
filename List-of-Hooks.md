@@ -8,7 +8,7 @@ There are two types of hooks, **filters**, and **actions**. Filters take an inpu
 
 ### `filter:save_post_content`
 
-**Introduced: v0.0.5**
+**Introduced: v0.0.5**<br />
 **Argument(s)**: A post's content (markdown text)
 
 Executed whenever a post is created or edited, but before it is saved into the database.
@@ -17,7 +17,7 @@ Executed whenever a post is created or edited, but before it is saved into the d
 
 ### `action:save_post_content`
 
-**Introduced: v0.0.5**
+**Introduced: v0.0.5**<br />
 **Argument(s)**: A new post's `pid`, the post's content (markdown text)
 
 Executed whenever a post is created or edited, after it is saved into the database.
