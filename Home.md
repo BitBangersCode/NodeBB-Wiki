@@ -11,6 +11,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 * [[Enabling Social Network Logins]]
 * [[Contributor Style Guide]]
 * [[Theming NodeBB]]
+* [[Writing Plugins for NodeBB]]
 
 ## If all else fails...
 
