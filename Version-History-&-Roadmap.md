@@ -3,7 +3,10 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 ## Upcoming Releases / Roadmap
 
 ### v0.0.5
-* *TBD*
+* Basic plugin system (with hooks and sample plugins)
+* Infinite scrolling on topics
+* More user management options (bans, ip bans)
+* Release of a default theme to be shipped with NodeBB
 
 ## Version History
 
