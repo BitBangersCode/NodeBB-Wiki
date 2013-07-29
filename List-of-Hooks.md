@@ -2,7 +2,7 @@ The following is a list of all hooks present in NodeBB. This list is intended to
 
 There are two types of hooks, **filters**, and **actions**. Filters take an input (provided as a single argument), parse it in some way, and return the changed value. Actions take multiple inputs, and execute actions based on the inputs received. Actions do not return anything.
 
-**Important** This list is by no means exhaustive. Hooks are added on an as-needed basis (or if we can see a potential use case ahead of time), and all requests to add new hooks to NodeBB should be sent to us via the [issue tracker](https://github.com/designcreateplay/NodeBB/issues).
+**Important**: This list is by no means exhaustive. Hooks are added on an as-needed basis (or if we can see a potential use case ahead of time), and all requests to add new hooks to NodeBB should be sent to us via the [issue tracker](https://github.com/designcreateplay/NodeBB/issues).
 
 ----
 
@@ -10,7 +10,7 @@ There are two types of hooks, **filters**, and **actions**. Filters take an inpu
 
 ### `filter:save_post_content`
 
-**Introduced: v0.0.5**<br />
+**Compatibility: v0.0.5+**<br />
 **Argument(s)**: A post's content (markdown text)
 
 Executed whenever a post is created or edited, but before it is saved into the database.
@@ -19,7 +19,7 @@ Executed whenever a post is created or edited, but before it is saved into the d
 
 ### `action:save_post_content`
 
-**Introduced: v0.0.5**<br />
+**Compatibility: v0.0.5+**<br />
 **Argument(s)**: A new post's `pid`, the post's content (markdown text)
 
 Executed whenever a post is created or edited, after it is saved into the database.
