@@ -5,6 +5,7 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 ### v0.0.6
 * More user management options (bans, ip bans)
 * Release of a default theme to be shipped with NodeBB
+* Introduction of dedicated `/logs` directory, with better logging capability
 
 ## Version History
 
