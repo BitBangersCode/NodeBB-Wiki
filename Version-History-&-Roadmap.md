@@ -6,6 +6,8 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 * More user management options (bans, ip bans)
 * Release of a default theme to be shipped with NodeBB
 
+## Version History
+
 ### v0.0.5
 * Basic plugin system (with hooks and sample plugins) ([issue #143](https://github.com/designcreateplay/NodeBB/issues/143))
 * Infinite scrolling on topics ([issue #141](https://github.com/designcreateplay/NodeBB/issues/141))
@@ -13,8 +15,6 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 * Improved notification handling ([issue #137](https://github.com/designcreateplay/NodeBB/issues/134))
 * Category removal/disable ([issue #93](https://github.com/designcreateplay/NodeBB/issues/93))
 * External link interpage ([issue #154](https://github.com/designcreateplay/NodeBB/issues/154))
-
-## Version History
 
 ### v0.0.4
 * Theming manager to allow third-party bootstrap themes to be uploaded/installed ([issue #92](https://github.com/designcreateplay/NodeBB/issues/92))
