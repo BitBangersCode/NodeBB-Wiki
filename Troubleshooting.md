@@ -14,3 +14,9 @@ To do this on Ubuntu:
     # add-apt-repository ppa:chris-lea/node.js
     # apt-get update && apt-get dist-upgrade -y
     # apt-cache policy nodejs    // should show a version higher than 0.8
+
+## I upgraded NodeBB and now X isn't working properly!
+
+In early versions of NodeBB, many schema changes were made, usually necessitating a complete flush of the database. As of v0.0.5, an upgrade utility will always be provided and kept up to date so that existing NodeBB installs can maintain proper database schema.
+
+For more information, please consult [[Upgrading NodeBB]]
