@@ -2,11 +2,17 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 
 ## Upcoming Releases / Roadmap
 
-### v0.0.5
-* Basic plugin system (with hooks and sample plugins)
-* Infinite scrolling on topics
+### v0.0.6
 * More user management options (bans, ip bans)
 * Release of a default theme to be shipped with NodeBB
+
+### v0.0.5
+* Basic plugin system (with hooks and sample plugins) ([issue #143](https://github.com/designcreateplay/NodeBB/issues/143))
+* Infinite scrolling on topics ([issue #141](https://github.com/designcreateplay/NodeBB/issues/141))
+* Better page titles ([issue #160](https://github.com/designcreateplay/NodeBB/issues/160))
+* Improved notification handling ([issue #137](https://github.com/designcreateplay/NodeBB/issues/134))
+* Category removal/disable ([issue #93](https://github.com/designcreateplay/NodeBB/issues/93))
+* External link interpage ([issue #154](https://github.com/designcreateplay/NodeBB/issues/154))
 
 ## Version History
 
