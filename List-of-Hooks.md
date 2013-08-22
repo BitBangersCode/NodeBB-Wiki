@@ -8,16 +8,23 @@ There are two types of hooks, **filters**, and **actions**. Filters take an inpu
 
 ## Filters
 
-### `filter:save_post_content`
+### `filter:post.save`
 
 **Compatibility: v0.0.5+**<br />
 **Argument(s)**: A post's content (markdown text)
 
 Executed whenever a post is created or edited, but before it is saved into the database.
 
+### `filter:post.get`
+
+**Compatibility: v0.0.6+**<br />
+**Argument(s)**: A post's content (markdown text)
+
+Executed whenever a post is retrieved, but before being sent to the client.
+
 ## Actions
 
-### `action:save_post_content`
+### `action:post.save`
 
 **Compatibility: v0.0.5+**<br />
 **Argument(s)**: A new post's `pid`, the post's content (markdown text)
