@@ -46,3 +46,17 @@ Each method you write into your library takes a certain number of arguments, dep
 
 * Filters send a single argument through to your method, although asynchronous methods can also accept a callback (if specified in `plugin.json`).
 * Actions send a number of arguments (the exact number depends how the hook is implemented). These arguments are listed in [[List of Hooks]].
+
+## Installing the plugin
+
+In almost all cases, your plugin should be published in [npm](https://npmjs.org/), and your package's name should be prefixed "nodebb-plugin-". This will allow users to install plugins directly into their instances by running `npm install`.
+
+As of v0.0.5, "installing" a plugin by placing it in the `/plugins` folder is still supported, but keep in mind that the package `id` and its folder name must match exactly, or else NodeBB will not be able to load the plugin.
+
+## Testing
+
+Run NodeBB in development mode:
+
+    NODE_ENV=development node app
+
+This will expose the plugin debug logs, allowing you to see if your plugin is loaded, and its hooks registered. Activate your plugin from the administration panel, and test it out.
