@@ -23,7 +23,7 @@ Each plugin package contains a configuration file called `plugin.json`. Here is 
         "library": "./my-plugin.js",
         "hooks": [
             { "hook": "filter:save_post_content", "method": "filter" },
-            { "hook": "action:save_post_content", "method": "emailme" }
+            { "hook": "action:save_post_content", "method": "emailme", "callbacked": true }
         ]
     }
 
@@ -33,10 +33,10 @@ The `library` property is a relative path to the library in your package. It is 
 
 The `hooks` property is an array containing objects that tell NodeBB which hooks are used by your plugin, and what method in your library to invoke when that hook is called. Each object contains the following properties (those with a * are required):
 
-* `data.hook`*, the name of the NodeBB hook
-* `data.method`*, the method called in your plugin
-* `data.callbacked`, whether or not the hook expects a callback (true), or a return (false). Only used for filters. (Default: false)
-* (Not implemented) `data.priority`, the relative priority of the method when it is eventually called (default: 10)
+* `hook`*, the name of the NodeBB hook
+* `method`*, the method called in your plugin
+* `callbacked`, whether or not the hook expects a callback (true), or a return (false). Only used for filters. (Default: false)
+* (Not implemented) `priority`, the relative priority of the method when it is eventually called (default: 10)
 
 ## Writing the plugin library
 
