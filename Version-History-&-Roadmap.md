@@ -2,10 +2,22 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 
 ## Upcoming Releases / Roadmap
 
-### v0.0.6
-* More user management options (bans, ip bans)
+### v0.0.7
+* Bootstrap 3 integration ([issue #169](https://github.com/designcreateplay/NodeBB/issues/169))
 * Release of a default theme to be shipped with NodeBB
-* Introduction of dedicated `/logs` directory, with better logging capability
+* Dynamically updating page URL to show post ([issue #185](https://github.com/designcreateplay/NodeBB/issues/185))
+
+### v0.0.6
+* More user management options (bans, ip bans) ([issue #125](https://github.com/designcreateplay/NodeBB/issues/125))
+* Introduction of dedicated `error.log`, with better logging capability
+* Fulltext search through Reds
+* Chat logs are now saved ([issue #109](https://github.com/designcreateplay/NodeBB/issues/109))
+* Better page titles and notifications
+* Username mentions ([issue #164](https://github.com/designcreateplay/NodeBB/issues/164)) - through use of [nodebb-plugin-mentions](https://github.com/julianlam/nodebb-plugin-mentions) package, included with all future installs
+* Drag/Drop uploader fixes (Issues [#172](https://github.com/designcreateplay/NodeBB/issues/172), [#173](https://github.com/designcreateplay/NodeBB/issues/173), [#174](https://github.com/designcreateplay/NodeBB/issues/174), [#175](https://github.com/designcreateplay/NodeBB/issues/175), [#182](https://github.com/designcreateplay/NodeBB/issues/182))
+* Favourited posts are now accessible via the user profile
+* You can no longer access a deleted topic via its URL ([issue #198](https://github.com/designcreateplay/NodeBB/issues/198))
+* Lots of bug fixes, stability upgrades, and refactoring to reduce technical debt
 
 ## Version History
 
