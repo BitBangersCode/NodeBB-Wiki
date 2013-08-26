@@ -7,6 +7,8 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 * Release of a default theme to be shipped with NodeBB
 * Dynamically updating page URL to show post ([issue #185](https://github.com/designcreateplay/NodeBB/issues/185))
 
+## Version History
+
 ### v0.0.6
 * More user management options (bans, ip bans) ([issue #125](https://github.com/designcreateplay/NodeBB/issues/125))
 * Introduction of dedicated `error.log`, with better logging capability
@@ -18,8 +20,6 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 * Favourited posts are now accessible via the user profile
 * You can no longer access a deleted topic via its URL ([issue #198](https://github.com/designcreateplay/NodeBB/issues/198))
 * Lots of bug fixes, stability upgrades, and refactoring to reduce technical debt
-
-## Version History
 
 ### v0.0.5
 * Basic plugin system (with hooks and sample plugins) ([issue #143](https://github.com/designcreateplay/NodeBB/issues/143))
