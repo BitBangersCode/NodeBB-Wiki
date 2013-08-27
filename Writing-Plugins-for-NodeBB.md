@@ -20,6 +20,9 @@ Each plugin package contains a configuration file called `plugin.json`. Here is 
 
     {
         "id": "my-plugin",
+        "name": "Username Mentions",
+        "description": "Your plugin's description",
+        "url": "Absolute URL to your plugin or a Github repository",
         "library": "./my-plugin.js",
         "hooks": [
             { "hook": "filter:save_post_content", "method": "filter" },
