@@ -18,15 +18,22 @@ Executed whenever a post is created or edited, but before it is saved into the d
 ### `filter:post.get`
 
 **Compatibility: v0.0.6+**<br />
-**Argument(s)**: A post's content (markdown text)
+**Argument(s)**: A post object (javascript Object)
 
 Executed whenever a post is retrieved, but before being sent to the client.
+
+### `filter:post.parse`
+
+** Compatibility: v0.0.7+**<br />
+**Argument(s)**: A post or signature's raw text (String)
+
+Executed when a post or signature needs to be parsed from raw text to HTML (for output to client). This is useful if you'd like to use a parser to prettify posts, such as [Markdown](http://daringfireball.net/projects/markdown/), or [BBCode](http://www.bbcode.org/).
 
 ## Actions
 
 ### `action:post.save`
 
-**Compatibility: v0.0.5+**<br />
-**Argument(s)**: A new post's `pid`, the post's content (markdown text)
+**Compatibility: v0.0.6+**<br />
+**Argument(s)**: A post object (javascript Object)
 
 Executed whenever a post is created or edited, after it is saved into the database.
