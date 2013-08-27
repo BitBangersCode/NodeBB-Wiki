@@ -20,3 +20,11 @@ To do this on Ubuntu:
 In early versions of NodeBB, many schema changes were made, usually necessitating a complete flush of the database. As of v0.0.5, an upgrade utility will always be provided and kept up to date so that existing NodeBB installs can maintain proper database schema.
 
 For more information, please consult [[Upgrading NodeBB]]
+
+## I've locked myself out of the administrative panel!
+
+Versions of NodeBB prior to v0.0.7 allowed users to remove themselves as administrators, which is a bit of a problem if they happened to be the only administrator set. To re-add yourself as an administrator, first find your uid:
+
+    $ redis-cli userslug:{slug}:uid    // where {slug} is your username
+    "1"    // redis returned "1"
+    $ redis-cli sadd administrators 1
