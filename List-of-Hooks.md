@@ -24,7 +24,7 @@ Executed whenever a post is retrieved, but before being sent to the client.
 
 ### `filter:post.parse`
 
-** Compatibility: v0.0.7+**<br />
+**Compatibility: v0.0.7+**<br />
 **Argument(s)**: A post or signature's raw text (String)
 
 Executed when a post or signature needs to be parsed from raw text to HTML (for output to client). This is useful if you'd like to use a parser to prettify posts, such as [Markdown](http://daringfireball.net/projects/markdown/), or [BBCode](http://www.bbcode.org/).
