@@ -1,3 +1,5 @@
+## ***Note*: The Theme Engine is currently undergoing a rewrite, which means this current spec will change, [follow any developments here](https://github.com/designcreateplay/NodeBB/issues/92)**
+
 NodeBB is built on [Twitter Bootstrap](twitter.github.com/bootstrap/), which makes theming incredibly simple.
 
 Using [bootswatch/swatchmaker](https://github.com/thomaspark/bootswatch/tree/gh-pages/swatchmaker), customize the default Bootstrap theme and compile it down to an appropriate CSS file (optionally minified).
