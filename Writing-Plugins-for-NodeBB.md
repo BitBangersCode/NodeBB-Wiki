@@ -77,6 +77,8 @@ Occasionally, you may need to use NodeBB's libraries. For example, to verify tha
 
 In almost all cases, your plugin should be published in [npm](https://npmjs.org/), and your package's name should be prefixed "nodebb-plugin-". This will allow users to install plugins directly into their instances by running `npm install`.
 
+When installed via npm, your plugin **must** be prefixed with "nodebb-plugin-", or else it will not be found by NodeBB.
+
 As of v0.0.5, "installing" a plugin by placing it in the `/plugins` folder is still supported, but keep in mind that the package `id` and its folder name must match exactly, or else NodeBB will not be able to load the plugin. *This feature may be deprecated in later versions of NodeBB*.
 
 ## Testing
