@@ -39,7 +39,7 @@ The `hooks` property is an array containing objects that tell NodeBB which hooks
 * `hook`*, the name of the NodeBB hook
 * `method`*, the method called in your plugin
 * `callbacked`, whether or not the hook expects a callback (true), or a return (false). Only used for filters. (Default: false)
-* (Not implemented) `priority`, the relative priority of the method when it is eventually called (default: 10)
+* `priority`, the relative priority of the method when it is eventually called (default: 10)
 
 ## Writing the plugin library
 
