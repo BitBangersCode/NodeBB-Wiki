@@ -25,8 +25,8 @@ Each plugin package contains a configuration file called `plugin.json`. Here is 
         "url": "Absolute URL to your plugin or a Github repository",
         "library": "./my-plugin.js",
         "hooks": [
-            { "hook": "filter:save_post_content", "method": "filter" },
-            { "hook": "action:save_post_content", "method": "emailme", "callbacked": true }
+            { "hook": "filter:post.save", "method": "filter" },
+            { "hook": "action:post.save", "method": "emailme", "callbacked": true }
         ]
     }
 
@@ -50,11 +50,34 @@ Each method you write into your library takes a certain number of arguments, dep
 * Filters send a single argument through to your method, although asynchronous methods can also accept a callback (if specified in `plugin.json`).
 * Actions send a number of arguments (the exact number depends how the hook is implemented). These arguments are listed in [[List of Hooks]].
 
+### Example library method
+
+If we were to write method that listened for the `action:post.save` hook, we'd add the following line to the `hooks` portion of our `plugin.json` file:
+
+    { "hook": "action:post.save", "method": "myMethod" }
+
+Our library would be written like so:
+
+    var MyPlugin = {
+            myMethod: function(postData) {
+                // do something with postData here
+            }
+        };
+
+### Using NodeBB libraries to enhance your plugin
+
+Occasionally, you may need to use NodeBB's libraries. For example, to verify that a user exists, you would need to call the `exists` method in the `User` class. To allow your plugin to access these NodeBB classes, use `module.parent.require`:
+
+    var User = module.parent.require('./user');
+    User.exists('foobar', function(err, exists) {
+        // ...
+    });
+
 ## Installing the plugin
 
 In almost all cases, your plugin should be published in [npm](https://npmjs.org/), and your package's name should be prefixed "nodebb-plugin-". This will allow users to install plugins directly into their instances by running `npm install`.
 
-As of v0.0.5, "installing" a plugin by placing it in the `/plugins` folder is still supported, but keep in mind that the package `id` and its folder name must match exactly, or else NodeBB will not be able to load the plugin.
+As of v0.0.5, "installing" a plugin by placing it in the `/plugins` folder is still supported, but keep in mind that the package `id` and its folder name must match exactly, or else NodeBB will not be able to load the plugin. *This feature may be deprecated in later versions of NodeBB*.
 
 ## Testing
 
