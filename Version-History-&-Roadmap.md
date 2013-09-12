@@ -3,9 +3,19 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 ## Upcoming Releases / Roadmap
 
 ### v0.0.7
-* Bootstrap 3 integration ([issue #169](https://github.com/designcreateplay/NodeBB/issues/169))
+* Bootstrap 3 integration (issues [#168](https://github.com/designcreateplay/NodeBB/issues/168), [#169](https://github.com/designcreateplay/NodeBB/issues/169))
 * Release of a default theme to be shipped with NodeBB
 * Dynamically updating page URL to show post ([issue #185](https://github.com/designcreateplay/NodeBB/issues/185))
+* Numerous updates to the chat module (issues [#169](https://github.com/designcreateplay/NodeBB/issues/169), [#208](https://github.com/designcreateplay/NodeBB/issues/208), [#209](https://github.com/designcreateplay/NodeBB/issues/209), [#210](https://github.com/designcreateplay/NodeBB/issues/210), [#211](https://github.com/designcreateplay/NodeBB/issues/211), [#213](https://github.com/designcreateplay/NodeBB/issues/213))
+* Category creation ([issue #228](https://github.com/designcreateplay/NodeBB/issues/228))
+* Better search results + user searching (issues [#205](https://github.com/designcreateplay/NodeBB/issues/205), [#229](https://github.com/designcreateplay/NodeBB/issues/229))
+* User Groups ([issue #230](https://github.com/designcreateplay/NodeBB/issues/230))
+* `nodebb-plugin-markdown` now sanitizes HTML input by default (issues [#214](https://github.com/designcreateplay/NodeBB/issues/214), [#251](https://github.com/designcreateplay/NodeBB/issues/251))
+* Fixed javascript-less view of NodeBB ([issue #253](https://github.com/designcreateplay/NodeBB/issues/253))
+* Dropped use of [node-rss](https://npmjs.org/package/node-rss) in favour of [rss](https://npmjs.org/package/rss) ([issue #258](https://github.com/designcreateplay/NodeBB/issues/258))
+* Links to RSS feeds are now shown in the breadcrumbs ([issue #259](https://github.com/designcreateplay/NodeBB/issues/259))
+* Better installation script (issues [#264](https://github.com/designcreateplay/NodeBB/issues/264), [#265](https://github.com/designcreateplay/NodeBB/issues/265), [#266](https://github.com/designcreateplay/NodeBB/issues/266), [#275](https://github.com/designcreateplay/NodeBB/issues/275))
+* Maximum password length restriction removed ([issue #261](https://github.com/designcreateplay/NodeBB/issues/261))
 
 ## Version History
 
