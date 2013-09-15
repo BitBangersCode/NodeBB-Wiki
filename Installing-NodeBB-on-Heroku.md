@@ -1,3 +1,5 @@
+## Installation
+
 **Note**: Installations to Heroku require a local machine with some flavour of unix, as NodeBB does not run on Windows.
 
 1. Download and install [Heroku Toolbelt](https://toolbelt.heroku.com/) for your operating system
@@ -23,3 +25,14 @@
 1. Visit your app!
 
 If these instructions are unclear or if you run into trouble, please let us know by [filing an issue](https://github.com/designcreateplay/NodeBB/issues).
+
+## Keeping it up to date
+
+If you wish to pull the latest changes from the git repository to your Heroku app:
+
+1. Navigate to your repository at `/path/to/nodebb`
+2. `git pull`
+3. `npm install`
+4. `npm app --upgrade`
+5. `git commit -am "upgrading to latest nodebb"
+6. `git push heroku master`
