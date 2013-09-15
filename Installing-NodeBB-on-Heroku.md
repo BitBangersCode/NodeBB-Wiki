@@ -33,6 +33,6 @@ If you wish to pull the latest changes from the git repository to your Heroku ap
 1. Navigate to your repository at `/path/to/nodebb`
 2. `git pull`
 3. `npm install`
-4. `npm app --upgrade`
+4. `node app --upgrade`
 5. `git commit -am "upgrading to latest nodebb"
 6. `git push heroku master`
