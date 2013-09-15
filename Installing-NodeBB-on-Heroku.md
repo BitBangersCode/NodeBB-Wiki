@@ -19,7 +19,7 @@
     * The password is `h28h3wgh37fns7`
 1. Create a Procfile for Heroku: `echo "web: node app.js" > Procfile`
 1. As Heroku does not support web sockets natively, disable the 'websocket' option by editing the file `src/websockets.js` and removing `'websocket'` from the third line of the file.
-    * The line should read: `transports: ['websocket', 'xhr-polling', 'jsonp-polling', 'flashsocket']`
+    * The line should now read: `transports: ['xhr-polling', 'jsonp-polling', 'flashsocket']`
 1. `git add -f Procfile config.json public/config.json && git commit -am "adding Procfile and configs for Heroku"`
 1. Create the heroku app: `heroku create`
 1. Push to heroku: `git push heroku master`
