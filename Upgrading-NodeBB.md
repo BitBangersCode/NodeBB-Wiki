@@ -23,7 +23,7 @@ Uploaded images (avatars) are stored in /public/uploads. Feel free to back this 
     cd /path/to/nodebb/public
     tar -czf ~/nodebb_assets.tar.gz ./uploads
 
-## 3. Grab the latest and greatest code
+### 3. Grab the latest and greatest code
 
 Navigate to your NodeBB: `$ cd /path/to/nodebb/instance`, and then run:
 
@@ -31,7 +31,7 @@ Navigate to your NodeBB: `$ cd /path/to/nodebb/instance`, and then run:
 
 This should retrieve the latest (and greatest) version of NodeBB from the repository. Alternatively, download and extract the latest versioned copy of the code from [the Releases Page](https://github.com/designcreateplay/NodeBB/releases). Overwrite any files as necessary.
 
-## 4. Install any missing packages
+### 4. Install any missing packages
 
 Run `npm` to install any new packaged dependencies that may now be required by this new version of NodeBB:
 
@@ -39,7 +39,7 @@ Run `npm` to install any new packaged dependencies that may now be required by t
 
 *Note*: You can also run `npm update`, but it is not necessary.
 
-## 5. Database Migration
+### 5. Database Migration
 
 Occasionally, we may make changes to the database that require a migration. Run this:
 
@@ -47,6 +47,6 @@ Occasionally, we may make changes to the database that require a migration. Run 
 
 If nothing needs to be migrated, this script will do nothing.
 
-## 6. Start up NodeBB & Test!
+### 6. Start up NodeBB & Test!
 
 You should now be running the latest version of NodeBB.
