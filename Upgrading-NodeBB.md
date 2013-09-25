@@ -18,7 +18,7 @@ All of the textual data stored in NodeBB is found in a `.rdb` file. On typical i
 
 **Store this file somewhere safe.**
 
-Uploaded images (avatars) are stored in /public/uploads. Feel free to back this folder too:
+Uploaded images (avatars) are stored in /public/uploads. Feel free to back up this folder too:
 
     cd /path/to/nodebb/public
     tar -czf ~/nodebb_assets.tar.gz ./uploads
