@@ -21,7 +21,7 @@ Put conditionals and statements on separate lines:
 
 ### Variables
 
-Variables should always be prefaced with the `var` keyword
+Variables should always be prefaced with the `var` keyword:
 
     var foo = 'bar';
 
