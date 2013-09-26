@@ -12,9 +12,9 @@ NodeBB uses tabbed indentation. Bracing should follow the [One True Brace Style]
         // code here ...
     } else {
         // otherwise ...
-    }
+    };
 
-Put conditionals and statements on separate lines :
+Put conditionals and statements on separate lines:
 
     if (leTired) 
         haveANap();
