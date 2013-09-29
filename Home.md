@@ -17,4 +17,4 @@ The project's rough roadmap/version history can be found at [[Version History / 
 
 ## If all else fails...
 
-* [[Troubleshooting]]
+* [[Troubleshooting & FAQ]]
