@@ -18,7 +18,13 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 * Maximum password length restriction removed ([issue #261](https://github.com/designcreateplay/NodeBB/issues/261))
 * Better installation script (issues [#264](https://github.com/designcreateplay/NodeBB/issues/264), [#265](https://github.com/designcreateplay/NodeBB/issues/265), [#266](https://github.com/designcreateplay/NodeBB/issues/266), [#275](https://github.com/designcreateplay/NodeBB/issues/275))
 * Added Heroku support (dynamic port via the `PORT` environment variable)
-* Minor refactoring of saved data (issues [#286](https://github.com/designcreateplay/NodeBB/issues/286), [#287](https://github.com/designcreateplay/NodeBB/issues/287))
+* Minor refactoring of saved data (issues [#286](https://github.com/designcreateplay/NodeBB/issues/286), [#287](https://github.com/designcreateplay/NodeBB/issues/287), [#303](https://github.com/designcreateplay/NodeBB/issues/304))
+* Automatic updating of timestamps ([issue #306](https://github.com/designcreateplay/NodeBB/issues/306))
+* CSRF fix for `/logout` route ([issue #315](https://github.com/designcreateplay/NodeBB/issues/315))
+* Reduce unnecessary calls to Redis (re: category view) (issues [#320](https://github.com/designcreateplay/NodeBB/issues/320), [#321](https://github.com/designcreateplay/NodeBB/issues/321))
+* Fixed script injection bug in post content ([issue #329](https://github.com/designcreateplay/NodeBB/issues/329))
+* Login and `/outgoing` cancelation now take you back to the previous page ([issue #341](https://github.com/designcreateplay/NodeBB/issues/341))
+* NodeBB now accessible via multiple addresses irrespective of `base_url` ([issue #356](https://github.com/designcreateplay/NodeBB/issues/356))
 
 ## Version History
 
