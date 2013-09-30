@@ -16,7 +16,9 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 * Ability to disable the `/outgoing` page on link click ([issue #345](https://github.com/designcreateplay/NodeBB/issues/345))
 * Better client-side library minification ([issue #358](https://github.com/designcreateplay/NodeBB/issues/358))
 
-### v0.0.7
+## Version History
+
+### v0.0.7 ([Milestone issues](https://github.com/designcreateplay/NodeBB/issues?milestone=7&state=closed))
 * Bootstrap 3 integration (issues [#168](https://github.com/designcreateplay/NodeBB/issues/168), [#169](https://github.com/designcreateplay/NodeBB/issues/169))
 * Release of a default theme to be shipped with NodeBB
 * Dynamically updating page URL to show post ([issue #185](https://github.com/designcreateplay/NodeBB/issues/185))
@@ -46,8 +48,7 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 * Revamped reconnection notification ([issue #354](https://github.com/designcreateplay/NodeBB/issues/354))
 * NodeBB now accessible via multiple addresses irrespective of `base_url` ([issue #356](https://github.com/designcreateplay/NodeBB/issues/356))
 * Ability to bind NodeBB to a specific IP address ([issue #359](https://github.com/designcreateplay/NodeBB/pull/359))
-
-## Version History
+* Topics now have a meta description tag ([issue #362](https://github.com/designcreateplay/NodeBB/issues/362))
 
 ### v0.0.6
 * More user management options (bans, ip bans) ([issue #125](https://github.com/designcreateplay/NodeBB/issues/125))
