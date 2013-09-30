@@ -55,7 +55,15 @@ Uploaded images (avatars) are stored in /public/uploads. Feel free to back up th
 
 ### 3. Grab the latest and greatest code
 
-Navigate to your NodeBB: `$ cd /path/to/nodebb/instance`, and then run:
+Navigate to your NodeBB: `$ cd /path/to/nodebb/instance`.
+
+If you are upgrading from a lower branch to a higher branch, switch branches as necessary. ***Make sure you are comletely up-to-date on your current branch!***. For example, if upgrading from `v0.1.4` to `v0.2.0`:
+
+    $ git checkout v0.2.x
+
+If not, skip the command above.
+
+Next, grab the latest code:
 
     $ git pull
 
