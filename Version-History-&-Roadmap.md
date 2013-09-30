@@ -2,11 +2,26 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 
 ## Upcoming Releases / Roadmap
 
+### v0.1.0
+* Better notifications handling ([issue #219](https://github.com/designcreateplay/NodeBB/issues/219))
+* Category ordering ([issue #288](https://github.com/designcreateplay/NodeBB/issues/288))
+* Opt-in email notifications ([issue #326](https://github.com/designcreateplay/NodeBB/issues/326))
+* Stylistic revamp of the category view (topic listing) ([issue #333](https://github.com/designcreateplay/NodeBB/issues/333))
+* Functional revamp of the topic view ([issue #334](https://github.com/designcreateplay/NodeBB/issues/334))
+* Welcome email to new users ([issue #335](https://github.com/designcreateplay/NodeBB/issues/335))
+* Dedicated notifications page (`/notifications`) ([issue #336](https://github.com/designcreateplay/NodeBB/issues/336))
+* Handling of expired notifications ([issue #337](https://github.com/designcreateplay/NodeBB/issues/337))
+* Updates to the admin panel ([issue #338](https://github.com/designcreateplay/NodeBB/issues/338))
+* New hooks: `filter:avatar.get`, `action:avatar.save` ([issue #340](https://github.com/designcreateplay/NodeBB/issues/340))
+* Ability to disable the `/outgoing` page on link click ([issue #345](https://github.com/designcreateplay/NodeBB/issues/345))
+* Better client-side library minification ([issue #358](https://github.com/designcreateplay/NodeBB/issues/358))
+
 ### v0.0.7
 * Bootstrap 3 integration (issues [#168](https://github.com/designcreateplay/NodeBB/issues/168), [#169](https://github.com/designcreateplay/NodeBB/issues/169))
 * Release of a default theme to be shipped with NodeBB
 * Dynamically updating page URL to show post ([issue #185](https://github.com/designcreateplay/NodeBB/issues/185))
 * Numerous updates to the chat module (issues [#169](https://github.com/designcreateplay/NodeBB/issues/169), [#208](https://github.com/designcreateplay/NodeBB/issues/208), [#209](https://github.com/designcreateplay/NodeBB/issues/209), [#210](https://github.com/designcreateplay/NodeBB/issues/210), [#211](https://github.com/designcreateplay/NodeBB/issues/211), [#213](https://github.com/designcreateplay/NodeBB/issues/213))
+* Dedicated NodeBB Theme ([issue #195](https://github.com/designcreateplay/NodeBB/issues/195))
 * Topic-based notifications are automatically marked read if you go to the topic directly ([issue #219](https://github.com/designcreateplay/NodeBB/issues/219))
 * Category creation ([issue #228](https://github.com/designcreateplay/NodeBB/issues/228))
 * Better search results + user searching (issues [#205](https://github.com/designcreateplay/NodeBB/issues/205), [#229](https://github.com/designcreateplay/NodeBB/issues/229))
@@ -19,12 +34,16 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 * Better installation script (issues [#264](https://github.com/designcreateplay/NodeBB/issues/264), [#265](https://github.com/designcreateplay/NodeBB/issues/265), [#266](https://github.com/designcreateplay/NodeBB/issues/266), [#275](https://github.com/designcreateplay/NodeBB/issues/275))
 * Added Heroku support (dynamic port via the `PORT` environment variable)
 * Minor refactoring of saved data (issues [#286](https://github.com/designcreateplay/NodeBB/issues/286), [#287](https://github.com/designcreateplay/NodeBB/issues/287), [#303](https://github.com/designcreateplay/NodeBB/issues/304))
+* Drag/drop uploaded images are now placed inline instead of attachment-style ([issue #294](https://github.com/designcreateplay/NodeBB/issues/294))
 * Automatic updating of timestamps ([issue #306](https://github.com/designcreateplay/NodeBB/issues/306))
 * CSRF fix for `/logout` route ([issue #315](https://github.com/designcreateplay/NodeBB/issues/315))
 * Reduce unnecessary calls to Redis (re: category view) (issues [#320](https://github.com/designcreateplay/NodeBB/issues/320), [#321](https://github.com/designcreateplay/NodeBB/issues/321))
+* Online users' page (`/users/online`) ([issue #323](https://github.com/designcreateplay/NodeBB/issues/323))
 * Fixed script injection bug in post content ([issue #329](https://github.com/designcreateplay/NodeBB/issues/329))
 * Login and `/outgoing` cancelation now take you back to the previous page ([issue #341](https://github.com/designcreateplay/NodeBB/issues/341))
 * Asynchronous loading of middlewares ([issue #349](https://github.com/designcreateplay/NodeBB/issues/349))
+* Some changes to the admin panel no longer require a restart ([issue #353](https://github.com/designcreateplay/NodeBB/issues/353))
+* Revamped reconnection notification ([issue #354](https://github.com/designcreateplay/NodeBB/issues/354))
 * NodeBB now accessible via multiple addresses irrespective of `base_url` ([issue #356](https://github.com/designcreateplay/NodeBB/issues/356))
 * Ability to bind NodeBB to a specific IP address ([issue #359](https://github.com/designcreateplay/NodeBB/pull/359))
 
