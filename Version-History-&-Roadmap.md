@@ -1,4 +1,4 @@
-Please note that NodeBB will not follow the `major.minor.revision` release pattern until v0.1
+NodeBB version numbering follows the [semantic versioning] format after v0.1. Until then, the full upgraded steps provided at [[Upgrading NodeBB]] must be used in order to preserve data schema.
 
 ## Upcoming Releases / Roadmap
 
@@ -24,6 +24,7 @@ Please note that NodeBB will not follow the `major.minor.revision` release patte
 * Reduce unnecessary calls to Redis (re: category view) (issues [#320](https://github.com/designcreateplay/NodeBB/issues/320), [#321](https://github.com/designcreateplay/NodeBB/issues/321))
 * Fixed script injection bug in post content ([issue #329](https://github.com/designcreateplay/NodeBB/issues/329))
 * Login and `/outgoing` cancelation now take you back to the previous page ([issue #341](https://github.com/designcreateplay/NodeBB/issues/341))
+* Asynchronous loading of middlewares ([issue #349](https://github.com/designcreateplay/NodeBB/issues/349))
 * NodeBB now accessible via multiple addresses irrespective of `base_url` ([issue #356](https://github.com/designcreateplay/NodeBB/issues/356))
 
 ## Version History
