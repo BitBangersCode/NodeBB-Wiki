@@ -30,6 +30,8 @@ Execute all of the steps.
 
 Major revisions contain breaking changes that are done in a backwards incompatible manner. Complete rewrites of core functionality are not uncommon. In all cases, NodeBB will attempt to provide migration tools so that a transition is possible.
 
+Execute all of the steps.
+
 ## Upgrade Steps
 
 After upgrading between revisions (i.e. v0.0.4 to v0.0.5), it may be necessary to run the following upgrade steps to ensure that any data schema changes are properly upgraded as well:
