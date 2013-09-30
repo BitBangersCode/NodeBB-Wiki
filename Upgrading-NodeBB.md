@@ -2,6 +2,34 @@ NodeBB's periodic releases are located in the [Releases](https://github.com/desi
 
 To obtain more recent fixes and features, you can also `git clone` the latest version directly from the repository, although its stability cannot be guaranteed. Core developers will attempt to ensure that every commit results in a working client, even if individual features may not 100% complete.
 
+***As always***, the NodeBB team is not responsible for any misadventures, loss of data, data corruption, or any other bad things that may arise due to a botched upgrade.
+
+## Upgrade Path
+
+NodeBB's upgrade path is designed so that upgrading between versions is straightforward. NodeBB will provide upgrade compatibility (via the `--upgrade` flag) between the latest version of a lower branch and the latest version of the higher branch. For example, if `v0.2.2` is the latest version in the `v0.2.x` branch, you can switch to the `v0.3.x` branch and suffer no ill effects. Upgrading from `v0.2.0` to `v0.3.x` is not supported, and is liable to break.
+
+### Upgrading between patch revisions
+
+*e.g. v0.1.0 to v0.1.1*
+
+Patch revisions contain bugfixes and other minor changes. Updating to the latest version of code for your specific version branch is all that is usually required.
+
+Execute steps 1 through 3.
+
+### Upgrading between minor revisions
+
+*e.g. v0.1.3 to v0.2.0*
+
+Minor revisions contain new features or substantial changes that are still backwards compatible. They may also contain dependent packages that require upgrading, and other features may be deprecated (but would ideally still be supported).
+
+Execute all of the steps.
+
+### Upgrading between major revisions
+
+*e.g. v0.2.4 to v1.0.0*
+
+Major revisions contain breaking changes that are done in a backwards incompatible manner. Complete rewrites of core functionality are not uncommon. In all cases, NodeBB will attempt to provide migration tools so that a transition is possible.
+
 ## Upgrade Steps
 
 After upgrading between revisions (i.e. v0.0.4 to v0.0.5), it may be necessary to run the following upgrade steps to ensure that any data schema changes are properly upgraded as well:
