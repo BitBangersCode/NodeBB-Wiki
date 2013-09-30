@@ -57,7 +57,7 @@ Uploaded images (avatars) are stored in /public/uploads. Feel free to back up th
 
 Navigate to your NodeBB: `$ cd /path/to/nodebb/instance`.
 
-If you are upgrading from a lower branch to a higher branch, switch branches as necessary. ***Make sure you are comletely up-to-date on your current branch!***. For example, if upgrading from `v0.1.4` to `v0.2.0`:
+If you are upgrading from a lower branch to a higher branch, switch branches as necessary. ***Make sure you are completely up-to-date on your current branch!***. For example, if upgrading from `v0.1.4` to `v0.2.0`:
 
     $ git checkout v0.2.x
 
