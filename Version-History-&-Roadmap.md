@@ -26,6 +26,7 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 * Login and `/outgoing` cancelation now take you back to the previous page ([issue #341](https://github.com/designcreateplay/NodeBB/issues/341))
 * Asynchronous loading of middlewares ([issue #349](https://github.com/designcreateplay/NodeBB/issues/349))
 * NodeBB now accessible via multiple addresses irrespective of `base_url` ([issue #356](https://github.com/designcreateplay/NodeBB/issues/356))
+* Ability to bind NodeBB to a specific IP address ([issue #359](https://github.com/designcreateplay/NodeBB/pull/359))
 
 ## Version History
 
