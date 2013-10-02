@@ -99,7 +99,7 @@ To access any of your saved settings, simply access "meta.config.*" from within 
 
 And finally, here is some code using meta.config etc:
 
-                if(nconf.get("express:logger") == true || meta.config.loggerStatus) {
+                if(nconf.get("express:logger") == true || meta.config.loggerStatus > 0) {
                     var loggerObj = {};
                     if(meta.config.loggerPath) {
                         loggerObj.stream = fs.createWriteStream(meta.config.loggerPath, {flags: 'a'});
