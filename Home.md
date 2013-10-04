@@ -9,6 +9,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 * [[How to run NodeBB]]
 * [[Upgrading NodeBB]] - Upgrading NodeBB between revisions (e.g. v0.0.4 to v0.0.5)
 * [[Installing NodeBB on Heroku]]
+* [[Installing NodeBB on CentOS]]
 * [[Configuring nginx as a proxy to NodeBB]]
 * [[Enabling Social Network Logins]]
 * [[Contributor Style Guide]]
