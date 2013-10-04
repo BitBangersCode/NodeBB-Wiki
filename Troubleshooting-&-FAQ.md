@@ -1,11 +1,5 @@
 If you experience difficulties setting up a NodeBB instance, perhaps one of the following may help.
 
-### I set up my NodeBB to point to a certain URL, but when I try accessing it, the page looks weird, and I see lots of curly braces?
-
-Whenever this happens, it is usually indicative of the server being accessed by an address that is unexpected. For example, if NodeBB were set up so that its base URL is `http://192.168.1.100:4567`, and it were accessed via `http://10.10.232.185:4567`, even if both of these addresses pointed to the same physical machine, the proper template data would not load, as the ajax request fetching the data would violate the [same-origin policy](http://en.wikipedia.org/wiki/Same-origin_policy).
-
-Simply put, NodeBB can only be accessed by one address at a time (for now). If you are attempting to access it from a different address, run NodeBB with the `--setup` flag and enter that new address into the `Publically accessible URL` field.
-
 ### `npm` says something is wrong...
 
 For the most part, errors involving `npm` are due to Node.js being outdated. If you see an error similar to this one while running `npm install`:
