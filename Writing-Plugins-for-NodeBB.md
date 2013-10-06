@@ -20,10 +20,14 @@ Each plugin package contains a configuration file called `plugin.json`. Here is 
 
     {
         "id": "my-plugin",
-        "name": "Username Mentions",
+        "name": "My Awesome Plugin",
         "description": "Your plugin's description",
         "url": "Absolute URL to your plugin or a Github repository",
         "library": "./my-plugin.js",
+        "staticDir": "/public",
+        "css": [
+            "style.css"
+        ],
         "hooks": [
             { "hook": "filter:post.save", "method": "filter" },
             { "hook": "action:post.save", "method": "emailme", "callbacked": true }
@@ -33,6 +37,10 @@ Each plugin package contains a configuration file called `plugin.json`. Here is 
 The `id` property is a unique name that identifies the plugin.
 
 The `library` property is a relative path to the library in your package. It is automatically loaded by NodeBB (if the plugin is activated).
+
+The `staticDir` property is a path (relative to your plugin's root) to a directory that NodeBB will expose to the public at the route `/plugins/{YOUR-PLUGIN-ID}`.
+
+The `css` property contains an array of paths (relative to your plugin's `staticDir`) that will be served to the end user as a stylesheet. In the example above, the `style.css` would end up accessible at: `/plugins/my-plugin/public/style.css`, and would be located in the `public` directory in your plugin's root.
 
 The `hooks` property is an array containing objects that tell NodeBB which hooks are used by your plugin, and what method in your library to invoke when that hook is called. Each object contains the following properties (those with a * are required):
 
