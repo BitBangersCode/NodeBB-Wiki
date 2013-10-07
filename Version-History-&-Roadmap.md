@@ -3,7 +3,7 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 ## Upcoming Releases / Roadmap
 
 ### v0.1.0
-* Plugin system now supports CSS files for styling of elements
+* Plugin system now supports CSS files for styling of elements ([issue #383](https://github.com/designcreateplay/NodeBB/issues/383))
 * Better notifications handling ([issue #219](https://github.com/designcreateplay/NodeBB/issues/219))
 * Category ordering ([issue #288](https://github.com/designcreateplay/NodeBB/issues/288))
 * Opt-in email notifications ([issue #326](https://github.com/designcreateplay/NodeBB/issues/326))
