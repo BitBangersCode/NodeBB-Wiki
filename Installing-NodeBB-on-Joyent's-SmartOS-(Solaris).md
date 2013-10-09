@@ -84,7 +84,7 @@ NodeBB requires the following software to be installed:
 
         $ node app
 
-1. Visit your app!
+1. Visit your app!  
     *Example:* With a port of 4567: `http://0.0.0.0:4567` or `http://example.org:4567`  
     **Note:** With port 80 the `:80` does not need to be entered.  
 
