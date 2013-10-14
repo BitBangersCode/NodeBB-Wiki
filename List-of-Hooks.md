@@ -46,7 +46,7 @@ See Example: [Sample Admin Page](https://github.com/psychobunny/nodebb-plugin-ad
 
 ### `filter:admin.header_build`
 Allows plugins to create new navigation links in the ACP
-https://github.com/designcreateplay/NodeBB/commit/2b07917020c9181ff15e6096012144f4a9c201d4
+[View commit for more details](https://github.com/designcreateplay/NodeBB/commit/2b07917020c9181ff15e6096012144f4a9c201d4)
 See Example: [Sample Admin Page](https://github.com/psychobunny/nodebb-plugin-admin-sample)
 
 ### `filter:server.create_routes`
