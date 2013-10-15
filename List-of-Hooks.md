@@ -67,3 +67,21 @@ See Example: [Sample Static Page](https://github.com/psychobunny/nodebb-plugin-s
 **Argument(s)**: A post object (javascript Object)
 
 Executed whenever a post is created or edited, after it is saved into the database.
+
+### `action:plugin.activate`
+
+**Compatibility: v0.0.8+/v0.1.0+**<br />
+**Argument(s)**: A String containing the plugin's `id` (e.g. `nodebb-plugin-markdown`)
+
+Executed whenever a plugin is activated via the admin panel.
+
+**Important**: Be sure to check the `id` that is sent in with this hook, otherwise your plugin will fire its registered hook method, even if your plugin was not the one that was activated.
+
+### `action:plugin.deactivate`
+
+**Compatibility: v0.0.8+/v0.1.0+**<br />
+**Argument(s)**: A String containing the plugin's `id` (e.g. `nodebb-plugin-markdown`)
+
+Executed whenever a plugin is deactivated via the admin panel.
+
+**Important**: Be sure to check the `id` that is sent in with this hook, otherwise your plugin will fire its registered hook method, even if your plugin was not the one that was deactivated.
