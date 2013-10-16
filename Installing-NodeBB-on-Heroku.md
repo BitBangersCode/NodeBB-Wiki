@@ -5,24 +5,24 @@
 1. Download and install [Heroku Toolbelt](https://toolbelt.heroku.com/) for your operating system
 1. Log into your Heroku account: `heroku login`
 1. Verify your Heroku account by adding a credit card (at http://heroku.com/verify)
-1. Create the heroku app: `heroku create`
-1. Enable [Redis To Go](https://addons.heroku.com/redistogo) for your heroku account: `heroku addons:add redistogo:nano`
 1. Clone the repository: `git clone https://github.com/designcreateplay/NodeBB.git /path/to/repo/clone`
 1. `cd /path/to/repo/clone`
 1. Install dependencies locally `npm install`
+1. Create the heroku app: `heroku create`
+1. Enable WebSocket support (beta): `heroku labs:enable websockets -a {APP_NAME}`, where `{APP_NAME}` is provided by Heroku, and looks something like `adjective-noun-wxyz.herokuapp.com`
+1. Enable [Redis To Go](https://addons.heroku.com/redistogo) for your heroku account: `heroku addons:add redistogo:nano`
 1. Run the NodeBB setup script: `node app --setup` (information for your Heroku server and Redis to Go instance can be found in your account page)
     * Your server name is found in your Heroku app's "settings" page, and looks something like `adjective-noun-wxyz.herokuapp.com`
     * Use any port number. It will be ignored.
     * Specify "n" when asked if a port will be used. Heroku transparently proxies all requests.
-    * Your redis server can be found as part of the redis url. For example, for the url: `redis://redistogo:h28h3wgh37fns7@crestfish.redistogo.com:10026/`
-    * The server is `crestfish.redistogo.com`
-    * The port is `10036`
+    * Your redis server can be found as part of the redis url. For example, for the url: `redis://redistogo:h28h3wgh37fns7@crestfish.redistogo.com:12345/`
+    * The server is `fishyfish.redistogo.com`
+    * The port is `12345`
     * The password is `h28h3wgh37fns7`
 1. Create a Procfile for Heroku: `echo "web: node app.js" > Procfile`
-1. As Heroku does not support web sockets natively, disable the 'websocket' option by editing the file `src/websockets.js` and removing `'websocket'` from the third line of the file.
-    * The line should now read: `transports: ['xhr-polling', 'jsonp-polling', 'flashsocket']`
 1. `git add -f Procfile config.json public/config.json && git commit -am "adding Procfile and configs for Heroku"`
 1. Push to heroku: `git push heroku master`
+    * Ensure that a proper SSH key was added to your account, otherwise the push will not succeed!
 1. Initialise a single dyno: `heroku ps:scale web=1`
 1. Visit your app!
 
