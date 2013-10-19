@@ -8,6 +8,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 
 * [[How to run NodeBB]]
 * [[Upgrading NodeBB]] - Upgrading NodeBB between revisions (e.g. v0.0.4 to v0.0.5)
+* [http://burnaftercompiling.com/nodebb/setting-up-a-nodebb-forum-for-dummies/](Installing NodeBB on Digital Ocean - "for Dummies")
 * [[Installing NodeBB on Heroku]]
 * [[Installing NodeBB on Joyent's SmartOS (Solaris)]]
 * [[Installing NodeBB on CentOS]]
