@@ -1,20 +1,22 @@
-## ***Note*: The Theme Engine is currently undergoing a rewrite, which means this current spec will change, [follow any developments here](https://github.com/designcreateplay/NodeBB/issues/92)**
-
 NodeBB is built on [Twitter Bootstrap](twitter.github.com/bootstrap/), which makes theming incredibly simple.
-
-Using [bootswatch/swatchmaker](https://github.com/thomaspark/bootswatch/tree/gh-pages/swatchmaker), customize the default Bootstrap theme and compile it down to an appropriate CSS file (optionally minified).
 
 ## Packaging for NodeBB
 
-NodeBB expects any installed themes to be found in the `/public/themes` folder. Each individual theme has their own folder here.
+NodeBB expects any installed themes to be installed via `npm`. Each individual theme is an npm package, and users can install themes through the command line:
 
-The theme's folder must contain at least a `theme.json` file for it to be a valid theme.
+    e.g. npm install nodebb-theme-modern-ui
+
+The theme's folder must contain at least two files for it to be a valid theme:
+
+1. `theme.json`
+1. `theme.less`
+
+`theme.less` is where your theme's styles will reside. NodeBB expects LESS to be present in this file, and will precompile it down to CSS on-demand. For more information regarding LESS, take a look at [the project homepage](http://lesscss.org/).
 
 ## `theme.json`
 The theme configuration file is a simple JSON string containing all appropriate meta data regarding the theme. Please take note of the following properties:
 
 * `id`: A unique id for a theme (e.g. "my-theme")
-* `src`: The filename (in the same folder) that should be interpreted by NodeBB as the theme CSS
 * `name`: A user-friendly name for the theme (e.g. "My Theme")
 * `description`: A one/two line description about the theme (e.g. "This is the theme I made for my personal NodeBB")
 * `screenshot`: A filename (in the same folder) that is a preview image (ideally, 370x250, or an aspect ratio of 1.48:1)
