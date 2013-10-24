@@ -9,7 +9,7 @@
 1. `cd /path/to/repo/clone`
 1. Install dependencies locally `npm install`
 1. Create the heroku app: `heroku create`
-1. Enable WebSocket support (beta): `heroku labs:enable websockets -a {APP_NAME}`, where `{APP_NAME}` is provided by Heroku, and looks something like `adjective-noun-wxyz.herokuapp.com` (NOTE: drop the `.herokuapp.com` when entering {APP_NAME} above.)
+1. Enable WebSocket support (beta): `heroku labs:enable websockets -a {APP_NAME}`, where `{APP_NAME}` is provided by Heroku, and looks something like `adjective-noun-wxyz.herokuapp.com` (NOTE: drop the `.herokuapp.com` when entering `{APP_NAME}` above.)
 1. Enable [Redis To Go](https://addons.heroku.com/redistogo) for your heroku account: `heroku addons:add redistogo:nano`
 1. Run the NodeBB setup script: `node app --setup` (information for your Heroku server and Redis to Go instance can be found in your account page)
     * Your server name is found in your Heroku app's "settings" page, and looks something like `adjective-noun-wxyz.herokuapp.com`
