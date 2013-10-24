@@ -73,9 +73,8 @@ This should retrieve the latest (and greatest) version of NodeBB from the reposi
 
 Run `npm` to install any new packaged dependencies that may now be required by this new version of NodeBB:
 
-    npm install
-
-*Note*: You can also run `npm update`, but it is not necessary.
+    $ npm install
+    $ npm update
 
 ### 5. Database Migration
 
