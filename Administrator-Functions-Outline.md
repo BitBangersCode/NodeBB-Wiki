@@ -14,93 +14,89 @@
   * Home
     * `http://your_nodebb_domain.com/admin/index`
     * Links all go to nodebb.com homepage
-	NOTE: should all the links go to same place? 
+      * NOTE: should all the links go to same place? 
     * Message reminder of what version this is and to check for updates
-	NOTE: would a link to where the latest stable version is help?
+      * NOTE: would a link to where the latest stable version is help?
     * Active Users
-	lists number users per page-path (?)
-	NOTE: not clear exactly what the paths mean or how to visit that path
+      * lists number users per page-path (?)
+      * NOTE: not clear exactly what the paths mean or how to visit that path
 
 
   * Categories
     * `http://your_nodebb_domain.com/admin/categories`
     * Filters: Active, Disabled, Unit Tests
     * List of Categories:
-	Icon, Name, Desc, Action: Disable
+      * Icon, Name, Desc, Action: Disable
     * Actions: Save, Add New
 
   * Users
     * `http://your_nodebb_domain.com/admin/users`
     * Filters: Latest Users, Top Posters, Most Reputation, Action: Search
     * List of Users:
-	icon, Link: Name, Reputation(star), Number Posts(pencil), Action: Ban
+      * Icon, Link: Name, Reputation(star), Number Posts(pencil), Action: Ban
     * Action: Load More
 
   * Groups
     * `http://your_nodebb_domain.com/admin/groups`
      * List of Groups
-	Name, Desc, Icon
+      * Name, Desc, Icon
     * Action: Delete Group
-
-	NOTE: What exactly can Groups be set up to do, besides Admin?
- 
- 
+      * NOTE: What exactly can Groups be set up to do, besides Admin?
+  
   * Topics
     * `http://your_nodebb_domain.com/admin/topics`
     * List of Topics
-	Name [link to topic], Posted When and By, Number posts (Topic+Replies), Thread Actions: Pin(pushpin), Lock(lock), Delete(trashcan)
+      * Name [link to topic], Posted When and By, Number posts (Topic+Replies), Thread Actions: Pin(pushpin), Lock(lock), Delete(trashcan)
     * Action: Load More Topics
 
     * Topic [from List of Topics link]
     * Normal View of Topic+Reply Posts but with: 
-	link, edit, delete Actions enabled for each Post
-	Thread Tools:
-		Pin, Lock, Move, Delete
+      * Link, Edit, Delete Actions all enabled for each Post
+      * Thread Tools:
+        * Pin, Lock, Move, Delete
+
   * Themes
     * `http://your_nodebb_domain.com/admin/themes`
     * List of (Custom | Bootswatch) Themes 
-	Actions: Use, Preview
+      * Actions: Use, Preview
     * Action: Revert (to base)
 
   * Plugins
     * `http://your_nodebb_domain.com/admin/plugins`
     * List of Plugins
-	Action: De/activate
+      * Action: De/activate
     * Info on making plugins
 
   * Settings
     * `http://your_nodebb_domain.com/admin/settings`
 
-  * General Settings
-	Site Title 	
-	Site Description 
-	Site Keywords 
-	Imgur Client ID 
-	Maximum User Image Size
+    * General Settings
+      * (textbox) Site Title 	
+      * (textbox) Site Description 
+      * (textbox) Site Keywords 
+      * (textbox) Imgur Client ID 
+      * (textbox) Maximum User Image Size
 
-    * Privilege Thresholds
-	Use privilege thresholds to manage how much reputation a user must gain to receive moderator access.
-
-	Manage Thread
-	Moderate Users
-	Create Pinned Topics
+    * Privilege Thresholds (Use privilege thresholds to manage how much reputation a user must gain to receive moderator access.)
+      * (textbox) Manage Thread
+      * (textbox) Moderate Users
+      * (textbox) Create Pinned Topics
 	
     * Email Settings
-	Email Address (The following email address refers to the email that the recipient will see in the 		"From" and "Reply To" fields.)
-	SMTP Server Host (Default: 127.0.0.1)
-	SMTP Server Port
+      * (textbox) Email Address (The following email address refers to the email that the recipient will see in the "From" and "Reply To" fields.)
+      * (textbox) SMTP Server Host (Default: 127.0.0.1)
+      * (textbox) SMTP Server Port
 
     * User Settings
-	Minimum Username Length
-	Maximum Username Length
-	Minimum Password Length
-
+      * (textbox) Minimum Username Length
+      * (textbox) Maximum Username Length
+      * (textbox) Minimum Password Length
 
     * Post Settings
-	Post Delay
-	Minimum Title Length
-	Minimum Post Length
-	(checkbox) Use Outgoing Links Warning Page 
+      * (textbox) Post Delay
+      * (textbox) Minimum Title Length
+      * (textbox) Minimum Post Length
+      * (checkbox) Use Outgoing Links Warning Page 
 
     * Action: Save
 
@@ -119,8 +115,7 @@
     * (textarea) You can enter either full HTML or Markdown text.
     * (checkbox) Show the Message of the Day
 
-**Side Menu: Social Authentication**
-NOTE: Need help with these
+**Side Menu: Social Authentication** [See Wiki on it]()
 
     * Twitter
     * `http://your_nodebb_domain.com/admin/twitter`
@@ -130,7 +125,6 @@ NOTE: Need help with these
 
     * Google+
     * `http://your_nodebb_domain.com/admin/gplusv
-
 
 **Side Menu: Plugins**
 
