@@ -1,0 +1,1 @@
+To view admin panel (if you are an admin): `http://your_nodebb_domain.com/admin`
