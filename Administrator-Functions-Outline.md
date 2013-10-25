@@ -55,13 +55,13 @@
       * Thread Tools:
         * Pin, Lock, Move, Delete
 
-  * Themes
+  * Themes (See [[Theming NodeBB]])
     * `http://your_nodebb_domain.com/admin/themes`
     * List of (Custom | Bootswatch) Themes 
       * Actions: Use, Preview
     * Action: Revert (to base)
 
-  * Plugins
+  * Plugins (See [[Writing Plugins for NodeBB]])
     * `http://your_nodebb_domain.com/admin/plugins`
     * List of Plugins
       * Action: De/activate
@@ -127,6 +127,6 @@
   * Google+
   * `http://your_nodebb_domain.com/admin/gplus`
 
-**Side Menu: Plugins**
+**Side Menu: Plugins** (See [[Writing Plugins for NodeBB]])
 
 **Side Menu: Unit Tests**
