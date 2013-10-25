@@ -2,13 +2,13 @@
 
 **Top Menu** (all can be easily reached by other means)
   * NodeBB ACP (Administrator Control Panel: this view)
-    * `http://your_nodebb_domain.com/admin/index` (see below)
+    * `http://your_nodebb_domain.com/admin/index` (see Home below)
   * Forum
     * `http://your_nodebb_domain.com` (your main forum)
   * Home
-    * `http://your_nodebb_domain.com/admin/index` (see below)
+    * `http://your_nodebb_domain.com/admin/index` (see Home below)
   * Settings
-    * `http://your_nodebb_domain.com/admin/settings` (settings - see below)
+    * `http://your_nodebb_domain.com/admin/settings` (see Settings below)
 
 **Side Menu: NodeBB**
   * Home
