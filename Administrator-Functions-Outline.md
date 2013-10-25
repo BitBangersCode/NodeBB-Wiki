@@ -117,14 +117,14 @@
 
 **Side Menu: Social Authentication** See [[Enabling Social Network Logins]]
 
-    * Twitter
-    * `http://your_nodebb_domain.com/admin/twitter`
+  * Twitter
+  * `http://your_nodebb_domain.com/admin/twitter`
 
-    * Facebook
-    * `http://your_nodebb_domain.com/admin/facebook`
+  * Facebook
+  * `http://your_nodebb_domain.com/admin/facebook`
 
-    * Google+
-    * `http://your_nodebb_domain.com/admin/gplusv
+  * Google+
+  * `http://your_nodebb_domain.com/admin/gplusv
 
 **Side Menu: Plugins**
 
