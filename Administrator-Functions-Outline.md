@@ -102,7 +102,7 @@
     * Action: Save
 
   * Redis
-    * `http://your_nodebb_domain.com/admin/redis
+    * `http://your_nodebb_domain.com/admin/redis`
     * Redis data storage stats
 
   * Logger
@@ -125,7 +125,7 @@
   * `http://your_nodebb_domain.com/admin/facebook`
 
   * Google+
-  * `http://your_nodebb_domain.com/admin/gplusv
+  * `http://your_nodebb_domain.com/admin/gplus`
 
 **Side Menu: Plugins**
 
