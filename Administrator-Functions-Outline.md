@@ -75,6 +75,7 @@
       * (textbox) Site Description 
       * (textbox) Site Keywords 
       * (textbox) Imgur Client ID 
+        * NOTE: How does this function?
       * (textbox) Maximum User Image Size
 
     * Privilege Thresholds (Use privilege thresholds to manage how much reputation a user must gain to receive moderator access.)
@@ -115,7 +116,7 @@
     * (textarea) You can enter either full HTML or Markdown text.
     * (checkbox) Show the Message of the Day
 
-**Side Menu: Social Authentication** See [[Enabling Social Network Logins]]
+**Side Menu: Social Authentication** (See [[Enabling Social Network Logins]])
 
   * Twitter
   * `http://your_nodebb_domain.com/admin/twitter`
