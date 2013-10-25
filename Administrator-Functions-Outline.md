@@ -15,7 +15,7 @@
     * `http://your_nodebb_domain.com/admin/index`
     * Links all go to nodebb.com homepage
       * NOTE: should all the links go to same place? 
-    * Message reminder of what version this is and to check for updates
+    * Message reminder of what version this is and to check for updates (See [[Updating NodeBB]])
       * NOTE: would a link to where the latest stable version is help?
     * Active Users
       * lists number users per page-path (?)
@@ -127,6 +127,6 @@
   * Google+
   * `http://your_nodebb_domain.com/admin/gplus`
 
-**Side Menu: Plugins** (See [[Writing Plugins for NodeBB]])
+**Side Menu: Plugins** (Shows installed plugins)
 
-**Side Menu: Unit Tests**
+**Side Menu: Unit Tests** (Will run qunit tests)
