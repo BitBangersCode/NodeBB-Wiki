@@ -115,7 +115,7 @@
     * (textarea) You can enter either full HTML or Markdown text.
     * (checkbox) Show the Message of the Day
 
-**Side Menu: Social Authentication** [See Wiki on it]()
+**Side Menu: Social Authentication** See [[Enabling Social Network Logins]]
 
     * Twitter
     * `http://your_nodebb_domain.com/admin/twitter`
