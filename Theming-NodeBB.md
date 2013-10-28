@@ -24,7 +24,7 @@ The theme configuration file is a simple JSON string containing all appropriate 
 * `screenshot`: A filename (in the same folder) that is a preview image (ideally, 370x250, or an aspect ratio of 1.48:1)
 * `url`: A fully qualified URL linking back to the theme's homepage/project
 
-## Creating a themes based off of another
+## Creating a theme based off of another
 
 If your theme is based off of another theme, simply modify your LESS files to point to the other theme as a base:
 
