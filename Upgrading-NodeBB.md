@@ -22,7 +22,7 @@ Execute steps 1 through 3.
 
 Minor revisions contain new features or substantial changes that are still backwards compatible. They may also contain dependent packages that require upgrading, and other features may be deprecated (but would ideally still be supported).
 
-Execute all of the steps.
+Execute steps 1 through 4.
 
 ### Upgrading between major revisions
 
