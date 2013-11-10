@@ -42,11 +42,15 @@ While it is possible to upgrade NodeBB while it is running, it is definitely not
 
 ### 2. Back up your data
 
+#### Redis Database
+
 As with all upgrades, the first step is to **back up your data**! Nobody likes database corruption/misplacement.
 
 All of the textual data stored in NodeBB is found in a `.rdb` file. On typical installs of Redis, the main database is found at `/var/lib/redis/dump.rdb`.
 
 **Store this file somewhere safe.**
+
+#### Avatars
 
 Uploaded images (avatars) are stored in /public/uploads. Feel free to back up this folder too:
 
@@ -57,17 +61,22 @@ Uploaded images (avatars) are stored in /public/uploads. Feel free to back up th
 
 Navigate to your NodeBB: `$ cd /path/to/nodebb/instance`.
 
-If you are upgrading from a lower branch to a higher branch, switch branches as necessary. ***Make sure you are completely up-to-date on your current branch!***. For example, if upgrading from `v0.1.4` to `v0.2.0`:
+If you are upgrading from a lower branch to a higher branch, switch branches as necessary. ***Make sure you are completely up-to-date on your current branch!***.
 
+For example, if upgrading from `v0.1.4` to `v0.2.0`:
+
+    $ git pull    # Grab the latest code from your current branch
     $ git checkout v0.2.x
 
-If not, skip the command above.
+If not upgrading between branches, skip the commands above.
 
-Next, grab the latest code:
+Then, grab the latest code:
 
     $ git pull
 
-This should retrieve the latest (and greatest) version of NodeBB from the repository. Alternatively, download and extract the latest versioned copy of the code from [the Releases Page](https://github.com/designcreateplay/NodeBB/releases). Overwrite any files as necessary.
+This should retrieve the latest (and greatest) version of NodeBB from the repository.
+
+Alternatively, download and extract the latest versioned copy of the code from [the Releases Page](https://github.com/designcreateplay/NodeBB/releases). Overwrite any files as necessary. This method is not supported.
 
 ### 4. Install any missing packages
 
