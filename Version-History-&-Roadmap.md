@@ -3,7 +3,6 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 ## Upcoming Releases / Roadmap
 
 ### v0.1.0
-* Plugin system now supports CSS files for styling of elements ([issue #383](https://github.com/designcreateplay/NodeBB/issues/383))
 * Better notifications handling ([issue #219](https://github.com/designcreateplay/NodeBB/issues/219))
 * Category ordering ([issue #288](https://github.com/designcreateplay/NodeBB/issues/288))
 * Opt-in email notifications ([issue #326](https://github.com/designcreateplay/NodeBB/issues/326))
@@ -15,7 +14,29 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 * Updates to the admin panel ([issue #338](https://github.com/designcreateplay/NodeBB/issues/338))
 * New hooks: `filter:avatar.get`, `action:avatar.save` ([issue #340](https://github.com/designcreateplay/NodeBB/issues/340))
 * Ability to disable the `/outgoing` page on link click ([issue #345](https://github.com/designcreateplay/NodeBB/issues/345))
-* Better client-side library minification ([issue #358](https://github.com/designcreateplay/NodeBB/issues/358))
+* Changes to settings in the admin panel no longer require a restart ([issue #353](https://github.com/designcreateplay/NodeBB/issues/353))
+* Socket disconnections are less obtrusive ([issue #354](https://github.com/designcreateplay/NodeBB/issues/354))
+* Better handling of images on mobile responsive view ([issue #374](https://github.com/designcreateplay/NodeBB/issues/374))
+* NodeBB now responds properly to all hostnames ([issue #375](https://github.com/designcreateplay/NodeBB/issues/375))
+* Plugins can now route CSS files to be loaded ([issue #383](https://github.com/designcreateplay/NodeBB/issues/383))
+* `/recent/ now lists topics from the last 7 days ([issue #394](https://github.com/designcreateplay/NodeBB/issues/394))
+* Fixes to the chat modal (issues [#397](https://github.com/designcreateplay/NodeBB/issues/397), [#434](https://github.com/designcreateplay/NodeBB/issues/434))
+* Better SEO handling (theoretically...) ([issue #401](https://github.com/designcreateplay/NodeBB/issues/401))
+* More plugin hooks ([issues [#402](https://github.com/designcreateplay/NodeBB/issues/402), [#407](https://github.com/designcreateplay/NodeBB/issues/407))
+* Better IE9 compatibility ([issue #417](https://github.com/designcreateplay/NodeBB/issues/417))
+* Theme engine now takes themes from NPM only ([issue #418](https://github.com/designcreateplay/NodeBB/issues/418))
+* Header brand can now be an image, text, or both ([issue #425](https://github.com/designcreateplay/NodeBB/issues/425))
+* Tweaks to the top bar (user profile) ([issue #426](https://github.com/designcreateplay/NodeBB/issues/426))
+* Themes can now use static assets (images, backgrounds, etc) ([issue #427](https://github.com/designcreateplay/NodeBB/issues/427))
+* The footer now only appears on the `/` route ([issue #429](https://github.com/designcreateplay/NodeBB/issues/429))
+* Updates to the way pinned topics are handled internally (issues [#433](https://github.com/designcreateplay/NodeBB/issues/433), [#457](https://github.com/designcreateplay/NodeBB/issues/457))
+* Fixes to the privilege thresholds ([issue #445](https://github.com/designcreateplay/NodeBB/issues/445))
+* Username login in no longer case sensitive [issue #448](https://github.com/designcreateplay/NodeBB/issues/448))
+* Notification dropdown now properly handles long titles ([issue #452](https://github.com/designcreateplay/NodeBB/issues/452))
+* Locally installed plugins are no longer supported ([issue #455](https://github.com/designcreateplay/NodeBB/issues/455))
+* Added an "Admin" button to the top bar, for admins ([issue #459](https://github.com/designcreateplay/NodeBB/issues/459))
+* Banning a user now takes effect immediately ([issue #462](https://github.com/designcreateplay/NodeBB/issues/462))
+* Plugins can now be turned on and off without a server restart ([issue #478](https://github.com/designcreateplay/NodeBB/issues/478))
 
 ## Version History
 
