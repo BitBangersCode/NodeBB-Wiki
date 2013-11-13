@@ -2,6 +2,12 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 
 ## Upcoming Releases / Roadmap
 
+### v0.1.1
+
+*TBD*
+
+## Version History
+
 ### v0.1.0
 * Better notifications handling ([issue #219](https://github.com/designcreateplay/NodeBB/issues/219))
 * Category ordering ([issue #288](https://github.com/designcreateplay/NodeBB/issues/288))
@@ -37,8 +43,6 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 * Added an "Admin" button to the top bar, for admins ([issue #459](https://github.com/designcreateplay/NodeBB/issues/459))
 * Banning a user now takes effect immediately ([issue #462](https://github.com/designcreateplay/NodeBB/issues/462))
 * Plugins can now be turned on and off without a server restart ([issue #478](https://github.com/designcreateplay/NodeBB/issues/478))
-
-## Version History
 
 ### v0.0.7 ([Milestone issues](https://github.com/designcreateplay/NodeBB/issues?milestone=7&state=closed))
 * Bootstrap 3 integration (issues [#168](https://github.com/designcreateplay/NodeBB/issues/168), [#169](https://github.com/designcreateplay/NodeBB/issues/169))
