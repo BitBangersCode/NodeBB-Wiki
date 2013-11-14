@@ -4,6 +4,10 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 
 ### v0.1.1
 
+* Opt-in email notifications ([issue #326](https://github.com/designcreateplay/NodeBB/issues/326))
+* Functional revamp of the topic view ([issue #334](https://github.com/designcreateplay/NodeBB/issues/334))
+* Welcome email to new users ([issue #335](https://github.com/designcreateplay/NodeBB/issues/335))
+
 *TBD*
 
 ## Version History
@@ -11,10 +15,7 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 ### v0.1.0
 * Better notifications handling ([issue #219](https://github.com/designcreateplay/NodeBB/issues/219))
 * Category ordering ([issue #288](https://github.com/designcreateplay/NodeBB/issues/288))
-* Opt-in email notifications ([issue #326](https://github.com/designcreateplay/NodeBB/issues/326))
 * Stylistic revamp of the category view (topic listing) ([issue #333](https://github.com/designcreateplay/NodeBB/issues/333))
-* Functional revamp of the topic view ([issue #334](https://github.com/designcreateplay/NodeBB/issues/334))
-* Welcome email to new users ([issue #335](https://github.com/designcreateplay/NodeBB/issues/335))
 * Dedicated notifications page (`/notifications`) ([issue #336](https://github.com/designcreateplay/NodeBB/issues/336))
 * Handling of expired notifications ([issue #337](https://github.com/designcreateplay/NodeBB/issues/337))
 * Updates to the admin panel ([issue #338](https://github.com/designcreateplay/NodeBB/issues/338))
