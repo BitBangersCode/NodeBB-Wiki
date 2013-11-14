@@ -26,7 +26,7 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 * Better handling of images on mobile responsive view ([issue #374](https://github.com/designcreateplay/NodeBB/issues/374))
 * NodeBB now responds properly to all hostnames ([issue #375](https://github.com/designcreateplay/NodeBB/issues/375))
 * Plugins can now route CSS files to be loaded ([issue #383](https://github.com/designcreateplay/NodeBB/issues/383))
-* `/recent/ now lists topics from the last 7 days ([issue #394](https://github.com/designcreateplay/NodeBB/issues/394))
+* `/recent/` now lists topics from the last 7 days ([issue #394](https://github.com/designcreateplay/NodeBB/issues/394))
 * Fixes to the chat modal (issues [#397](https://github.com/designcreateplay/NodeBB/issues/397), [#434](https://github.com/designcreateplay/NodeBB/issues/434))
 * Better SEO handling (theoretically...) ([issue #401](https://github.com/designcreateplay/NodeBB/issues/401))
 * More plugin hooks ([issues [#402](https://github.com/designcreateplay/NodeBB/issues/402), [#407](https://github.com/designcreateplay/NodeBB/issues/407))
