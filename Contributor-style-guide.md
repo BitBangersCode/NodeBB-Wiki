@@ -14,10 +14,22 @@ NodeBB uses tabbed indentation. Bracing should follow the [One True Brace Style]
         // otherwise ...
     };
 
-Put conditionals and statements on separate lines:
+Put conditionals and statements on separate lines and wrap with curly braces even if they it's just one line:
 
-    if (leTired) 
+    if (leTired) {
         haveANap();
+    }
+
+### Errors
+
+Most callbacks return an error as the first parameter. Handle this error first before processing further.
+
+    someFunction(parameters, function(err, data) {
+        if(err) {
+           return callback(err, null); // or handle error
+        }
+        // proceed as usual
+    });
 
 ### Variables
 
