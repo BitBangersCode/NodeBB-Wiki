@@ -61,12 +61,13 @@ See Example: [Sample Static Page](https://github.com/psychobunny/nodebb-plugin-s
 
 ## Actions
 
-### `action:post.save`
+### `action:page.load`
 
-**Compatibility: v0.0.6+**<br />
-**Argument(s)**: A post object (javascript Object)
+**Compatibility: v0.1.1+**<br />
+**Argument(s)**: An object containing the following properties:
 
-Executed whenever a post is created or edited, after it is saved into the database.
+* `template` - The template loaded
+* `url` - Path to the page (relative to the site's base url)
 
 ### `action:plugin.activate`
 
@@ -85,3 +86,10 @@ Executed whenever a plugin is activated via the admin panel.
 Executed whenever a plugin is deactivated via the admin panel.
 
 **Important**: Be sure to check the `id` that is sent in with this hook, otherwise your plugin will fire its registered hook method, even if your plugin was not the one that was deactivated.
+
+### `action:post.save`
+
+**Compatibility: v0.0.6+**<br />
+**Argument(s)**: A post object (javascript Object)
+
+Executed whenever a post is created or edited, after it is saved into the database.
