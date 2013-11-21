@@ -29,8 +29,8 @@ Each plugin package contains a configuration file called `plugin.json`. Here is 
             "style.css"
         ],
         "hooks": [
-            { "hook": "filter:post.save", "method": "filter" },
-            { "hook": "action:post.save", "method": "emailme", "callbacked": true }
+            { "hook": "filter:post.save", "method": "filter", "callbacked": true },
+            { "hook": "action:post.save", "method": "emailme" }
         ]
     }
 
