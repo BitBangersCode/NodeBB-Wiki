@@ -2,13 +2,25 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 
 ## Upcoming Releases / Roadmap
 
-### v0.1.1
+### v0.1.2
 
 * Opt-in email notifications ([issue #326](https://github.com/designcreateplay/NodeBB/issues/326))
-* Functional revamp of the topic view ([issue #334](https://github.com/designcreateplay/NodeBB/issues/334))
 * Welcome email to new users ([issue #335](https://github.com/designcreateplay/NodeBB/issues/335))
 
-*TBD*
+### v0.1.1
+
+v0.1.1 is contains several security fixes -- users are encouraged to upgrade to this version as soon as possible.
+
+* Logging out should return you to where you were previously ([issue #358](https://github.com/designcreateplay/NodeBB/issues/493))
+* Fixed an issue with image uploading ([issue #497](https://github.com/designcreateplay/NodeBB/issues/497))
+* New installs should no longer ask you to update the schema ([issue #502](https://github.com/designcreateplay/NodeBB/issues/502))
+* Password reset is no longer available to people who have not set up email ([issue #507](https://github.com/designcreateplay/NodeBB/issues/507))
+* Clicking on incoming chats now works in the `/notifications` page ([issue #514](https://github.com/designcreateplay/NodeBB/issues/514))
+* Minor bug re: themes not switching properly ([issue #517](https://github.com/designcreateplay/NodeBB/issues/517))
+* Interstitial `/outgoing` page now refers to the site title, not "NodeBB" ([issue #518](https://github.com/designcreateplay/NodeBB/issues/518))
+* [Google Analytics!](https://github.com/julianlam/nodebb-plugin-google-analytics) ([issue #522](https://github.com/designcreateplay/NodeBB/issues/522))
+* Minor improvement to the composer ([issue #525](https://github.com/designcreateplay/NodeBB/issues/525))
+* Security issue re: `/plugins/fireHook` ([issue #533](https://github.com/designcreateplay/NodeBB/issues/533))
 
 ## Version History
 
