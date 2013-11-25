@@ -7,6 +7,8 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 * Opt-in email notifications ([issue #326](https://github.com/designcreateplay/NodeBB/issues/326))
 * Welcome email to new users ([issue #335](https://github.com/designcreateplay/NodeBB/issues/335))
 
+## Version History
+
 ### v0.1.1
 
 v0.1.1 is contains several security fixes -- users are encouraged to upgrade to this version as soon as possible.
@@ -21,8 +23,9 @@ v0.1.1 is contains several security fixes -- users are encouraged to upgrade to 
 * [Google Analytics!](https://github.com/julianlam/nodebb-plugin-google-analytics) ([issue #522](https://github.com/designcreateplay/NodeBB/issues/522))
 * Minor improvement to the composer ([issue #525](https://github.com/designcreateplay/NodeBB/issues/525))
 * Security issue re: `/plugins/fireHook` ([issue #533](https://github.com/designcreateplay/NodeBB/issues/533))
-
-## Version History
+* Made the Register/Login link more obvious ([issue #535](https://github.com/designcreateplay/NodeBB/issues/535))
+* Recent topics now have a corresponding RSS feed ([issue #536](https://github.com/designcreateplay/NodeBB/issues/536))
+* Categories can now be selected via hexadecimal colour codes ([issue #540](https://github.com/designcreateplay/NodeBB/issues/540))
 
 ### v0.1.0
 * Better notifications handling ([issue #219](https://github.com/designcreateplay/NodeBB/issues/219))
