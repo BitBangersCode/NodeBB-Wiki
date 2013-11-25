@@ -66,6 +66,11 @@ See Example: [Cash MOD](https://github.com/psychobunny/nodebb-plugin-cash)
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/2a4b228e19c939be1872ce6d9669ae03b98c853a)<br />
 See Example: [Sample Static Page](https://github.com/psychobunny/nodebb-plugin-static-page/)
 
+### `filter:scripts.get`
+**Allows to add client-side JS to the header and queue up for minification on production**<br />
+[View commit for more details](https://github.com/designcreateplay/NodeBB/commit/5357ad61db6c15bc25a7e836548a02fadd72e6b3)<br />
+See Example: [Mousetrap](https://github.com/psychobunny/nodebb-plugin-mousetrap/)
+
 ## Actions
 
 ### `action:app.load`
