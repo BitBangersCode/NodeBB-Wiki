@@ -68,6 +68,13 @@ See Example: [Sample Static Page](https://github.com/psychobunny/nodebb-plugin-s
 
 ## Actions
 
+### `action:app.load`
+
+**Compatibility: v0.1.2+**<br />
+**Argument(s)**: None
+
+Executed when NodeBB is loaded, used to kickstart scripts in plugins (i.e. cron jobs, etc)
+
 ### `action:page.load`
 
 **Compatibility: v0.1.1+**<br />
