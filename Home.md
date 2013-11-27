@@ -15,6 +15,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 * [[Installing NodeBB on CentOS]]
 * [[Configuring nginx as a proxy to NodeBB]]
 * [[Enabling Social Network Logins]]
+* [[Enabling Imgur Image Uploads]]
 * [[Contributor Style Guide]]
 * [[Theming NodeBB]]
 * [[Writing Plugins for NodeBB]]
