@@ -3,19 +3,19 @@ Installation instructions for the Cloud 9 web based IDE.
 Step 1: Clone NodeBB into a new workspace from GitHub.
 
 Step 2: Install redis (Cloud 9 has it's own package manager tool "c9pm")
-`c9pm install redis`
+<br />`c9pm install redis`
 
 Step 3: Run your redis server on port 16379 - port 6379 tends to be already used on Cloud 9. The "&" makes the command run in the background. You can always terminate the process later. $IP is a Cloud 9 system variable containing the global ip of your server instance.
-`redis-server --port 16379 --bind $IP &`
+<br />`redis-server --port 16379 --bind $IP &`
 
 Step 4: Find out your instance's ip address so NodeBB can bind to it correctly. This is one of Cloud 9's demands and seems to be the only way it will work. You can't use $IP in your config.json either (which means you can't enter $IP in the node app --setup).
-`echo $IP`
+<br />`echo $IP`
 
 Step 5: Install NodeBB and it's dependencies:
-`npm install`
+<br />`npm install`
 
 Step 6: Run the nodebb setup utility:
-`node app --setup`
+<br />`node app --setup`
 
 URL of this installation should be set to 'http://workspace_name-c9-username.c9.io', replacing workspace_name with your workspace name and username with your username. Note that as NodeBB is currently using unsecure http for loading jQuery you will find it much easier using http:// instead of https:// for your base url. Otherwise jQuery won't load and NodeBB will break.
 
@@ -28,6 +28,6 @@ Host port of your Redis instance: 16379
 IP or Hostname to bind to: 123.4.567.8 (enter what your $IP value holds here found in step 4).
 
 And you're good to go! Don't use the Run button at the top if the IDE, it has been a little buggy for me. Besides, you're better off using the command line anyway. Run:
-`node app`
+<br />`node app`
 
 And then open http://workspace_name-c9-username.c9.io in your browser.
