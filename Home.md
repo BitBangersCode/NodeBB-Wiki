@@ -14,6 +14,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 * [[Installing NodeBB on Joyent's SmartOS (Solaris)]]
 * [[Installing NodeBB on CentOS]]
 * [[Configuring nginx as a proxy to NodeBB]]
+* [[MongoDB-Setup]]
 * [[Enabling Social Network Logins]]
 * [[Enabling Imgur Image Uploads]]
 * [[Contributor Style Guide]]
