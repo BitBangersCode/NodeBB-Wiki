@@ -4,19 +4,22 @@ Report any issues to this project's [issue tracker](https://github.com/designcre
 
 The project's rough roadmap/version history can be found at [[Version History / Roadmap|Version-History-&-Roadmap]]
 
-## Guides
+## Installing & Running NodeBB
 
 * [[How to run NodeBB]]
 * [[Upgrading NodeBB]] - Upgrading NodeBB between revisions (e.g. v0.0.4 to v0.0.5)
-* [[Administrator Functions Outline]] - Overview of admin panel structure (with links)
 * [Installing NodeBB on Digital Ocean - "for Dummies"](http://burnaftercompiling.com/nodebb/setting-up-a-nodebb-forum-for-dummies/)
 * [[Installing NodeBB on Heroku]]
 * [[Installing NodeBB on Joyent's SmartOS (Solaris)]]
 * [[Installing NodeBB on CentOS]]
+* [[Administrator Functions Outline]] - Overview of admin panel structure (with links)
 * [[Configuring nginx as a proxy to NodeBB]]
-* [[MongoDB-Setup]]
+* [[Setting up MongoDB as an alternative to Redis]]
 * [[Enabling Social Network Logins]]
 * [[Enabling Imgur Image Uploads]]
+
+## Developing NodeBB
+
 * [[Contributor Style Guide]]
 * [[Theming NodeBB]]
 * [[Writing Plugins for NodeBB]]
