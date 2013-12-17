@@ -9,7 +9,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 NodeBB is an open source project, and will forever remain free. Here's a number of ways you can help us, even if you aren't a programmer.
 
 * [Like and share our content on Facebook](http://www.facebook.com/NodeBB)
-* [Follow us on Twitter](http://www.twitter.com/NodeBB) and perhaps `tweet @NodeBB #NodeBB is most awesome forum software`
+* [Follow us on Twitter](http://www.twitter.com/NodeBB) and perhaps tweet `@NodeBB #NodeBB is most awesome forum software`
 * Update this wiki! ;) We need everything from development/design tutorials to user friendly how-to guides.
 * Tell everybody about NodeBB, including your grandma and her cats.
 * [Submit a pull request, or two, or three..](http://www.github.com/designcreateplay/NodeBB)
