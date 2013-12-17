@@ -1,4 +1,3 @@
-
 http://docs.mongodb.org/manual/administration/install-on-linux/
 
 http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
