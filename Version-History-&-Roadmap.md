@@ -4,7 +4,7 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 
 ### v0.2.1
 
-* Revamped Email System (issues [#326](https://github.com/designcreateplay/NodeBB/issues/326) and [issue #335](https://github.com/designcreateplay/NodeBB/issues/335))
+* Revamped Email System (issues [#326](https://github.com/designcreateplay/NodeBB/issues/326), [#335](https://github.com/designcreateplay/NodeBB/issues/335))
 
 ## Version History
 
