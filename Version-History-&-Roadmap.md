@@ -1,4 +1,4 @@
-NodeBB version numbering follows the [semantic versioning](http://semver.org/) format after v0.1. Until then, the full upgraded steps provided at [[Upgrading NodeBB]] must be used in order to preserve data schema.
+To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading NodeBB]].
 
 ## Upcoming Releases / Roadmap
 
