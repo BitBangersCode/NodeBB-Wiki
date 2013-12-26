@@ -2,12 +2,28 @@ NodeBB version numbering follows the [semantic versioning](http://semver.org/) f
 
 ## Upcoming Releases / Roadmap
 
-### v0.1.2
+### v0.2.1
 
-* Opt-in email notifications ([issue #326](https://github.com/designcreateplay/NodeBB/issues/326))
-* Welcome email to new users ([issue #335](https://github.com/designcreateplay/NodeBB/issues/335))
+* Revamped Email System (issues [#326](https://github.com/designcreateplay/NodeBB/issues/326) and [issue #335](https://github.com/designcreateplay/NodeBB/issues/335))
 
 ## Version History
+
+### v0.2.0
+
+* Unread notifications are now automatically marked read when a topic is accessed ([issue #219](https://github.com/designcreateplay/NodeBB/issues/219))
+* Third-party plugins can now introduce scripts into NodeBB ([issue #400](https://github.com/designcreateplay/NodeBB/issues/400))
+* Privilege Thresholds can now be disabled, if desired ([issue #528](https://github.com/designcreateplay/NodeBB/issues/528))
+* Better responsive handling (issues [#539](https://github.com/designcreateplay/NodeBB/issues/539), [#552](https://github.com/designcreateplay/NodeBB/issues/552))
+* New permissions system ([issue #565](https://github.com/designcreateplay/NodeBB/issues/565))
+* System-only user groups ([issue #566](https://github.com/designcreateplay/NodeBB/issues/566))
+* Ability to upload multiple images in multiple composers ([issue #575](https://github.com/designcreateplay/NodeBB/issues/575))
+* Search Re-indexing is no longer open to public ([issue #579](https://github.com/designcreateplay/NodeBB/issues/579))
+* Cache buster ([issue #586](https://github.com/designcreateplay/NodeBB/issues/586))
+* Notification count now shown in favicon ([issue #610](https://github.com/designcreateplay/NodeBB/issues/610))
+* Dropdown added to show recently chatted-with users ([issue #615](https://github.com/designcreateplay/NodeBB/issues/615))
+* Socket reconnection rejoins rooms that were inadvertently left on disconnection ([issue #652](https://github.com/designcreateplay/NodeBB/issues/652))
+* Language files for Spanish, French, and German
+* Bug Fixes ([#396](https://github.com/designcreateplay/NodeBB/issues/396), [#435](https://github.com/designcreateplay/NodeBB/issues/435), [#519](https://github.com/designcreateplay/NodeBB/issues/519), [#553](https://github.com/designcreateplay/NodeBB/issues/553), [#557](https://github.com/designcreateplay/NodeBB/issues/557), [#560](https://github.com/designcreateplay/NodeBB/issues/560), [#616](https://github.com/designcreateplay/NodeBB/issues/616), [#619](https://github.com/designcreateplay/NodeBB/issues/619))
 
 ### v0.1.1
 
