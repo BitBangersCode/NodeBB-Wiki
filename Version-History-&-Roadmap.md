@@ -5,6 +5,7 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 ### v0.2.1
 
 * Revamped Email System (issues [#326](https://github.com/designcreateplay/NodeBB/issues/326), [#335](https://github.com/designcreateplay/NodeBB/issues/335))
+* Desktop Notifications (via [Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/notification) -- thanks @psychobunny)
 
 ## Version History
 
