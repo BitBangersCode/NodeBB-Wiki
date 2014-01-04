@@ -4,13 +4,12 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ### v0.2.2 / v0.3.0
 
-*TBD*
+* Revamped Email System (issues [#326](https://github.com/designcreateplay/NodeBB/issues/326), [#335](https://github.com/designcreateplay/NodeBB/issues/335))
 
 ## Version History
 
 ### v0.2.1
 
-* Revamped Email System (issues [#326](https://github.com/designcreateplay/NodeBB/issues/326), [#335](https://github.com/designcreateplay/NodeBB/issues/335))
 * Desktop Notifications (via [Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/notification) -- thanks @psychobunny)
 * Chat Modal fixes (issues [#690](https://github.com/designcreateplay/NodeBB/issues/690), [#691](https://github.com/designcreateplay/NodeBB/issues/691), [#697](https://github.com/designcreateplay/NodeBB/issues/645))
 * Topic RSS feeds now working again ([issue #703](https://github.com/designcreateplay/NodeBB/issues/703))
