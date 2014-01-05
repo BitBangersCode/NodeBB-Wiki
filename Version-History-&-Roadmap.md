@@ -16,6 +16,7 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 * Restriction on topic and category title lengths ([issue #705](https://github.com/designcreateplay/NodeBB/issues/705))
 * Unicode Slugs ([issue #708](https://github.com/designcreateplay/NodeBB/issues/708))
 * Social sharing buttons can now be hidden via admin panel option ([issue #712](https://github.com/designcreateplay/NodeBB/issues/712))
+* [[Upgrade steps|Upgrading NodeBB]] have been simplified
 
 ### v0.2.0
 
