@@ -78,20 +78,17 @@ This should retrieve the latest (and greatest) version of NodeBB from the reposi
 
 Alternatively, download and extract the latest versioned copy of the code from [the Releases Page](https://github.com/designcreateplay/NodeBB/releases). Overwrite any files as necessary. This method is not supported.
 
-### 4. Install any missing packages
+### 4. Run the NodeBB upgrade script
 
-Run `npm` to install any new packaged dependencies that may now be required by this new version of NodeBB:
+This script will install any missing dependencies, upgrade any plugins or themes (if an upgrade is available), and migrate the database if necessary.
 
-    $ npm install
-    $ npm update
+    $ ./nodebb upgrade
 
-### 5. Database Migration
+**Note**: `./nodebb upgrade` is only available in v0.3.0. If you are running an earlier version, run these instead:
 
-Occasionally, we may make changes to the database that require a migration. Run this:
-
-    node app --upgrade
-
-If nothing needs to be migrated, this script will do nothing.
+* `npm install`
+* `ls -d node_modules/nodebb* | xargs -n1 basename | xargs npm update`
+* `node app --upgrade`
 
 ### 6. Start up NodeBB & Test!
 
