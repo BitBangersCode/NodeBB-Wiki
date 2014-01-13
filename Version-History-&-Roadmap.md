@@ -2,7 +2,7 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ## Upcoming Releases / Roadmap
 
-### v0.2.2 / v0.3.0
+### v0.3.0
 
 * Various security and bug fixes, dataset optimizations
 * Revamped Email System (issues [#326](https://github.com/designcreateplay/NodeBB/issues/326), [#335](https://github.com/designcreateplay/NodeBB/issues/335))
