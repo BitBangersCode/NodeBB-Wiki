@@ -4,7 +4,16 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ### v0.2.2 / v0.3.0
 
+* Various security and bug fixes, dataset optimizations
 * Revamped Email System (issues [#326](https://github.com/designcreateplay/NodeBB/issues/326), [#335](https://github.com/designcreateplay/NodeBB/issues/335))
+* Support for two new languages, Italian (it) and Czech (cs)
+* [Topic forking](https://github.com/designcreateplay/NodeBB/issues/524)
+* [Category outgoing links](https://github.com/designcreateplay/NodeBB/issues/665)
+* [Moving posts between topics](https://github.com/designcreateplay/NodeBB/issues/667)
+* [Support for usernames with unicode characters](https://github.com/designcreateplay/NodeBB/issues/724)
+* [Ability to select board language via Admin Panel](https://github.com/designcreateplay/NodeBB/issues/728)
+* [Ability to override the default `robots.txt`](https://github.com/designcreateplay/NodeBB/issues/732)
+* [Ability to change usernames](https://github.com/designcreateplay/NodeBB/issues/745)
 
 ## Version History
 
