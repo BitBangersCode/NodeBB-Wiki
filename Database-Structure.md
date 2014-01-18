@@ -90,6 +90,15 @@ key **post:[id]**
 }
 ```
 
+key **gid:[id]** // should be group:[id] to be consistent
+```
+{
+"gid":"1",
+"name":"Administrators",
+"description":"Forum Administrators",
+"deleted":"0"
+}
+```
 
 
 ## Sets
