@@ -57,6 +57,23 @@
 }
 ```
 
+**post:[id]**
+```
+{
+"content":"<h9001>ITS OVER 9000</h9001>\n\n![over 9000](http://stream1.gifsoup.com/view/17416/it-s-over-9000-o.gif)",
+"timestamp":"1387158935468",
+"uid":"3",
+"edited":"1387159006377",
+"tid":"322",
+"deleted":"0",
+"reputation":"1",
+"editor":"3",
+"pid":"2000"
+}
+```
+
+
+
 ## Sets
 
 ## Sorted Sets
