@@ -100,7 +100,25 @@ key **gid:[id]** // should be group:[id] to be consistent
 }
 ```
 
+key **notifications:[id]** //should be notification:[id] to be consistent
+```
+{
+"uniqueId":"topic:115",
+"path": "/topic/115",
+"text": "Vit_Prog has posted a reply to: \"Testing awesome node forum\"",
+"datetime":"1384760394689"
+}
+```
 
+key **message:[id]**
+```
+{
+"touid": "2",
+"timestamp": "1377573874790",
+"content": "hi this forum is awesome",
+"fromuid": "20"
+}
+```
 ## Sets
 //TODO:
 ## Sorted Sets
