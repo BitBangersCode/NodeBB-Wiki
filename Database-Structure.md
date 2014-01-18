@@ -1,5 +1,5 @@
 ### Hashes (Objects)
-**global**
+key **global**
 ```
 {
 "nextUid": "572",
@@ -14,7 +14,7 @@
 "postCount": "2826",
 }
 ```
-**user:[id]**
+key **user:[id]**
 ```
 {
   "showemail": "0",
@@ -39,7 +39,7 @@
 }
 ```
 
-**category:[id]**
+key **category:[id]**
 ```
 {
 "cid":"1",
@@ -57,7 +57,7 @@
 }
 ```
 
-**topic:[id]**
+key **topic:[id]**
 ```
 {
 "tid":"300",
@@ -75,7 +75,7 @@
 }
 ```
 
-**post:[id]**
+key **post:[id]**
 ```
 {
 "content":"ITS OVER 9000\n\n![over 9000](http://stream1.gifsoup.com/view/17416/it-s-over-9000-o.gif)",
@@ -93,7 +93,8 @@
 
 
 ## Sets
-
+//TODO:
 ## Sorted Sets
-
+//TODO:
 ## Lists
+//TODO:
