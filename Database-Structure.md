@@ -39,6 +39,24 @@
 }
 ```
 
+**category:[id]**
+```
+{
+"cid":"1",
+"name":"Announcements",
+"description":"Check here for announcments about NodeBB",
+"icon":"fa-bullhorn",
+"slug":"1/announcements",
+"topic_count":"11",
+"disabled":"0",
+"order":"3",
+"bgColor":"#0059b2",
+"link":"",
+"class":"col-md-3 col-xs-6",
+"numRecentReplies":"2"
+}
+```
+
 **topic:[id]**
 ```
 {
