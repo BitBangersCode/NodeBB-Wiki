@@ -19,6 +19,7 @@ key **user:[id]**
 {
   "showemail": "0",
   "email": "test1@test.com",
+  "password": "",
   "uid": "300",
   "lastposttime": "0",
   "uploadedpicture": "",
