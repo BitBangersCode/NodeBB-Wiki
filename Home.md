@@ -30,7 +30,7 @@ NodeBB is an open source project, and will forever remain free. Here's a number 
 * [[Installing NodeBB on Cloud 9]]
 * [[Administrator Functions Outline]] - Overview of admin panel structure (with links)
 * [[Configuring nginx as a proxy to NodeBB]]
-* [[Setting up MongoDB as an alternative to Redis]]
+* [[Installing NodeBB With MongoDB]]
 * [[Enabling Social Network Logins]]
 * [[Enabling Imgur Image Uploads]]
 
