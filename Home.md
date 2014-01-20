@@ -26,7 +26,6 @@ NodeBB is an open source project, and will forever remain free. Here's a number 
 * [Installing NodeBB on Digital Ocean - "for Dummies"](http://burnaftercompiling.com/nodebb/setting-up-a-nodebb-forum-for-dummies/)
 * [[Installing NodeBB on Heroku]]
 * [[Installing NodeBB on Joyent's SmartOS (Solaris)]]
-* [[Installing NodeBB on CentOS]]
 * [[Installing NodeBB on Cloud 9]]
 * [[Administrator Functions Outline]] - Overview of admin panel structure (with links)
 * [[Configuring nginx as a proxy to NodeBB]]
