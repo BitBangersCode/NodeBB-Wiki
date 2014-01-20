@@ -4,11 +4,11 @@ If you're afraid of running out of memory by using Redis, or want your forum to 
 
 ## Step 1: Install MongoDB
 
-the latest and greatest MongoDB is required (or at least greater than the package manager). It can be found at [http://docs.mongodb.org/manual/administration/install-on-linux/](http://docs.mongodb.org/manual/administration/install-on-linux/).
+the latest and greatest MongoDB is required (or at least greater than the package manager). The instructions to install it can be found at [http://docs.mongodb.org/manual/administration/install-on-linux/](http://docs.mongodb.org/manual/administration/install-on-linux/).
 
 ## Step 2: Install node.js
 
-Like MongoDB, the latest and greatest node.js is required (or at least greater than the package manager), so I'm leaving this to the official wiki. It can be found at [https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager).
+Like MongoDB, the latest and greatest node.js is required (or at least greater than the package manager), so I'm leaving this to the official wiki. The instructions to install can be found at [https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager).
 
 *Note: NPM is installed along with node.js, so there is no need to install it separately*
 
