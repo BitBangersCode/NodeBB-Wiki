@@ -1,5 +1,7 @@
 If you're afraid of running out of memory by using Redis, or want your forum to be more easily scalable, you can install NodeBB with MongoDB. This tutorial assumes you know how to SSH into your server and have root access.
 
+**These instructions are for Ubuntu. Adjust them accordingly for your distro.**
+
 **Note:** If you have to add `sudo` to any command, do so. No one is going to hold it against you ;)
 
 ## Step 1: Install MongoDB
