@@ -6,7 +6,7 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 * Various security and bug fixes, dataset optimizations
 * Revamped Email System (issues [#326](https://github.com/designcreateplay/NodeBB/issues/326), [#335](https://github.com/designcreateplay/NodeBB/issues/335))
-* Support for two new languages, Italian (it) and Czech (cs)
+* Support for **four** new languages, Italian (it) and Czech (cs), Simplified Chinese (zh_CN), and Arabic (ar)
 * [Topic forking](https://github.com/designcreateplay/NodeBB/issues/524)
 * [Category outgoing links](https://github.com/designcreateplay/NodeBB/issues/665)
 * [Moving posts between topics](https://github.com/designcreateplay/NodeBB/issues/667)
@@ -17,9 +17,8 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 * [Fixed issue where client side was getting old client-side js](https://github.com/designcreateplay/NodeBB/issues/784)
 * [Fixes to French translation](https://github.com/designcreateplay/NodeBB/pull/790)
 * New composer styling (at bottom of screen)
-* [Simplified Chinese Languages](https://github.com/designcreateplay/NodeBB/pull/804)
-* [Arabic Languages](https://github.com/designcreateplay/NodeBB/pull/814)
 * Instant Messaging / Chat front-end rewritten
+* Web Socket backend rewritten
 
 ## Version History
 
