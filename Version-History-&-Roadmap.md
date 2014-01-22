@@ -14,6 +14,12 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 * [Ability to select board language via Admin Panel](https://github.com/designcreateplay/NodeBB/issues/728)
 * [Ability to override the default `robots.txt`](https://github.com/designcreateplay/NodeBB/issues/732)
 * [Ability to change usernames](https://github.com/designcreateplay/NodeBB/issues/745)
+* [Fixed issue where client side was getting old client-side js](https://github.com/designcreateplay/NodeBB/issues/784)
+* [Fixes to French translation](https://github.com/designcreateplay/NodeBB/pull/790)
+* New composer styling (at bottom of screen)
+* [Simplified Chinese Languages](https://github.com/designcreateplay/NodeBB/pull/804)
+* [Arabic Languages](https://github.com/designcreateplay/NodeBB/pull/814)
+* Instant Messaging / Chat front-end rewritten
 
 ## Version History
 
