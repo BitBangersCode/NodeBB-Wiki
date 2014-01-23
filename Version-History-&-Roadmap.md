@@ -4,7 +4,7 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ### v0.3.1
 
-* New languages: Traditional Chinese (zh_tw) and Slovak (sk)
+* New languages: Traditional Chinese (zh_tw), Slovak (sk), and Finnish (fi)
 
 ## Version History
 
