@@ -2,6 +2,12 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ## Upcoming Releases / Roadmap
 
+### v0.3.1
+
+* New languages: Traditional Chinese (zh_tw) and Slovak (sk)
+
+## Version History
+
 ### v0.3.0 ([Notes](http://community.nodebb.org/topic/436/gotchas-for-0-3-0))
 
 * Various security and bug fixes, dataset optimizations
@@ -19,8 +25,6 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 * New composer styling (at bottom of screen)
 * Instant Messaging / Chat front-end rewritten
 * Web Socket backend rewritten
-
-## Version History
 
 ### v0.2.1
 
