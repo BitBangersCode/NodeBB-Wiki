@@ -21,9 +21,12 @@ The project's rough roadmap/version history can be found at [[Version History / 
 ## Developing NodeBB
 
 * [[Contributor Style Guide]]
-* [[Theming NodeBB]]
 * [[Writing Plugins for NodeBB]]
 * [[How to build a new Admin Page]]
+
+## Theming NodeBB
+* [[Theming NodeBB]]
+* [NodeBB Hands-On Theming Guide, Part 1](http://burnaftercompiling.com/nodebb/nodebb-hands-on-theming-guide-part-1/)
 
 ## If all else fails...
 
