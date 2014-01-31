@@ -46,4 +46,5 @@ NodeBB is an open source project, and will forever remain free. Here's a number 
 * Write a plugin
 * Keep the link back to us on the footer of your own NodeBB :)
 * Blog about us! Give the gift of SEO juice this Christmas
+* [Help Translate NodeBB](https://www.transifex.com/projects/p/nodebb/) - It's a really simple translation tool and you don't need to know how to code.
 * Join our [community](http://community.nodebb.org) and give us a hard time about bugs and missing features
