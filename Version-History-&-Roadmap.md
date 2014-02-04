@@ -2,11 +2,25 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ## Upcoming Releases / Roadmap
 
-### v0.3.1
+### v0.3.2
 
-* New languages: Traditional Chinese (zh_tw), Slovak (sk), and Finnish (fi)
+* *TBD*
 
 ## Version History
+
+### v0.3.1
+
+* Traditional Chinese (zh_tw), Slovak (sk), Finnish (fi), and Brazilian Portuguese (pt_br) languages have been added
+* Translations now handled by [Transifex](https://www.transifex.com/projects/p/nodebb/)
+* Updates to the plugin system
+* UI Fixes for the post composer
+* Single sign on packages are their own npm packages now, reducing the size of the main core codebase
+* Pagination, for those who really want pages
+* Improvements to the mentions engine
+* "Remember Me" option when logging in
+* Tweaked permission control, users with no write access shouldn't see "Post/Reply" buttons anymore. Those without view permissions shouldn't be able to see hidden forums anymore.
+* New User states (Away, Busy, Do Not Disturb)
+* Post Flagging
 
 ### v0.3.0 ([Notes](http://community.nodebb.org/topic/436/gotchas-for-0-3-0))
 
