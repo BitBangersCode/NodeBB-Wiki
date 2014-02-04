@@ -10,7 +10,7 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ### v0.3.1
 
-* Traditional Chinese (zh_tw), Slovak (sk), Finnish (fi), and Brazilian Portuguese (pt_br) languages have been added
+* Traditional Chinese (zh_tw), Slovak (sk), Finnish (fi), Brazilian Portuguese (pt_br), Turkish (tr), Norwegian Bokmål (nb), and Hungarian (hu) languages have been added
 * Translations now handled by [Transifex](https://www.transifex.com/projects/p/nodebb/)
 * Updates to the plugin system
 * UI Fixes for the post composer
