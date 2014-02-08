@@ -28,3 +28,8 @@ server {
     }
 }
 ```
+
+### Notes
+
+* The `proxy_pass` IP should be `127.0.0.1` if your NodeBB is hosted on the same physical server as your nginx server. Update the port to match your NodeBB, if necessary.
+* This config sets up your nginx server to listen to requests for `forum.example.org`. It doesn't magically route the internet to it, though, so you also have to update your DNS server to send requests for `forum.example.org` to the machine with nginx on it!
