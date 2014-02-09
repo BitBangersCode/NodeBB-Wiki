@@ -71,6 +71,11 @@ See Example: [Sample Static Page](https://github.com/psychobunny/nodebb-plugin-s
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/5357ad61db6c15bc25a7e836548a02fadd72e6b3)<br />
 See Example: [Mousetrap](https://github.com/psychobunny/nodebb-plugin-mousetrap/)
 
+### `filter:uploadImage`
+
+### `filter:uploadFile`
+
+
 ## Actions
 
 ### `action:app.load`
