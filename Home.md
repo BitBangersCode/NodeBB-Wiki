@@ -18,11 +18,12 @@ The project's rough roadmap/version history can be found at [[Version History / 
 * [[Enabling Social Network Logins]]
 * [[Enabling Imgur Image Uploads]]
 
-## Developing NodeBB
+## Developing with NodeBB
 
 * [[Contributor Style Guide]]
 * [[Writing Plugins for NodeBB]]
 * [[How to build a new Admin Page]]
+* [[Developing with Grunt and Coffee Script]](https://github.com/frissdiegurke/nodebb-grunt-development)
 
 ## Theming NodeBB
 * [[Theming NodeBB]]
