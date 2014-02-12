@@ -5,10 +5,11 @@ The following guide will assist with that if you're on Debian or Ubuntu. This is
 
 http://www.amoss.me.uk/2013/06/apache-2-2-websocket-proxying-ubuntu-mod_proxy_wstunnel/
 
-### NOTE: On ubuntu, if you’re missing the ./configure file, I suggest to run ./buildconf.
+### NOTE: On ubuntu, if you’re missing the ./configure file
+You need to first run ./buildconf. After this is complete, you will then be able to use ./confugure.
 
-automake & libtool package was needed too.
-apt-get install automake libtool
+>automake & libtool package was needed too.
+>apt-get install automake libtool
 
 ****
 The next step is adding the configuration to your virtualhost.conf file, typically located in /etc/apache2/sites-available/. The below configuration assumes you've used 4567 (default) port for NobeBB installation. It also assumes you have the bind address set to 127.0.0.1.
