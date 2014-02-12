@@ -14,6 +14,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 * [[Installing NodeBB on Cloud 9]]
 * [[Administrator Functions Outline]] - Overview of admin panel structure (with links)
 * [[Configuring nginx as a proxy to NodeBB]]
+* [[Configuring Apacge as a proxy to Nodebb]]
 * [[Installing NodeBB With MongoDB]]
 * [[Enabling Social Network Logins]]
 * [[Enabling Imgur Image Uploads]]
