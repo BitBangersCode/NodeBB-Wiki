@@ -1,5 +1,9 @@
 ## Prerequisites to making this work:
-Apache 2.4.x OR you need to manually compile and add the module "mod_proxy_wstunnel" to the Apache 2.2 branch. If you're running Ubuntu or Debian, you're likely on the 2.2 branch of code.
+Apache 2.4.x
+
+### What if I'm on 2.2.x (Debian/Ubuntu)?
+
+you need to manually compile and add the module "mod_proxy_wstunnel" to the Apache 2.2 branch. If you're running Ubuntu or Debian, you're likely on the 2.2 branch of code.
 
 The following guide will assist with that if you're on Debian or Ubuntu. This is what I used to backport the mod_proxy_wstunnel module to the 2.2 code base of Apache;
 
