@@ -1,4 +1,4 @@
-## Prerequisites to making this work:
+# Prerequisites to making this work:
 Apache 2.4.x
 
 ### What if I'm on 2.2.x (Debian/Ubuntu)?
@@ -9,14 +9,14 @@ The following guide will assist with that if you're on Debian or Ubuntu. This is
 
 http://www.amoss.me.uk/2013/06/apache-2-2-websocket-proxying-ubuntu-mod_proxy_wstunnel/
 
-### NOTE: On ubuntu, if you’re missing the ./configure file
+#### NOTE: On ubuntu, if you’re missing the ./configure file
 You need to first run ./buildconf. After this is complete, you will then be able to use ./confugure.
 
 >automake & libtool package was needed too.
 >apt-get install automake libtool
 
 ****
-## Enable the necessary modules
+# Enable the necessary modules
 
 1. sudo a2enmod proxy
 2. sudo a2enmod proxy_html
