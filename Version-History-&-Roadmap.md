@@ -2,11 +2,26 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ## Upcoming Releases / Roadmap
 
-### v0.3.2
-
-* *TBD*
+### v0.4.0
 
 ## Version History
+
+### v0.3.2
+
+* [Flagging a post now requires a confirmation step](https://github.com/designcreateplay/NodeBB/issues/939)
+* [Post composer UI enhancements](https://github.com/designcreateplay/NodeBB/issues/943)
+* [Administrators can now see "invisible" users](https://github.com/designcreateplay/NodeBB/issues/929)
+* [**Upvoting and Downvoting**](https://github.com/designcreateplay/NodeBB/issues/955)
+* [**Moderators**](https://github.com/designcreateplay/NodeBB/issues/961)
+* [Optional Pagination instead of infinite scrolling](https://github.com/designcreateplay/NodeBB/issues/986)
+* [Ability to preview a post before submitting it](https://github.com/designcreateplay/NodeBB/issues/975)
+* [Refactoring of the RSS system](https://github.com/designcreateplay/NodeBB/issues/973) (thanks @miksago/@TeamKano!)
+* [Better handling of cache busters in non-git environments](https://github.com/designcreateplay/NodeBB/issues/1006)
+* [Optional `themes_path` in case your theme is not an npm package](https://github.com/designcreateplay/NodeBB/pull/1020)
+* [Warnings when a NodeBB install does not satisfy a plugin's `minver`](https://github.com/designcreateplay/NodeBB/issues/997)
+* [Performance enhancements re: Notification pruning](https://github.com/designcreateplay/NodeBB/issues/999)
+* [Ability to use a different config file if defined via `--config` flag](https://github.com/designcreateplay/NodeBB/issues/1025)
+* Lots of bug fixes!
 
 ### v0.3.1
 
