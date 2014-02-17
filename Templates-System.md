@@ -34,35 +34,43 @@ The above will create X copies of the above block, for each item in the posts ar
 
 NodeBB's templating system implements some basic logic. Using the same API call as above for our example. You can write IF conditionals like so:
 
-    <!-- IF unreplied -->
-    This thread is unreplied!
-    <!-- ENDIF unreplied -->
+```html
+<!-- IF unreplied -->
+This thread is unreplied!
+<!-- ENDIF unreplied -->
+```
 
 Another example:
 
-    <!-- IF !disableSocialButtons -->
-    <button>Share on Facebook</button>
-    <!-- ELSE -->
-    Sharing has been disabled.
-    <!-- ENDIF !disableSocialButtons -->
+```html
+<!-- IF !disableSocialButtons -->
+<button>Share on Facebook</button>
+<!-- ELSE -->
+Sharing has been disabled.
+<!-- ENDIF !disableSocialButtons -->
+```
 
 We can check for the length of an array like so:
 
-    <!-- IF posts.length -->
-    There be some posts
-    <!-- ENDIF posts.length -->
+```html
+<!-- IF posts.length -->
+There be some posts
+<!-- ENDIF posts.length -->
+```
 
 While looping through an array, we can check if our current index is the @first or @last like so:
 
-    <!-- BEGIN posts -->
-      <!-- IF @first -->
-        <h1>Main Author: {posts.username}</h1>
-      <!-- ENDIF @first -->
-      {posts.content}
-      <!-- IF @last -->
-        End of posts. Click here to scroll to the top.
-      <!-- ENDIF @last -->
-    <!-- END posts -->
+```html
+<!-- BEGIN posts -->
+  <!-- IF @first -->
+    <h1>Main Author: {posts.username}</h1>
+  <!-- ENDIF @first -->
+  {posts.content}
+  <!-- IF @last -->
+    End of posts. Click here to scroll to the top.
+  <!-- ENDIF @last -->
+<!-- END posts -->
+```
 
 ## Exposing template variables to client-side JavaScript
 
