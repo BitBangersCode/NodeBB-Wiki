@@ -27,7 +27,8 @@ The project's rough roadmap/version history can be found at [[Version History / 
 * [Developing with Grunt and Coffee Script](https://github.com/frissdiegurke/nodebb-grunt-development)
 
 ## Theming NodeBB
-* [[Theming NodeBB]]
+* [[Creating a new NodeBB Theme]]
+* [[Templates System]]
 * [NodeBB Hands-On Theming Guide, Part 1](http://burnaftercompiling.com/nodebb/nodebb-hands-on-theming-guide-part-1/)
 
 ## If all else fails...
