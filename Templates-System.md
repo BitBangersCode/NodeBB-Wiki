@@ -22,9 +22,11 @@ To access values in objects:
 
 And finally you can loop through arrays and create blocks like so:
 
-    <!-- BEGIN posts -->
-    {posts.content}
-    <!-- END posts -->
+```html
+<!-- BEGIN posts -->
+{posts.content}
+<!-- END posts -->
+```
 
 The above will create X copies of the above block, for each item in the posts array.
 
