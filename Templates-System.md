@@ -132,7 +132,7 @@ var html = templateObj.parse({
 });
 ```
 
-You can also access the invidual blocks inside each template, which is handy for doing things like (for example) rendering just a new post `<li>` and dynamically sticking it in an already loaded `<ul>`
+You can also access the invidual blocks inside each template, which is handy for doing things like (for example) rendering a new post `<li>` and dynamically sticking it in an already loaded `<ul>`
 
 ```JavaScript
 var templateObj = templates.prepare(templates['topic'].blocks['posts']);
