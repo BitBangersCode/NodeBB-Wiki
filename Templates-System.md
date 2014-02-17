@@ -2,7 +2,7 @@
 
 Every page has an associated API call, Template file, and Language File.
 
-For example, if you navigate to http://community.nodebb.org/topic/351/nodebb-wiki, the application will load three resources. The API return (http://community.nodebb.org/api/topic/351/nodebb-wiki)[http://community.nodebb.org/api/topic/351/nodebb-wiki] and the [template](http://community.nodebb.org/templates/topic.tpl), in this example, "topic.tpl", and the appropriate [language file](community.nodebb.org/language/en_GB/topic.json) "topic.json"*.
+For example, if you navigate to http://community.nodebb.org/topic/351/nodebb-wiki, the application will load three resources. The API return [http://community.nodebb.org/api/topic/351/nodebb-wiki](http://community.nodebb.org/api/topic/351/nodebb-wiki) and the [template](http://community.nodebb.org/templates/topic.tpl), in this example, "topic.tpl", and the appropriate [language file](community.nodebb.org/language/en_GB/topic.json) "topic.json"*.
 
 Just prepend api/ to the URL's path name to discover the JSON return. Any value in that return can be utilized in your template.
 
