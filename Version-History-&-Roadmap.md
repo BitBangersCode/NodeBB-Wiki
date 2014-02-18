@@ -4,11 +4,13 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ### v0.4.0
 
+* **New Languages** - Polish (pl)
+
 ## Version History
 
 ### v0.3.2
 
-* **New Languages** - Swedish (sv), Russian (ru), Italian (it), Hebrew (he), and Polish (pl)
+* **New Languages** - Swedish (sv), Russian (ru), Italian (it), and Hebrew (he)
 * [Flagging a post now requires a confirmation step](https://github.com/designcreateplay/NodeBB/issues/939)
 * [Post composer UI enhancements](https://github.com/designcreateplay/NodeBB/issues/943)
 * [Administrators can now see "invisible" users](https://github.com/designcreateplay/NodeBB/issues/929)
