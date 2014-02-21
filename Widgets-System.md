@@ -10,7 +10,7 @@ Copy and paste HTML or JavaScript into the widget and hit save - you're done!
 
 You can optionally give your widget a container by dragging and dropping from the containers section onto your selected widget.
 
-[![containers](http://i.imgur.com/Q3Jd0SQ.pngl)](http://i.imgur.com/Q3Jd0SQ.png)
+[![containers](http://i.imgur.com/Q3Jd0SQl.png)](http://i.imgur.com/Q3Jd0SQ.png)
 
 If you're looking for some sample scripts, head over to our [plugins section](http://community.nodebb.org/category/7/nodebb-plugins) and look for any topic labelled `nodebb-script-xyz`. Don't forget to submit your scripts and ideas as well!
 
