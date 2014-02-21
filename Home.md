@@ -4,7 +4,8 @@ Report any issues to this project's [issue tracker](https://github.com/designcre
 
 The project's rough roadmap/version history can be found at [[Version History / Roadmap|Version-History-&-Roadmap]]
 
-## Installing & Running NodeBB
+## Setting up NodeBB
+### Installing & Running NodeBB
 
 * [[How to run NodeBB]]
 * [[Upgrading NodeBB]] - Upgrading NodeBB between revisions (e.g. v0.0.4 to v0.0.5)
@@ -19,22 +20,29 @@ The project's rough roadmap/version history can be found at [[Version History / 
 * [[Enabling Social Network Logins]]
 * [[Enabling Imgur Image Uploads]]
 
-## Developing with NodeBB
+### Running into any problems?
 
-* [[Contributor Style Guide]]
+* [[Troubleshooting & FAQ]]
+* [Report a Bug](https://github.com/designcreateplay/NodeBB/issues)
+* [Ask on the NodeBB Community Forum](http://community.nodebb.org)
+
+
+## Customizing NodeBB
+### Plugins and Widgets
 * [[Writing Plugins for NodeBB]]
-* [[How to build a new Admin Page]]
-* [Developing with Grunt and Coffee Script](https://github.com/frissdiegurke/nodebb-grunt-development)
 
-## Theming NodeBB
+
+### Theming NodeBB
 * [[Creating a new NodeBB Theme]]
 * [[Templates System]]
 * [NodeBB Hands-On Theming Guide, Part 1](http://burnaftercompiling.com/nodebb/nodebb-hands-on-theming-guide-part-1/)
 
-## If all else fails...
+### Contributing to NodeBB Core
 
-* [[Troubleshooting & FAQ]]
-* [NodeBB Community Forum](http://community.nodebb.org)
+* [[Contributor Style Guide]]
+* [[How to build a new Admin Page]]
+* [Developing with Grunt and Coffee Script](https://github.com/frissdiegurke/nodebb-grunt-development)
+
 
 ## Helping out the NodeBB Project
 
