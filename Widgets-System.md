@@ -55,9 +55,9 @@ Pass this back in the array:
 
 ```json
 {
-	'name': 'Category Sidebar',
-	'template': 'category.tpl',
-	'location': 'sidebar'
+	name: "Category Sidebar",
+	template: "category.tpl",
+	location: "sidebar"
 }
 ```
 
