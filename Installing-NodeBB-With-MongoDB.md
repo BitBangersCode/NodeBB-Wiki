@@ -66,7 +66,7 @@ Add `setParameter=textSearchEnabled=true` to the end. Also, to enable authentica
 
 Make sure you are in your NodeBB root folder. If not, just type:
 
-    $ cd /path/to/nodebb/install
+    $ cd /path/to/nodebb
 
 To setup the app, type:
 
