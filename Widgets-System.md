@@ -1,6 +1,6 @@
 See the original [blog post](http://blog.nodebb.org/widgets-system/) for a high level overview and screenshots of the widget system.
 
-## EASY - Embedding HTML and JavaScript
+## Embedding HTML and JavaScript
 
 You don't need to be a developer to figure this out. Head over to the Themes control panel and click on the Widgets tab. Create a new HTML widget by dragging and dropping the widget onto whatever template you want. 
 
