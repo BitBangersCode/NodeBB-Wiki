@@ -12,7 +12,7 @@ NodeBB uses tabbed indentation. Bracing should follow the [One True Brace Style]
         // code here ...
     } else {
         // otherwise ...
-    };
+    }
 
 Put conditionals and statements on separate lines and wrap with curly braces even if they it's just one line:
 
