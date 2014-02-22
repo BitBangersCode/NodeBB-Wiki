@@ -29,6 +29,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 
 ## Customizing NodeBB
 ### Plugins and Widgets
+* [[Widgets System]]
 * [[Writing Plugins for NodeBB]]
 
 
