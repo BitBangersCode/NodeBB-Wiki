@@ -26,7 +26,7 @@ Most callbacks return an error as the first parameter. Handle this error first b
 
     someFunction(parameters, function(err, data) {
         if(err) {
-           return callback(err, null); // or handle error
+           return callback(err); // or handle error
         }
         // proceed as usual
     });
