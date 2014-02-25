@@ -5,6 +5,7 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 ### v0.4.0
 
 * **New Languages** - Polish (pl)
+* Plugins can now use LESS stylesheets. Developers are encouraged to use LESS instead of CSS.
 
 ## Version History
 
