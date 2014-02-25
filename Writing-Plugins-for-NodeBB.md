@@ -24,9 +24,9 @@ Each plugin package contains a configuration file called `plugin.json`. Here is 
         "description": "Your plugin's description",
         "url": "Absolute URL to your plugin or a Github repository",
         "library": "./my-plugin.js",
-        "staticDir": "/public",
-        "css": [
-            "style.css"
+        "staticDir": "/assets",
+        "less": [
+            "assets/style.less"
         ],
         "hooks": [
             { "hook": "filter:post.save", "method": "filter", "callbacked": true },
@@ -40,7 +40,9 @@ The `library` property is a relative path to the library in your package. It is 
 
 The `staticDir` property is a path (relative to your plugin's root) to a directory that NodeBB will expose to the public at the route `/plugins/{YOUR-PLUGIN-ID}`.
 
-The `css` property contains an array of paths (relative to your plugin's `staticDir`) that will be served to the end user as a stylesheet. In the example above, the `style.css` would end up accessible at: `/plugins/my-plugin/public/style.css`, and would be located in the `public` directory in your plugin's root.
+The `less` property contains an array of paths (relative to your plugin's directory), that will be precompiled into the CSS served by NodeBB.
+
+The `css` property contains an array of paths (relative to your plugin's `staticDir`) that will be served to the end user as a stylesheet. In the example above, the `style.css` would end up accessible at: `/plugins/my-plugin/public/style.css`, and would be located in the `public` directory in your plugin's root. **Note**: The `css` property is not recommended, as it may be deprecated in the future. Use `less` instead.
 
 The `hooks` property is an array containing objects that tell NodeBB which hooks are used by your plugin, and what method in your library to invoke when that hook is called. Each object contains the following properties (those with a * are required):
 
@@ -93,6 +95,6 @@ As of v0.0.5, "installing" a plugin by placing it in the `/plugins` folder is st
 
 Run NodeBB in development mode:
 
-    NODE_ENV=development node app
+    ./nodebb dev
 
 This will expose the plugin debug logs, allowing you to see if your plugin is loaded, and its hooks registered. Activate your plugin from the administration panel, and test it out.
