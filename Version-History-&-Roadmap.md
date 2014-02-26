@@ -2,9 +2,9 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ## Upcoming Releases / Roadmap
 
-### v0.4.0
+### v0.4.0 ([Notes](http://community.nodebb.org/topic/865/gotchas-for-v0-4-0))
 
-* **New Languages** - Polish (pl)
+* **New Languages** - Polish (pl), Dutch (nl)
 * Plugins can now use LESS stylesheets. Developers are encouraged to use LESS instead of CSS.
 
 ## Version History
