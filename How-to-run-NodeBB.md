@@ -26,9 +26,7 @@ As `supervisor` by default continues to pipe output to `stdout`, it is best suit
 
 ### Forever Daemon
 
-The best way to keep NodeBB up is to use the [`forever` package](https://github.com/nodejitsu/forever) via the command line interface, which can monitor NodeBB and re-launch it if necessary:
+Another way to keep NodeBB up is to use the [`forever` package](https://github.com/nodejitsu/forever) via the command line interface, which can monitor NodeBB and re-launch it if necessary:
 
     $ npm install -g forever
     $ forever start app.js
-
-`forever` is best used in conjunction with a production build.
