@@ -1,4 +1,10 @@
-Like most Node.js applications, NodeBB runs off of a single file that starts the HTTP listener -- `app.js`.
+The preferred way to start and stop NodeBB is by invoking its executable:
+
+* `./nodebb start` Starts the NodeBB server
+* `./nodebb stop` Stops the NodeBB server
+* Alternatively, you may use `npm start` and `npm stop` to do the same
+
+The methods listed below are alternatives to starting NodeBB via the executable.
 
 ### Simple Node.js Process
 
