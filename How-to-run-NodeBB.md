@@ -6,6 +6,8 @@ The preferred way to start and stop NodeBB is by invoking its executable:
 
 The methods listed below are alternatives to starting NodeBB via the executable.
 
+----
+
 ### Simple Node.js Process
 
 To start NodeBB, run it with `node` (some distributions use the executable `nodejs`, please adjust accordingly):
