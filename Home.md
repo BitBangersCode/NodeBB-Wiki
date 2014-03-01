@@ -4,25 +4,26 @@ Report any issues to this project's [issue tracker](https://github.com/designcre
 
 The project's rough roadmap/version history can be found at [[Version History / Roadmap|Version-History-&-Roadmap]]
 
-## Setting up NodeBB
-### Installing & Running NodeBB
+## Installing NodeBB
 
-* [[How to run NodeBB]]
-* [[Upgrading NodeBB]] - Upgrading NodeBB between revisions (e.g. v0.0.4 to v0.0.5)
-* [Installing NodeBB on Digital Ocean - "for Dummies"](http://burnaftercompiling.com/nodebb/setting-up-a-nodebb-forum-for-dummies/)
-* [[Installing NodeBB on Heroku]]
-* [[Installing NodeBB on Joyent's SmartOS (Solaris)]]
-* [[Installing NodeBB on Cloud 9]]
-* [[Administrator Functions Outline]] - Overview of admin panel structure (with links)
-* [[Configuring nginx as a proxy to NodeBB]]
-* [[Configuring Apache as a proxy to NodeBB]]
-* [[Installing NodeBB With MongoDB]]
-* [[Enabling Social Network Logins]]
-* [[Enabling Imgur Image Uploads]]
+| OS | Cloud Host | Cloud Provider |
+|----|------------|----------------|
+| [[SmartOS (Solaris)|Installing NodeBB on Joyent's SmartOS (Solaris)]] | [Digital Ocean](http://burnaftercompiling.com/nodebb/setting-up-a-nodebb-forum-for-dummies/) | [[Heroku|Installing NodeBB on Heroku]] |
+| | | [[Cloud9|Installing NodeBB on Cloud 9]] |
+
+## Configuring NodeBB
+
+| Database | Web Server/Proxy | Other |
+|----------|------------------|-------|
+| [[MongoDB|Installing NodeBB With MongoDB]] | [[Nginx Proxy|Configuring nginx as a proxy to NodeBB]] | [[How to run NodeBB]] |
+| | [[Apache Proxy|Configuring Apache as a proxy to NodeBB]] | [[Upgrading NodeBB]] |
+| | | [[Administrator Functions Outline]] |
+| | | [[Enabling Social Network Logins]] |
+| | | [[Enabling Imgur Image Uploads]] |
 
 ### Running into any problems?
 
-* [[Troubleshooting & FAQ]]
+* [[Troubleshooting & FAQ|Troubleshooting-&-Frequently-Asked-Questions-(FAQ)]]
 * [Report a Bug](https://github.com/designcreateplay/NodeBB/issues)
 * [Ask on the NodeBB Community Forum](http://community.nodebb.org)
 
