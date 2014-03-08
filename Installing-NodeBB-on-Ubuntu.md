@@ -33,7 +33,11 @@ Initiate the setup script by running the app with the `--setup` flag:
 $ ./nodebb setup
 ```
 
-The default settings are for a local server running on the default port, with a redis store on the same machine/port.
+The default settings are for a local server running on the default port, with a redis store on the same machine/port. You can optionally run
+
+``` bash
+$ ./nodebb setup --base_url http://localhost --port 4567 --use_port --secret MyAppSecret --bind_address 0.0.0.0 --database redis --redis:host 127.0.0.1 --redis:port 6379 --redis:password p4s$w0rd --redis:database 0
+```
 
 Lastly, we run the forum.
 
