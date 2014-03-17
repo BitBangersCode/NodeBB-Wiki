@@ -33,6 +33,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 ### Plugins and Widgets
 * [[Widgets System]]
 * [[Writing Plugins for NodeBB]]
+* [Developing with Grunt and Coffee Script](https://github.com/frissdiegurke/nodebb-grunt-development)
 
 
 ### Theming NodeBB
@@ -44,7 +45,6 @@ The project's rough roadmap/version history can be found at [[Version History / 
 
 * [[Contributor Style Guide]]
 * [[How to build a new Admin Page]]
-* [Developing with Grunt and Coffee Script](https://github.com/frissdiegurke/nodebb-grunt-development)
 
 
 ## Helping out the NodeBB Project
