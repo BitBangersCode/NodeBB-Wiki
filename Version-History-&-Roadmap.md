@@ -4,8 +4,19 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ### v0.4.0 ([Notes](http://community.nodebb.org/topic/865/gotchas-for-v0-4-0))
 
-* **New Languages** - Polish (pl), Dutch (nl)
-* Plugins can now use LESS stylesheets. Developers are encouraged to use LESS instead of CSS.
+* **New Languages** - Polish (pl), Dutch (nl), Thai (th), Sardinian (sc)
+* [Plugins can now use LESS stylesheets. Developers are encouraged to use LESS instead of CSS.](https://github.com/designcreateplay/NodeBB/issues/1168)
+* [Daily Digest emails](https://github.com/designcreateplay/NodeBB/issues/326) - Sent *only* if you have unread notifications
+* [User Deletion](https://github.com/designcreateplay/NodeBB/issues/746)
+* [Notifications Dropdown now shows user avatars](https://github.com/designcreateplay/NodeBB/issues/852)
+* Search subsystem modularified (see `nodebb-plugin-dbsearch`)
+* [Better SEO metadata](https://github.com/designcreateplay/NodeBB/issues/1027)
+* [Administrators can change user passwords](https://github.com/designcreateplay/NodeBB/issues/1044)
+* [Tracking of IP Addresses](https://github.com/designcreateplay/NodeBB/issues/1045)
+* Widgets system for inclusion on non-standard elements (text/html snippets, etc)
+* [Sounds are played when notifications are received, and when chat messages are sent and received](https://github.com/designcreateplay/NodeBB/issues/1131)
+* [The "Recent Replies" block should update automatically when new posts arrive](https://github.com/designcreateplay/NodeBB/issues/1138)
+* [Users can now log in via an email address](https://github.com/designcreateplay/NodeBB/issues/1175)
 
 ## Version History
 
