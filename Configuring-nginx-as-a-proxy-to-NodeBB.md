@@ -14,9 +14,9 @@ In order to allow NodeBB to be served without a port, nginx can be set up to pro
 
 NGINX-served sites are contained in a `server` block. This block of options goes in a specific place based on how nginx was installed and configured:
 
-    * `/path/to/nginx/sites-available/*` -- files here must be aliased to `../sites-enabled`
-    * `/path/to/nginx/conf.d/*.conf` -- filenames must end in `.conf`
-    * `/path/to/nginx/httpd.conf` -- if all else fails
+    `/path/to/nginx/sites-available/*` -- files here must be aliased to `../sites-enabled`
+    `/path/to/nginx/conf.d/*.conf` -- filenames must end in `.conf`
+    `/path/to/nginx/httpd.conf` -- if all else fails
 
 Below is the basic nginx configuration for a NodeBB build running on port `4567`:
 
