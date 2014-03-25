@@ -12,6 +12,12 @@ In order to allow NodeBB to be served without a port, nginx can be set up to pro
 
 ## Configuration
 
+NGINX-served sites are contained in a `server` block. This block of options goes in a specific place based on how nginx was installed and configured:
+
+    * `/path/to/nginx/sites-available/*` -- files here must be aliased to `../sites-enabled`
+    * `/path/to/nginx/conf.d/*.conf` -- filenames must end in `.conf`
+    * `/path/to/nginx/httpd.conf` -- if all else fails
+
 Below is the basic nginx configuration for a NodeBB build running on port `4567`:
 
 ``` nginx
@@ -37,7 +43,7 @@ server {
 }
 ```
 
-### Notes
+## Notes
 
 * nginx must be on version 1.4.x to properly support websockets. Debian/Ubuntu use 1.2, although it will work there will be a reduction in functionality.
 * The `proxy_pass` IP should be `127.0.0.1` if your NodeBB is hosted on the same physical server as your nginx server. Update the port to match your NodeBB, if necessary.
