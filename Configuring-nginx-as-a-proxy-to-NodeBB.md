@@ -4,6 +4,13 @@ NodeBB by default runs on port `4567`, meaning that builds are usually accessed 
 
 In order to allow NodeBB to be served without a port, nginx can be set up to proxy all requests to a particular hostname (or subdomain) to an upstream NodeBB build running on any port.
 
+## Requirements
+
+* NGINX version v1.3.13 or greater
+    * To get the latest version, compile it yourself, or if on Ubuntu, use the [NGINX Stable](https://launchpad.net/~nginx/+archive/stable) or [NGINX Development](https://launchpad.net/~nginx/+archive/development) PPA builds.
+
+## Configuration
+
 Below is the basic nginx configuration for a NodeBB build running on port `4567`:
 
 ``` nginx
