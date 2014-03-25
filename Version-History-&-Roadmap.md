@@ -17,6 +17,9 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 * [Sounds are played when notifications are received, and when chat messages are sent and received](https://github.com/designcreateplay/NodeBB/issues/1131)
 * [The "Recent Replies" block should update automatically when new posts arrive](https://github.com/designcreateplay/NodeBB/issues/1138)
 * [Users can now log in via an email address](https://github.com/designcreateplay/NodeBB/issues/1175)
+* [Chat modal now contains user status](https://github.com/designcreateplay/NodeBB/issues/1229)
+* [Better avatar cropping](https://github.com/designcreateplay/NodeBB/issues/1240)
+* [Notifications when posts are upvoted or favourited](https://github.com/designcreateplay/NodeBB/issues/1184)
 
 ## Version History
 
