@@ -1,7 +1,7 @@
 First, we install our base software stack:
 
 ``` bash
-$ apt-get install git nodejs redis-server build-essential imagemagick
+$ apt-get install git nodejs redis-server imagemagick
 ```
 
 If you want to use MongoDB instead of Redis install it from http://www.mongodb.org/downloads and remove 'redis-server' from the above command. [MongoDB-Setup](https://github.com/designcreateplay/NodeBB/wiki/Installing-NodeBB-With-MongoDB)
