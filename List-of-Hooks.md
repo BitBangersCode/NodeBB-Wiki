@@ -61,6 +61,10 @@ Executed when a post or signature needs to be parsed from raw text to HTML (for 
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/bf677522a93ec4c48f6b0fa27ab1388f9eedba4c)<br />
 See Example: [Cash MOD](https://github.com/psychobunny/nodebb-plugin-cash)
 
+### `filter:register.check`
+**Allows plugins to run checks on information and deny registration if necessary.**<br />
+[View commit for more details](https://github.com/designcreateplay/NodeBB/commit/cd4a204f999d5ef5bac4557f03d4c15abebfdce3)<br />
+
 ### `filter:server.create_routes`
 **Allows plugins to define new routes in NodeBB**<br />
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/2a4b228e19c939be1872ce6d9669ae03b98c853a)<br />
