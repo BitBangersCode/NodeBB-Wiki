@@ -7,7 +7,7 @@ NodeBB requires these software to be installed :
 
 ## Node.js installation
 
-Debian 7 and Debian 6 and older hasn't `nodejs` packages included by default, but there is some solutions to install Node.js on your Debian distribution.
+Debian 7 and Debian 6 and older doesn't have `nodejs` packages included by default, but there are some solutions to install Node.js on your Debian distribution.
 
 ### Wheezy Backport :
 
