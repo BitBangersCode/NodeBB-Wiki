@@ -4,6 +4,7 @@ The current Ubuntu guide is not completely compatible with Debian and there are 
 NodeBB requires these software to be installed :
 * Node.js at least 0.8 and greater
 * Redis, version 2.6 or greater
+* cURL installed, just do `sudo apt-get install curl` in order to install it
 
 ## Node.js installation
 
