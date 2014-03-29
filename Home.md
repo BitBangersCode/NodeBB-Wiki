@@ -10,7 +10,8 @@ The project's rough roadmap/version history can be found at [[Version History / 
 |----|------------|----------------|
 | [[Ubuntu|Installing NodeBB on Ubuntu]] | [Digital Ocean](http://burnaftercompiling.com/nodebb/setting-up-a-nodebb-forum-for-dummies/) (External) | [[Heroku|Installing NodeBB on Heroku]] |
 | [[SmartOS (Solaris)|Installing NodeBB on Joyent's SmartOS (Solaris)]] | | [[Cloud9|Installing NodeBB on Cloud 9]] |
-| [CentOS](https://blog.tommyparnell.com/installing-nodebb-on-centos-6-5/) (External) | | |
+| [CentOS](https://blog.tommyparnell.com/installing-nodebb-on-centos-6-5/) (External) | 
+| [[Debian|Installing NodeBB on Debian]] || |
 
 ## Configuring NodeBB
 
