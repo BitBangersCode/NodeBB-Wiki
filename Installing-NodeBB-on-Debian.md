@@ -97,7 +97,7 @@ $ sudo apt-get update
 
 Now, we have NodeJS installed and Redis ready to be installed, run this command for install the base software stack :
 ``` bash
-$ apt-get install redis-server imagemagick
+$ apt-get install redis-server imagemagick git
 ```
 
 Next clone this repository :
