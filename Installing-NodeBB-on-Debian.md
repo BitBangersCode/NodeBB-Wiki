@@ -112,7 +112,7 @@ Now we are going to install all dependencies for NodeBB via NPM :
 
 Install NodeBB by running the app with `--setup` flag :
 ``` bash
-./nodebb setup
+$ ./nodebb setup
 ```
 
 1. `URL of this installation` is either your public ip address or your domain name pointing to that ip address.  
@@ -124,7 +124,13 @@ Install NodeBB by running the app with `--setup` flag :
 
 And after all.. let's run the NodeBB forum
 ``` bash
-./nodebb start
+$ ./nodebb start
 ```
 
 **Note:** If you NodeBB or your server crash, your NodeBB instance will not reboot (snap), this is why you should take a look at the other way to start your NodeBB instance with helper programs such as `supervisor` and `forever`, just [take a look here](https://github.com/designcreateplay/NodeBB/wiki/How-to-run-NodeBB) it's simple as a click !
+
+## Extras, tips and Advice
+
+You should secure your NodeBB installation, [take a look here](https://github.com/designcreateplay/NodeBB#securing-nodebb).
+
+You should use Nginx in order to reverse proxy your NodeBB installation on the port 80, [take a look here](https://github.com/designcreateplay/NodeBB/wiki/Configuring-nginx-as-a-proxy-to-NodeBB)
