@@ -2,9 +2,14 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ## Upcoming Releases / Roadmap
 
+### v0.4.1
+
+* **New Languages** - Pirate English (en@pirate)
+* Better robot detection for registration
+
 ### v0.4.0 ([Notes](http://community.nodebb.org/topic/865/gotchas-for-v0-4-0))
 
-* **New Languages** - Polish (pl), Dutch (nl), Thai (th), Sardinian (sc)
+* **New Languages** - Polish (pl), Dutch (nl), Thai (th), Sardinian (sc), Persian (fa_IR)
 * [Plugins can now use LESS stylesheets. Developers are encouraged to use LESS instead of CSS.](https://github.com/designcreateplay/NodeBB/issues/1168)
 * [Daily Digest emails](https://github.com/designcreateplay/NodeBB/issues/326) - Sent *only* if you have unread notifications
 * [User Deletion](https://github.com/designcreateplay/NodeBB/issues/746)
