@@ -1,12 +1,14 @@
 NodeBB's periodic releases are located in the [Releases](https://github.com/designcreateplay/NodeBB/releases). These releases contain what is usually considered the most bug-free code, and is designed to be used on production-level instances of NodeBB.
 
-To obtain more recent fixes and features, you can also `git clone` the latest version directly from the repository, although its stability cannot be guaranteed. Core developers will attempt to ensure that every commit results in a working client, even if individual features may not be 100% complete.
+You can utilise git to install a specific version of NodeBB, and upgrade periodically as new releases are made.
+
+To obtain the latest fixes and features, you can also `git clone` the latest version directly from the repository (`master` branch), although its stability cannot be guaranteed. Core developers will attempt to ensure that every commit results in a working client, even if individual features may not be 100% complete.
 
 ***As always***, the NodeBB team is not responsible for any misadventures, loss of data, data corruption, or any other bad things that may arise due to a botched upgrade.
 
 ## Upgrade Path
 
-NodeBB's upgrade path is designed so that upgrading between versions is straightforward. NodeBB will provide upgrade compatibility (via the `--upgrade` flag) between the latest version of a lower branch and the latest version of the higher branch. For example, if `v0.2.2` is the latest version in the `v0.2.x` branch, you can switch to the `v0.3.x` branch and suffer no ill effects. Upgrading from `v0.2.0` to `v0.3.x` is not supported, and is liable to break.
+NodeBB's upgrade path is designed so that upgrading between versions is straightforward. NodeBB will provide upgrade compatibility (via the `--upgrade` flag) between the latest version of a lower branch and the latest version of the higher branch. For example, if `v0.2.2` is the latest version in the `v0.2.x` branch, you can switch to the `v0.3.x` branch and suffer no ill effects. Upgrading from `v0.2.0` to `v0.3.x` is not supported, and NodeBB will warn you when attempting to upgrade that you are not upgrading cleanly.
 
 ### Upgrading between patch revisions
 
@@ -14,7 +16,7 @@ NodeBB's upgrade path is designed so that upgrading between versions is straight
 
 Patch revisions contain bugfixes and other minor changes. Updating to the latest version of code for your specific version branch is all that is usually required.
 
-Execute steps 1 through 3.
+**Execute steps 1 through 3.**
 
 ### Upgrading between minor revisions
 
@@ -24,6 +26,7 @@ Minor revisions contain new features or substantial changes that are still backw
 
 Execute steps 1 through 4.
 
+<!--
 ### Upgrading between major revisions
 
 *e.g. v0.2.4 to v1.0.0*
@@ -31,14 +34,20 @@ Execute steps 1 through 4.
 Major revisions contain breaking changes that are done in a backwards incompatible manner. Complete rewrites of core functionality are not uncommon. In all cases, NodeBB will attempt to provide migration tools so that a transition is possible.
 
 Execute all of the steps.
+-->
 
 ## Upgrade Steps
 
-After upgrading between revisions (i.e. v0.0.4 to v0.0.5), it may be necessary to run the following upgrade steps to ensure that any data schema changes are properly upgraded as well:
+**Note**: After upgrading between revisions (i.e. v0.0.4 to v0.0.5), it may be necessary to run the following upgrade steps to ensure that any data schema changes are properly upgraded as well:
 
 ### 1. Shut down your forum
 
-While it is possible to upgrade NodeBB while it is running, it is definitely not recommended, particularly if it is an active forum.
+While it is possible to upgrade NodeBB while it is running, it is definitely not recommended, particularly if it is an active forum:
+
+``` bash
+$ cd /path/to/nodebb
+$ ./nodebb stop
+```
 
 ### 2. Back up your data
 
@@ -59,13 +68,13 @@ Uploaded images (avatars) are stored in /public/uploads. Feel free to back up th
 
 ### 3. Grab the latest and greatest code
 
-Navigate to your NodeBB: `$ cd /path/to/nodebb/instance`.
+Navigate to your NodeBB: `$ cd /path/to/nodebb`.
 
 If you are upgrading from a lower branch to a higher branch, switch branches as necessary. ***Make sure you are completely up-to-date on your current branch!***.
 
 For example, if upgrading from `v0.1.4` to `v0.2.0`:
 
-    $ git pull    # Grab the latest code from your current branch
+    $ git fetch    # Grab the latest code from your current branch
     $ git checkout v0.2.x
 
 If not upgrading between branches, skip the commands above.
