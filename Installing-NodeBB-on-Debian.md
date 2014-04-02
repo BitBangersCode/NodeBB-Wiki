@@ -8,90 +8,11 @@ NodeBB requires these software to be installed :
 
 ## Node.js installation
 
-Debian 7 and Debian 6 and older doesn't have `nodejs` packages included by default, but there are some solutions to install Node.js on your Debian distribution.
+Fedora is at the head for keeping packages updated and has Node.js already in the package manager.
 
-### Wheezy Backport :
-
-This solution is **ONLY for Debian 7**, simply run the following **as root** :
-``` bash
-$ echo "deb http://ftp.us.debian.org/debian wheezy-backports main" >> /etc/apt/sources.list
-$ apt-get update
+To install:
 ```
-
-To install Node.js + NPM, run this :
-``` bash
-$ apt-get install nodejs-legacy
-$ curl --insecure https://www.npmjs.org/install.sh | bash
-```
-
-The following install a Node.js version who is greater than 0.8 (at 29 March 2014 : 0.10.21)
-
-### Compiling from the source :
-
-This solution is for Debian 6 (Squeeze) and greater, in order to install NodeJS, run this **as root** :
-``` bash
-$ sudo apt-get install python g++ make checkinstall
-$ src=$(mktemp -d) && cd $src
-$ wget -N http://nodejs.org/dist/node-latest.tar.gz
-$ tar xzvf node-latest.tar.gz && cd node-v*
-$ ./configure
-$ fakeroot checkinstall -y --install=no --pkgversion $(echo $(pwd) | sed -n -re's/.+node-v(.+)$/\1/p') make -j$(($(nproc)+1)) install
-$ sudo dpkg -i node_*
-```
-
-## Get latest Software via DotDeb
-
-Dotdeb is a repository containing packages to turn your Debian boxes into powerful, stable and up-to-date LAMP servers.
-
-* Nginx,
-* PHP 5.4 and 5.3 (useful PHP extensions : APC, imagick, Pinba, xcache, Xdebug, XHpro..)
-* MySQL 5.5,
-* Percona toolkit,
-* Redis,
-* Zabbix,
-* Passenger…
-
-Dotdeb supports :
-
-* Debian 6.0 “Squeeze“ and 7 “Wheezy“
-* both amd64 and i386 architectures
-
-### Debian 7 (Wheezy) :
-
-For the complete DotDeb repositories :
-``` bash
-$ sudo echo 'deb http://packages.dotdeb.org wheezy all' >> /etc/apt/sources.list
-$ sudo echo 'deb-src http://packages.dotdeb.org wheezy all' >> /etc/apt/sources.list
-```
-
-After this, add the following GPC keys :
-``` bash
-$ wget http://www.dotdeb.org/dotdeb.gpg
-$ sudo apt-key add dotdeb.gpg
-```
-
-And update your package source :
-``` bash 
-$ sudo apt-get update
-```
-
-### Debian 6 (Squeeze)
-
-For the complete DotDeb repositories :
-``` bash
-$ sudo echo 'deb http://packages.dotdeb.org squeeze all' >> /etc/apt/sources.list
-$ sudo echo 'deb-src http://packages.dotdeb.org squeeze all' >> /etc/apt/sources.list
-```
-
-After this, add the following GPC keys :
-``` bash
-$ wget http://www.dotdeb.org/dotdeb.gpg
-$ sudo apt-key add dotdeb.gpg
-```
-
-And update your package source :
-``` bash 
-$ sudo apt-get update
+yum install nodejs
 ```
 
 ## Installing NodeBB
