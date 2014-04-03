@@ -1,4 +1,4 @@
-## Required Software
+### Required Software
 
 First, install the following programs:
 
