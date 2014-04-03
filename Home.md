@@ -28,7 +28,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 * [[Troubleshooting & FAQ|Troubleshooting-&-Frequently-Asked-Questions-(FAQ)]]
 * [Report a Bug](https://github.com/designcreateplay/NodeBB/issues)
 * [Ask on the NodeBB Community Forum](http://community.nodebb.org)
-* [Check Device Compatibility](https://docs.google.com/spreadsheet/ccc?key=0AjOOdeOEQEwidExKMEhZOWU4NTN4RGhrTGVsTFUzV0E&usp=sharing)
+* [Check Device Compatibility](https://docs.google.com/spreadsheet/pub?key=0AjOOdeOEQEwidExKMEhZOWU4NTN4RGhrTGVsTFUzV0E&single=true&gid=0&output=html)
 
 
 ## Customizing NodeBB
