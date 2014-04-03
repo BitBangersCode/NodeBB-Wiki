@@ -1,7 +1,8 @@
 First, install the following programs:
-https://windows.github.com/
-http://nodejs.org/
-http://sourceforge.net/projects/redis/files/redis-2.6.10/
+
+* https://windows.github.com/
+* http://nodejs.org/
+* http://sourceforge.net/projects/redis/files/redis-2.6.10/
 
 You may have to restart your computer.
 
