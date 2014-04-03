@@ -43,8 +43,12 @@ It's a bit of a pain to shutdown and restart NodeBB everytime you make changes. 
 
     npm install -g supervisor
 
-And then run NodeBB using this instead:
+Open up bash:
 
-    ./nodebb
+    bash
+
+And run NodeBB on "watch" mode:
+
+    ./nodebb watch
 
 It will launch NodeBB in development mode, and watch files that change and automatically restart your forum.
