@@ -38,9 +38,8 @@ function loadtinymce()
 
 
 
-</script>
-***
-`
+</script>`
+
 
 2. modify node_modules/nodebb-theme-vanilla/templates/composer.tpl
 hide toolbar:
@@ -127,4 +126,5 @@ loadtinymce()
         };`
 
 7. tar.gz file
+
 fixtinymce-20140404.tar.gz
