@@ -9,13 +9,19 @@ Start Redis Server (C:\Program Files (x86)\Redis\StartRedisServer.cmd)
 
 Open Git Shell, and type the following commands:
 
+Clone NodeBB repo:
+
     git clone https://github.com/designcreateplay/NodeBB.git
+
+Enter directory: 
 
     cd NodeBB
 
+Install dependencies:
+
     npm install
 
-Run NodeBB installation:
+Run interactive installation:
 
     node app.js
 
