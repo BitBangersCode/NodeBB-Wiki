@@ -3,7 +3,8 @@ Add some in "header.tpl"
 
 node_modules/nodebb-theme-lavender/templates/header.tpl
 
-`        <script>
+`
+        <script>
                 var RELATIVE_PATH = "{relative_path}";
         </script>
 
@@ -38,7 +39,8 @@ function loadtinymce()
 
 
 
-</script>`
+</script>
+`
 
 2. modify node_modules/nodebb-theme-vanilla/templates/composer.tpl
 hide toolbar:
