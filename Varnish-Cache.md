@@ -2,8 +2,8 @@ To be sure Varnish will work properly with NodeBB check that your configuration 
 
 ```varnish
 backend nodebb {
-  .host = "127.0.0.1"; # your app host
-  .port = "4567"; # your app port
+  .host = "127.0.0.1"; # your nodebb host
+  .port = "4567"; # your nodebb port
 }
 
 sub vcl_recv {
