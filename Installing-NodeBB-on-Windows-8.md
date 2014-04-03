@@ -12,9 +12,7 @@ You may have to restart your computer.
 
 Start Redis Server (C:\Program Files (x86)\Redis\StartRedisServer.cmd)
 
-Open Git Shell, and type the following commands:
-
-Clone NodeBB repo:
+Open Git Shell, and type the following commands. Clone NodeBB repo:
 
     git clone https://github.com/designcreateplay/NodeBB.git
 
