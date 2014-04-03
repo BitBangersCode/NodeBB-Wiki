@@ -12,6 +12,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 | [[SmartOS (Solaris)|Installing NodeBB on Joyent's SmartOS (Solaris)]] | | [[Cloud9|Installing NodeBB on Cloud 9]] |
 | [CentOS](https://blog.tommyparnell.com/installing-nodebb-on-centos-6-5/) (External) | 
 | [[Debian|Installing NodeBB on Debian]] || |
+| [[Windows 8|Installing NodeBB on Windows 8]] || |
 
 ## Configuring NodeBB
 
