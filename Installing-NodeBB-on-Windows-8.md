@@ -8,7 +8,7 @@ First, install the following programs:
 
 You may have to restart your computer.
 
-## Running NodeBB
+### Running NodeBB
 
 Start Redis Server (C:\Program Files (x86)\Redis\StartRedisServer.cmd)
 
@@ -39,7 +39,7 @@ And you're done! After the installation, run
 You can visit your forum at http://127.0.0.1:4567/
 
 
-## Developing on Windows
+### Developing on Windows
 
 It's a bit of a pain to shutdown and restart NodeBB everytime you make changes. First install supervisor:
 
