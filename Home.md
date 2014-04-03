@@ -19,7 +19,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 |----------|------------------|-------|
 | [[MongoDB|Installing NodeBB With MongoDB]] | [[Nginx Proxy|Configuring nginx as a proxy to NodeBB]] | [[How to run NodeBB]] |
 | | [[Apache Proxy|Configuring Apache as a proxy to NodeBB]] | [[Upgrading NodeBB]] |
-| | | [[Administrator Functions Outline]] |
+| | [[Varnish Cache]] | [[Administrator Functions Outline]] |
 | | | [[Enabling Social Network Logins]] |
 | | | [[Enabling Imgur Image Uploads]] |
 
