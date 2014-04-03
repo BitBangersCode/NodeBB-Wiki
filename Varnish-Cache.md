@@ -1,4 +1,4 @@
-In order to be sure Varnish will work properly with NodeBB check your ```/etc/varnish/default.vcl``` to make sure its optimized for **websockets**.
+To be sure Varnish will work properly with NodeBB check that your configuration ```/etc/varnish/default.vcl``` is optimized for **websockets**.
 
 ```varnish
 backend nodebb {
