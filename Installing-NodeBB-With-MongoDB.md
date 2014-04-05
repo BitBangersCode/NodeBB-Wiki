@@ -46,8 +46,8 @@ To add a new database called `nodebb`, type:
 
 To add a user to access the `nodebb` database, type:
 
-    > db.addUser( { username: "nodebb",
-    ...       password: "<Enter in a secure password>",
+    > db.addUser( { user: "nodebb",
+    ...       pwd: "<Enter in a secure password>",
     ...       roles: [ "userAdmin" ] } )
 
 **Note:** The role `userAdmin` gives all permissions to the user for that specific database.
