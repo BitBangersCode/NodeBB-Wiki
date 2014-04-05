@@ -1,4 +1,10 @@
-NodeBB supports integration for Facebook, Twitter, and Google out-of-the-box.
+NodeBB supports integration for Facebook, Twitter, and Google through third party plugins:
+
+* `npm install nodebb-plugin-sso-facebook`
+* `npm install nodebb-plugin-sso-twitter`
+* `npm install nodebb-plugin-sso-google`
+
+After installing and activating them, they require an API key in order to function:
 
 ## Facebook
 
