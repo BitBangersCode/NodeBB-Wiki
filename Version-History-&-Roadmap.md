@@ -4,8 +4,9 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ### v0.4.1
 
-* **New Languages** - Pirate English (en@pirate)
-* Better robot detection for registration
+* **New Languages** - Estonian (et), and just for fun, Pirate English (en@pirate)
+* [Better Groups handling and integration with Mentions plugin](https://github.com/designcreateplay/NodeBB/issues/1331)
+* Better robot detection for registration via Project Honey Pot plugin
 
 ### v0.4.0 ([Notes](http://community.nodebb.org/topic/865/gotchas-for-v0-4-0))
 
