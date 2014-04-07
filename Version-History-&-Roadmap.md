@@ -2,11 +2,31 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ## Upcoming Releases / Roadmap
 
-### v0.4.1
-
-* **New Languages** - Estonian (et), and just for fun, Pirate English (en@pirate)
+### 0.4.2
 * [Better Groups handling and integration with Mentions plugin](https://github.com/designcreateplay/NodeBB/issues/1331)
 * Better robot detection for registration via Project Honey Pot plugin
+
+### v0.4.1 ([Notes](https://github.com/designcreateplay/NodeBB/issues?direction=asc&milestone=19&page=1&state=closed))
+
+* **New Languages** - Estonian (et), and just for fun, Pirate English (en@pirate)
+* [Scrolling up will show a "Loading more Posts" indicator](https://github.com/designcreateplay/NodeBB/issues/1186)
+* [Widget](https://github.com/designcreateplay/NodeBB/issues/1304) [system](https://github.com/designcreateplay/NodeBB/issues/1312) [fixes](https://github.com/designcreateplay/NodeBB/issues/1313)
+* [Tweaks to how "Reply" and "Quote" buttons work](https://github.com/designcreateplay/NodeBB/issues/1316)
+* [`./nodebb reset` fleshed out into four separate commands: `plugins`, `themes`, `widgets`, or `all`](https://github.com/designcreateplay/NodeBB/issues/1317)
+* [A user's profile now contains a list of topics they have created](https://github.com/designcreateplay/NodeBB/issues/1318)
+* [Log files now always contained in `./logs`](https://github.com/designcreateplay/NodeBB/issues/1321)
+* [Fixed issue where a newly rendered post's options were reflective of the poster, and not of the viewer](https://github.com/designcreateplay/NodeBB/issues/1322)
+* [Fixed issue where the Bootswatch list wouldn't load if behind HTTPS](https://github.com/designcreateplay/NodeBB/issues/1325)
+* [Faster restarts](https://github.com/designcreateplay/NodeBB/issues/1328)
+* [Social Media share of the homepage should default to the forum brand first](https://github.com/designcreateplay/NodeBB/issues/1334)
+* [Fixed the user search page](https://github.com/designcreateplay/NodeBB/issues/1335)
+* [Username mentions less buggy](https://github.com/designcreateplay/NodeBB/issues/1339)
+* [SVGs now supported for category pictures](https://github.com/designcreateplay/NodeBB/pull/1344)
+* [When a user is deleted, they will also be immediately logged out](https://github.com/designcreateplay/NodeBB/issues/1346)
+* [Better options for marking "unread" messages as read](https://github.com/designcreateplay/NodeBB/issues/1353)
+* [Fixed broken Themes page if widget-essentials is not enabled](https://github.com/designcreateplay/NodeBB/issues/1358)
+
+## Version History
 
 ### v0.4.0 ([Notes](http://community.nodebb.org/topic/865/gotchas-for-v0-4-0))
 
@@ -26,8 +46,6 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 * [Chat modal now contains user status](https://github.com/designcreateplay/NodeBB/issues/1229)
 * [Better avatar cropping](https://github.com/designcreateplay/NodeBB/issues/1240)
 * [Notifications when posts are upvoted or favourited](https://github.com/designcreateplay/NodeBB/issues/1184)
-
-## Version History
 
 ### v0.3.2
 
