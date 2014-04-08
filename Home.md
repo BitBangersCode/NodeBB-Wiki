@@ -16,13 +16,13 @@ The project's rough roadmap/version history can be found at [[Version History / 
 
 ## Configuring NodeBB
 
-| Database | Web Server/Proxy | Other |
-|----------|------------------|-------|
-| [[MongoDB|Installing NodeBB With MongoDB]] | [[Nginx Proxy|Configuring nginx as a proxy to NodeBB]] | [[How to run NodeBB]] |
-| | [[Apache Proxy|Configuring Apache as a proxy to NodeBB]] | [[Upgrading NodeBB]] |
-| | [[Varnish Cache]] | [[Administrator Functions Outline]] |
-| | | [[Enabling Social Network Logins]] |
-| | | [[Enabling Imgur Image Uploads]] |
+| Database | Web Server/Proxy | Autostart | Other |
+|----------|------------------|-----------|-------|
+| [[MongoDB|Installing NodeBB With MongoDB]] | [[Nginx Proxy|Configuring nginx as a proxy to NodeBB]] | [[Upstart|Upstart Configuration]] | [[How to run NodeBB]] |
+| | [[Apache Proxy|Configuring Apache as a proxy to NodeBB]] | | [[Upgrading NodeBB]] |
+| | [[Varnish Cache]] | | [[Administrator Functions Outline]] |
+| | | | [[Enabling Social Network Logins]] |
+| | | | [[Enabling Imgur Image Uploads]] |
 
 ### Running into any problems?
 
