@@ -18,14 +18,16 @@ stop on runlevel [016]
 
 respawn
 
-setuid nobody
-setgid nogroup
+setuid {username}
+setgid {usergroup}
 
 script
     cd /path/to/your/nodebb
     ./nodebb start
 end script
 ```
+
+Replace `/path/to/your/nodebb`, `{username}`, and `{usergroup}` with the appropriate values.
 
 Then, save the file, and you can NodeBB will now automatically start on boot. You can also invoke this script on-demand by calling:
 
