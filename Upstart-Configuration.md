@@ -9,7 +9,7 @@ This article uses the [Upstart init daemon](http://en.wikipedia.org/wiki/Upstart
 *Note: The following instructions are intended to be run as the __root user__. Optionally, you can preface all of the commands with `sudo`*
 
 1. Navigate to `/etc/init`: `cd /etc/init`
-1. Create a new file called "nodebb". (Alternatively, you can call it "forum", or whatever you'd like)
+1. Create a new file called `nodebb.conf`. (Alternatively, you can call it "forum", or whatever you'd like)
 1. Paste the following into the file:
 
 ``` upstart
