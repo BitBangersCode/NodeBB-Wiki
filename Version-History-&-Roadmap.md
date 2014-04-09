@@ -6,7 +6,9 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 * [Better Groups handling and integration with Mentions plugin](https://github.com/designcreateplay/NodeBB/issues/1331)
 * Better robot detection for registration via Project Honey Pot plugin
 
-### v0.4.1 ([Notes](https://github.com/designcreateplay/NodeBB/issues?direction=asc&milestone=19&page=1&state=closed))
+## Version History
+
+### v0.4.1
 
 * **New Languages** - Estonian (et), and just for fun, Pirate English (en@pirate)
 * [Scrolling up will show a "Loading more Posts" indicator](https://github.com/designcreateplay/NodeBB/issues/1186)
@@ -25,8 +27,6 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 * [When a user is deleted, they will also be immediately logged out](https://github.com/designcreateplay/NodeBB/issues/1346)
 * [Better options for marking "unread" messages as read](https://github.com/designcreateplay/NodeBB/issues/1353)
 * [Fixed broken Themes page if widget-essentials is not enabled](https://github.com/designcreateplay/NodeBB/issues/1358)
-
-## Version History
 
 ### v0.4.0 ([Notes](http://community.nodebb.org/topic/865/gotchas-for-v0-4-0))
 
