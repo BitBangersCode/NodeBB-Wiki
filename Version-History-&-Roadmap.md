@@ -5,6 +5,7 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 ### 0.4.2
 * **New Language** - American English (en_US)
 * [Better Groups handling and integration with Mentions plugin](https://github.com/designcreateplay/NodeBB/issues/1331)
+* [User selectable languages](https://github.com/designcreateplay/NodeBB/issues/1013)
 * Better robot detection for registration via Project Honey Pot plugin
 
 ## Version History
