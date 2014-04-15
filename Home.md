@@ -21,7 +21,7 @@ The project's rough roadmap/version history can be found at [[Version History / 
 | Redis (default) | [[Nginx Proxy|Configuring nginx as a proxy to NodeBB]] | [[Upstart|Upstart Configuration]] | [[How to run NodeBB]] |
 | [[MongoDB|Installing NodeBB With MongoDB]]| [[Apache Proxy|Configuring Apache as a proxy to NodeBB]] | | [[Upgrading NodeBB]] |
 | [[LevelDB|Installing NodeBB With LevelDB]]| [[Varnish Cache]] | | [[Administrator Functions Outline]] |
-| | | | [[Enabling Social Network Logins]] |
+| [[Running a Secondary Database]]| | | [[Enabling Social Network Logins]] |
 | | | | [[Enabling Imgur Image Uploads]] |
 
 ### Running into any problems?
