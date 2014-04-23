@@ -8,110 +8,126 @@ There are two types of hooks, **filters**, and **actions**. Filters take an inpu
 
 ## Filters
 
-`filter:admin.create_routes`
+### `filter:admin.create_routes`
+
 **Allows plugins to define new routes in the ACP**
+
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/32990794ce7f1304655151eb1f11b169e525f901)
 
-`filter:admin.header_build`
+### `filter:admin.header_build`
+
 Allows plugins to create new navigation links in the ACP
+
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/2b07917020c9181ff15e6096012144f4a9c201d4)
 
-`filter:post.save`
+### `filter:post.save`
 
 **Argument(s)**: A post's content (markdown text)
 
 Executed whenever a post is created or edited, but before it is saved into the database.
 
-`filter:post.get`
+### `filter:post.get`
 
 **Argument(s)**: A post object (javascript Object)
 
 Executed whenever a post is retrieved, but before being sent to the client.
 
-`filter:category.build_sidebars`
+### `filter:category.build_sidebars`
+
 **Allows plugins to define custom sidebar blocks in the category view**
+
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/ca9c468edd94fcf36b93fbe145a25014a03513f2)
 
-`filter:footer.build`
+### `filter:footer.build`
 
 **Argument(s)**: An empty string
 
 HTML returned by each plugin will be inserted into the `<footer>` element on the page.
 
-`filter:header.build`
+### `filter:header.build`
+
 **Allows plugins to add new navigation links to NodeBB**
+
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/a63732027f9ba0bd54254c3b5c83f2a63f1ad531)
 
-`filter:post.parse`
+### `filter:post.parse`
 
 **Argument(s)**: A post or signature's raw text (String)
 
 Executed when a post or signature needs to be parsed from raw text to HTML (for output to client). This is useful if you'd like to use a parser to prettify posts, such as [Markdown](http://daringfireball.net/projects/markdown/), or [BBCode](http://www.bbcode.org/).
 
-`filter:posts.custom_profile_info`
+### `filter:posts.custom_profile_info`
+
 **Allows plugins to add custom profile information in the topic view's author post block**
+
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/bf677522a93ec4c48f6b0fa27ab1388f9eedba4c)
 
-`filter:register.check`
+### `filter:register.check`
+
 **Allows plugins to run checks on information and deny registration if necessary.**
+
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/cd4a204f999d5ef5bac4557f03d4c15abebfdce3)
 
-`filter:server.create_routes`
+### `filter:server.create_routes`
+
 **Allows plugins to define new routes in NodeBB**
+
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/2a4b228e19c939be1872ce6d9669ae03b98c853a)
 
-`filter:scripts.get`
+### `filter:scripts.get`
+
 **Allows to add client-side JS to the header and queue up for minification on production**
+
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/5357ad61db6c15bc25a7e836548a02fadd72e6b3)
 
-`filter:uploadImage`
+### `filter:uploadImage`
 
-`filter:uploadFile`
+### `filter:uploadFile`
 
-`filter:widgets.getAreas`
+### `filter:widgets.getAreas`
 
-`filter:widgets.getWidgets`
+### `filter:widgets.getWidgets`
 
-`filter:search.query`
+### `filter:search.query`
 
-`filter:post.parse`
+### `filter:post.parse`
 
-`filter:messaging.parse`
+### `filter:messaging.parse`
 
-`filter:sounds.get`
+### `filter:sounds.get`
 
-`filter:post.getPosts`
+### `filter:post.getPosts`
 
-`filter:post.getFields`
+### `filter:post.getFields`
 
-`filter:auth.init`
+### `filter:auth.init`
 
-`filter:composer.help`
+### `filter:composer.help`
 
-`filter:topic.thread_tools`
+### `filter:topic.thread_tools`
 
-`filter:user.create`
+### `filter:user.create`
 
-`filter:widget.render`
+### `filter:widget.render`
 
 
 
 ## Actions
 
-`action:app.load`
+### `action:app.load`
 
 **Argument(s)**: None
 
 Executed when NodeBB is loaded, used to kickstart scripts in plugins (i.e. cron jobs, etc)
 
-`action:page.load`
+### `action:page.load`
 
 **Argument(s)**: An object containing the following properties:
 
 * `template` - The template loaded
 * `url` - Path to the page (relative to the site's base url)
 
-`action:plugin.activate`
+### `action:plugin.activate`
 
 **Argument(s)**: A String containing the plugin's `id` (e.g. `nodebb-plugin-markdown`)
 
@@ -119,7 +135,7 @@ Executed whenever a plugin is activated via the admin panel.
 
 **Important**: Be sure to check the `id` that is sent in with this hook, otherwise your plugin will fire its registered hook method, even if your plugin was not the one that was activated.
 
-`action:plugin.deactivate`
+### `action:plugin.deactivate`
 
 **Argument(s)**: A String containing the plugin's `id` (e.g. `nodebb-plugin-markdown`)
 
@@ -127,28 +143,28 @@ Executed whenever a plugin is deactivated via the admin panel.
 
 **Important**: Be sure to check the `id` that is sent in with this hook, otherwise your plugin will fire its registered hook method, even if your plugin was not the one that was deactivated.
 
-`action:post.save`
+### `action:post.save`
 
 **Argument(s)**: A post object (javascript Object)
 
 Executed whenever a post is created or edited, after it is saved into the database.
 
-`action:email.send`
+### `action:email.send`
 
-`action:post.setField`
+### `action:post.setField`
 
-`action:topic.edit`
+### `action:topic.edit`
 
-`action:post.edit`
+### `action:post.edit`
 
-`action:post.delete`
+### `action:post.delete`
 
-`action:post.restore`
+### `action:post.restore`
 
-`action:config.set`
+### `action:config.set`
 
-`action:topic.save`
+### `action:topic.save`
 
-`action:user.create`
+### `action:user.create`
 
-`action:topic.delete`
+### `action:topic.delete`
