@@ -8,12 +8,6 @@ There are two types of hooks, **filters**, and **actions**. Filters take an inpu
 
 ## Filters
 
-### `filter:admin.create_routes`
-
-**Allows plugins to define new routes in the ACP**
-
-[View commit for more details](https://github.com/designcreateplay/NodeBB/commit/32990794ce7f1304655151eb1f11b169e525f901)
-
 ### `filter:admin.header_build`
 
 Allows plugins to create new navigation links in the ACP
@@ -55,12 +49,6 @@ Executed when a post or signature needs to be parsed from raw text to HTML (for 
 **Allows plugins to run checks on information and deny registration if necessary.**
 
 [View commit for more details](https://github.com/designcreateplay/NodeBB/commit/cd4a204f999d5ef5bac4557f03d4c15abebfdce3)
-
-### `filter:server.create_routes`
-
-**Allows plugins to define new routes in NodeBB**
-
-[View commit for more details](https://github.com/designcreateplay/NodeBB/commit/2a4b228e19c939be1872ce6d9669ae03b98c853a)
 
 ### `filter:scripts.get`
 
