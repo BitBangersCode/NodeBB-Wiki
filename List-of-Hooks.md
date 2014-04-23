@@ -32,18 +32,6 @@ Executed whenever a post is created or edited, but before it is saved into the d
 
 Executed whenever a post is retrieved, but before being sent to the client.
 
-### `filter:category.build_sidebars`
-
-**Allows plugins to define custom sidebar blocks in the category view**
-
-[View commit for more details](https://github.com/designcreateplay/NodeBB/commit/ca9c468edd94fcf36b93fbe145a25014a03513f2)
-
-### `filter:footer.build`
-
-**Argument(s)**: An empty string
-
-HTML returned by each plugin will be inserted into the `<footer>` element on the page.
-
 ### `filter:header.build`
 
 **Allows plugins to add new navigation links to NodeBB**
