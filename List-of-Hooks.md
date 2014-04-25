@@ -12,8 +12,6 @@ There are two types of hooks, **filters**, and **actions**. Filters take an inpu
 
 Allows plugins to create new navigation links in the ACP
 
-[View commit for more details](https://github.com/designcreateplay/NodeBB/commit/2b07917020c9181ff15e6096012144f4a9c201d4)
-
 ### `filter:post.save`
 
 **Argument(s)**: A post's content (markdown text)
