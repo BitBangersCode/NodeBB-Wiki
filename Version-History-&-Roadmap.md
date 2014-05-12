@@ -6,6 +6,13 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ## Version History
 
+### 0.4.3
+
+* [Custom content can be added to the post composer's "Help" tab](https://github.com/designcreateplay/NodeBB/issues/1149)
+* [Account locking after configurable # of unsuccessful login attemps](https://github.com/designcreateplay/NodeBB/issues/1453)
+* [Multiple flags auto-ban a user](https://github.com/designcreateplay/NodeBB/issues/1483)
+* 
+
 ### 0.4.2
 * **New Languages** - American English (en_US), Japanese (jp), Lithuanian (lt), Malay (ms)
 * [Better Groups handling and integration with Mentions plugin](https://github.com/designcreateplay/NodeBB/issues/1331)
