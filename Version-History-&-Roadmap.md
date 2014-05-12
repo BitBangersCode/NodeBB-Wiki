@@ -7,6 +7,11 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 * [Better Groups handling and integration with Mentions plugin](https://github.com/designcreateplay/NodeBB/issues/1331)
 * [User selectable languages](https://github.com/designcreateplay/NodeBB/issues/1013)
 * Better robot detection for registration via Project Honey Pot plugin
+* [Updating a theme's `package.json` no longer requires the theme to be re-activated](https://github.com/designcreateplay/NodeBB/issues/907)
+* [Languages can be selected by individual users](https://github.com/designcreateplay/NodeBB/issues/1013)
+* ["Username is typing" in chat window](https://github.com/designcreateplay/NodeBB/issues/1139)
+* [Email Digests](https://github.com/designcreateplay/NodeBB/issues/1249)
+* [Ability for plugins to use the sounds subsystem](https://github.com/designcreateplay/NodeBB/issues/1270)
 
 ## Version History
 
