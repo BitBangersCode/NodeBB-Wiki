@@ -2,6 +2,10 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ## Upcoming Releases / Roadmap
 
+
+
+## Version History
+
 ### 0.4.2
 * **New Languages** - American English (en_US), Japanese (jp), Lithuanian (lt), Malay (ms)
 * [Better Groups handling and integration with Mentions plugin](https://github.com/designcreateplay/NodeBB/issues/1331)
@@ -12,8 +16,16 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 * ["Username is typing" in chat window](https://github.com/designcreateplay/NodeBB/issues/1139)
 * [Email Digests](https://github.com/designcreateplay/NodeBB/issues/1249)
 * [Ability for plugins to use the sounds subsystem](https://github.com/designcreateplay/NodeBB/issues/1270)
-
-## Version History
+* [NodeBB won't automatically restart every time a plugin or theme is activated now](https://github.com/designcreateplay/NodeBB/issues/1351)
+* [Duplicate username handling](https://github.com/designcreateplay/NodeBB/issues/1372)
+* [LevelDB Support](https://github.com/designcreateplay/NodeBB/issues/1373)
+* [Ability to select multiple topics to move/delete/etc](https://github.com/designcreateplay/NodeBB/issues/1398)
+* [Guest posting](https://github.com/designcreateplay/NodeBB/issues/1410) [problems resolved](https://github.com/designcreateplay/NodeBB/issues/1412)
+* [.getTeaser() endpoint](https://github.com/designcreateplay/NodeBB/issues/1422)
+* [Plugins can now also be installed/removed directly from the ACP](https://github.com/designcreateplay/NodeBB/issues/1426)
+* [Gravatar Fallbacks](https://github.com/designcreateplay/NodeBB/issues/1432)
+* [When you create a new topic, you will be sent there](https://github.com/designcreateplay/NodeBB/issues/1439)
+* [Modals can now be resized](https://github.com/designcreateplay/NodeBB/issues/1472)
 
 ### v0.4.1
 
