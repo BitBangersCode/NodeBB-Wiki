@@ -8,10 +8,14 @@ To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading 
 
 ### 0.4.3
 
+This release is a security update that addresses an issue affecting all 0.4.x versions of NodeBB. Administrators are advised to update as soon as possible.
+
 * [Custom content can be added to the post composer's "Help" tab](https://github.com/designcreateplay/NodeBB/issues/1149)
 * [Account locking after configurable # of unsuccessful login attemps](https://github.com/designcreateplay/NodeBB/issues/1453)
 * [Multiple flags auto-ban a user](https://github.com/designcreateplay/NodeBB/issues/1483)
-* 
+* [Better handling of access to pages that require login](https://github.com/designcreateplay/NodeBB/issues/1495)
+* [Daily digest emails now opt-in instead of opt-out](https://github.com/designcreateplay/NodeBB/issues/1499)
+* [Tweaked avatar resizing](https://github.com/designcreateplay/NodeBB/issues/1515)
 
 ### 0.4.2
 * **New Languages** - American English (en_US), Japanese (jp), Lithuanian (lt), Malay (ms)
