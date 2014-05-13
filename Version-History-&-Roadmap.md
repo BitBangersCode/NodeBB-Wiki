@@ -1,4 +1,4 @@
-To upgrade your NodeBB, please follow the upgrade steps provided at [[Upgrading NodeBB]].
+To upgrade your NodeBB, please follow the upgrade steps provided in [the upgrade documentation](https://docs.nodebb.org/en/latest/upgrading/index.html).
 
 ## Upcoming Releases / Roadmap
 
