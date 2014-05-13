@@ -1,7 +1,5 @@
-### Hi! We've since migrated our wiki over to a standalone documentation portal found at http://docs.nodebb.org/
+### Hi! We've since migrated our wiki over to a standalone documentation portal found at https://docs.nodebb.org/
 **Don't forget to visit our community forums at http://community.nodebb.org**
-
-Welcome to the NodeBB wiki! We'll try to keep this wiki up-to-date regarding various aspects of NodeBB
 
 Report any issues to this project's [issue tracker](https://github.com/designcreateplay/NodeBB/issues).
 
