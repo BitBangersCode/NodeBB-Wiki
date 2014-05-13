@@ -1,5 +1,5 @@
 ### Hi! We've since migrated our wiki over to a standalone documentation portal found at http://docs.nodebb.org/
-**Don't forget to visit our community forums at http://community.nodebb.org** 
+**Don't forget to visit our community forums at http://community.nodebb.org**
 
 Welcome to the NodeBB wiki! We'll try to keep this wiki up-to-date regarding various aspects of NodeBB
 
@@ -7,51 +7,7 @@ Report any issues to this project's [issue tracker](https://github.com/designcre
 
 The project's rough roadmap/version history can be found at [[Version History / Roadmap|Version-History-&-Roadmap]]
 
-## Installing NodeBB
-
-| OS | Cloud Host | Cloud Provider |
-|----|------------|----------------|
-| [[Ubuntu|Installing NodeBB on Ubuntu]] | [Digital Ocean](http://burnaftercompiling.com/nodebb/setting-up-a-nodebb-forum-for-dummies/) (External) | [[Heroku|Installing NodeBB on Heroku]] |
-| [[SmartOS (Solaris)|Installing NodeBB on Joyent's SmartOS (Solaris)]] | | [[Cloud9|Installing NodeBB on Cloud 9]] |
-| [CentOS](https://blog.tommyparnell.com/installing-nodebb-on-centos-6-5/) (External) | 
-| [[Debian|Installing NodeBB on Debian]] || |
-| [[Windows 8|Installing NodeBB on Windows 8]] || |
-
-## Configuring NodeBB
-
-| Database | Web Server/Proxy | Autostart | Other |
-|----------|------------------|-----------|-------|
-| Redis (default) | [[Nginx Proxy|Configuring nginx as a proxy to NodeBB]] | [[Upstart|Upstart Configuration]] | [[How to run NodeBB]] |
-| [[MongoDB|Installing NodeBB With MongoDB]]| [[Apache Proxy|Configuring Apache as a proxy to NodeBB]] | | [[Upgrading NodeBB]] |
-| [[LevelDB|Installing NodeBB With LevelDB]]| [[Varnish Cache]] | | [[Administrator Functions Outline]] |
-| [[Running a Secondary Database]]| | | [[Enabling Social Network Logins]] |
-| | | | [[Enabling Imgur Image Uploads]] |
-
-### Running into any problems?
-
-* [[Troubleshooting & FAQ|Troubleshooting-&-Frequently-Asked-Questions-(FAQ)]]
-* [Report a Bug](https://github.com/designcreateplay/NodeBB/issues)
-* [Ask on the NodeBB Community Forum](http://community.nodebb.org)
-* [Check Device Compatibility](https://docs.google.com/spreadsheet/pub?key=0AjOOdeOEQEwidExKMEhZOWU4NTN4RGhrTGVsTFUzV0E&single=true&gid=0&output=html)
-
-
-## Customizing NodeBB
-### Plugins and Widgets
-* [[Widgets System]]
-* [[Writing Plugins for NodeBB]]
-* [Developing with Grunt and Coffee Script](https://github.com/frissdiegurke/nodebb-grunt-development)
-
-
-### Theming NodeBB
-* [[Creating a new NodeBB Theme]]
-* [[Templates System]]
-* [NodeBB Hands-On Theming Guide, Part 1](http://burnaftercompiling.com/nodebb/nodebb-hands-on-theming-guide-part-1/)
-
-### Contributing to NodeBB Core
-
-* [[Contributor Style Guide]]
-* [[How to build a new Admin Page]]
-
+----
 
 ## Helping out the NodeBB Project
 
