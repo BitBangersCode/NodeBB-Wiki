@@ -2,7 +2,9 @@ To upgrade your NodeBB, please follow the upgrade steps provided in [the upgrade
 
 ## Upcoming Releases / Roadmap
 
+### 0.5.0
 
+* **New Languages** - Korean (ko)
 
 ## Version History
 
