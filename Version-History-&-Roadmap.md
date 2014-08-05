@@ -4,7 +4,42 @@ To upgrade your NodeBB, please follow the upgrade steps provided in [the upgrade
 
 ### 0.5.0
 
-* **New Languages** - Korean (ko)
+* **New Languages** - Korean (ko), Romanian (ro)
+* [Privilege system expanded to allow groups and finer-grained controls](https://github.com/NodeBB/NodeBB/issues/933)
+* [Privilege system optimizations](https://github.com/NodeBB/NodeBB/issues/1518)
+* ["Guests" are now a system group](https://github.com/NodeBB/NodeBB/issues/1282)
+* [Install process no longer needs to ask for port usage](https://github.com/NodeBB/NodeBB/issues/1552) -- will infer from given arugments
+* [Tagging system](https://github.com/NodeBB/NodeBB/issues/1556)
+* ~~[Groups can now be mentioned](https://github.com/NodeBB/NodeBB/issues/1331)~~
+* [Groups have their own pages](https://github.com/NodeBB/NodeBB/issues/1563)
+* [Themes can now overwrite the home page route](https://github.com/NodeBB/NodeBB/issues/1586)
+* [Custom CSS is now minified as well](https://github.com/NodeBB/NodeBB/issues/1476)
+* [Plugins can now specify compatibility versions](https://github.com/NodeBB/NodeBB/issues/1437)
+* [Development mode provides source map](https://github.com/NodeBB/NodeBB/issues/1609)
+* [Verification email can be resent](https://github.com/NodeBB/NodeBB/issues/1635)
+* [New hook for image post-processing](https://github.com/NodeBB/NodeBB/issues/1463)
+* [Custom Javascript (like custom CSS)](https://github.com/NodeBB/NodeBB/issues/1641)
+* [Ability to purge posts](https://github.com/NodeBB/NodeBB/issues/1281)
+* [Enhancements to group details modal](https://github.com/NodeBB/NodeBB/issues/1678)
+* [Usability enhancements to Users page in ACP](https://github.com/NodeBB/NodeBB/issues/1311)
+* [Notifications system can hold more than just `text` now](https://github.com/NodeBB/NodeBB/issues/1720)
+* [Composer live preview instead of tabbed interface](https://github.com/NodeBB/NodeBB/issues/1717) ([Addendum](https://github.com/NodeBB/NodeBB/issues/1719))
+* [Paginator buttons can now take you to the top and bottom of the topic, not just page by page](https://github.com/NodeBB/NodeBB/issues/1730)
+* [Emails are now translatable](https://github.com/NodeBB/NodeBB/issues/1759)
+* [Express 4.0 compatibility](https://github.com/NodeBB/NodeBB/issues/1378)
+* [Plugin `scripts` can be a directory now](https://github.com/NodeBB/NodeBB/issues/1729)
+* [A special composer is sent to mobile clients](https://github.com/NodeBB/NodeBB/issues/1657)
+* [A dedicated route/page for chats](https://github.com/NodeBB/NodeBB/issues/1788)
+* [Widgets are now loaded with the rest of the page, not after. SEO++](https://github.com/NodeBB/NodeBB/issues/1428)
+* [Revision to email behaviour, daily digests will be sent out for all subscribed users even if they have no new notifications](https://github.com/NodeBB/NodeBB/issues/1813)
+* [Topic post sorting](https://github.com/NodeBB/NodeBB/issues/450)
+* [Group name changing](https://github.com/NodeBB/NodeBB/issues/1883)
+* [Ability to not show the site title, even if defined](https://github.com/NodeBB/NodeBB/issues/1519)
+* [A new type of hook: `static`](https://github.com/NodeBB/NodeBB/issues/1812)
+* [Optimising the minification step when NodeBB starts](https://github.com/NodeBB/NodeBB/issues/1910)
+* [Reducing duplicates in notifications, esp. involving plugins](https://github.com/NodeBB/NodeBB/issues/1375)
+* [Allowing admins to change the domain that web sockets are sent to/from](https://github.com/NodeBB/NodeBB/issues/1916)
+* [Plugin page now shows "For more information" link for all plugins, not just installed ones](https://github.com/NodeBB/NodeBB/issues/1926)
 
 ## Version History
 
