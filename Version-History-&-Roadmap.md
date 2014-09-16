@@ -40,6 +40,14 @@ To upgrade your NodeBB, please follow the upgrade steps provided in [the upgrade
 * [Reducing duplicates in notifications, esp. involving plugins](https://github.com/NodeBB/NodeBB/issues/1375)
 * [Allowing admins to change the domain that web sockets are sent to/from](https://github.com/NodeBB/NodeBB/issues/1916)
 * [Plugin page now shows "For more information" link for all plugins, not just installed ones](https://github.com/NodeBB/NodeBB/issues/1926)
+* [User.getUsersData can now be modified via hook](https://github.com/NodeBB/NodeBB/issues/1939)
+* [Recent Searches Widget](https://github.com/NodeBB/NodeBB/issues/1853)
+* [NodeBB Setup will no longer overwrite the active theme](https://github.com/NodeBB/NodeBB/issues/1956)
+* [Ability to send a test email](https://github.com/NodeBB/NodeBB/issues/1837)
+* [NodeBB now pinnable to Windows 8/Phone](https://github.com/NodeBB/NodeBB/issues/1633)
+* [Link to registration now present in login page](https://github.com/NodeBB/NodeBB/issues/1627)
+* [Chat message notifications now appear in the chat dropdown](https://github.com/NodeBB/NodeBB/issues/1674)
+* [Account confirmation emails can be resent](https://github.com/NodeBB/NodeBB/issues/1694)
 
 ## Version History
 
