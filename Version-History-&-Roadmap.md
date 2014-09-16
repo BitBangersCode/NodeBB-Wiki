@@ -2,6 +2,33 @@ To upgrade your NodeBB, please follow the upgrade steps provided in [the upgrade
 
 ## Upcoming Releases / Roadmap
 
+### 0.5.1
+
+* [Moved topics/posts send a notification to the owner](https://github.com/NodeBB/NodeBB/issues/1970)
+* [Password hashing/comparison no longer blocks the main thread](https://github.com/NodeBB/NodeBB/issues/1976)
+* [Avatar size restrictions can now be set via ACP](https://github.com/NodeBB/NodeBB/issues/1974)
+* [Notification sent when you gain a new follower](https://github.com/NodeBB/NodeBB/issues/1989)
+* [ACP ability to reset an account lockout](https://github.com/NodeBB/NodeBB/issues/1971)
+* [`/popular` now can show the most popular posts of all time](https://github.com/NodeBB/NodeBB/issues/1964)
+* [Composer category dropdown](https://github.com/NodeBB/NodeBB/issues/1948)
+* [Ability to reduce the number of topics returned in `/unread`, `/popular`, and `/recent`](https://github.com/NodeBB/NodeBB/issues/1936)
+* [Tag colours!](https://github.com/NodeBB/NodeBB/issues/1995)
+* [Clicking on an image in a post will open that image in a new tab](https://github.com/NodeBB/NodeBB/issues/1930)
+* [Ability for users to delete/close their accounts](https://github.com/NodeBB/NodeBB/issues/1284)
+* [Tag limitations](https://github.com/NodeBB/NodeBB/issues/1996)
+* [Ability to ignore categories](https://github.com/NodeBB/NodeBB/issues/1742)
+* [Group badges go to the group page](https://github.com/NodeBB/NodeBB/issues/1955)
+* [Replying to a topic automatically subscribes you to that topic](https://github.com/NodeBB/NodeBB/issues/1369)
+* [ACP ability to set a minimum threshold required for flagging posts](https://github.com/NodeBB/NodeBB/issues/2028)
+* [Disabling of downvoting](https://github.com/NodeBB/NodeBB/issues/1934)
+* [New "Reload" ability -- re-compiles and re-minifies client-side assets and templates](https://github.com/NodeBB/NodeBB/issues/2011)
+* [In-Topic searching](https://github.com/NodeBB/NodeBB/issues/1800)
+* [Zero-second restarting](https://github.com/NodeBB/NodeBB/issues/2012)
+* [Basic support for subcategories](https://github.com/NodeBB/NodeBB/issues/1299) (also [this](https://github.com/NodeBB/NodeBB/issues/2080))
+* [Ability to show more recent chats](https://github.com/NodeBB/NodeBB/issues/2053)
+* [Recent Posts in a user's profile can now scroll](https://github.com/NodeBB/NodeBB/issues/2089)
+
+## Version History
 ### 0.5.0
 
 * **New Languages** - Korean (ko), Romanian (ro)
@@ -48,8 +75,6 @@ To upgrade your NodeBB, please follow the upgrade steps provided in [the upgrade
 * [Link to registration now present in login page](https://github.com/NodeBB/NodeBB/issues/1627)
 * [Chat message notifications now appear in the chat dropdown](https://github.com/NodeBB/NodeBB/issues/1674)
 * [Account confirmation emails can be resent](https://github.com/NodeBB/NodeBB/issues/1694)
-
-## Version History
 
 ### 0.4.3
 
