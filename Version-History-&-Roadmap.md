@@ -2,6 +2,12 @@ To upgrade your NodeBB, please follow the upgrade steps provided in [the upgrade
 
 ## Upcoming Releases / Roadmap
 
+#### 0.5.2
+
+*TBD*
+
+## Version History
+
 ### 0.5.1
 
 * [Moved topics/posts send a notification to the owner](https://github.com/NodeBB/NodeBB/issues/1970)
@@ -27,8 +33,25 @@ To upgrade your NodeBB, please follow the upgrade steps provided in [the upgrade
 * [Basic support for subcategories](https://github.com/NodeBB/NodeBB/issues/1299) (also [this](https://github.com/NodeBB/NodeBB/issues/2080))
 * [Ability to show more recent chats](https://github.com/NodeBB/NodeBB/issues/2053)
 * [Recent Posts in a user's profile can now scroll](https://github.com/NodeBB/NodeBB/issues/2089)
+* [Clicking on the confirmation alert when forking a topic will take you to the new topic](https://github.com/NodeBB/NodeBB/issues/2086)
+* [Widgets scalability updates](https://github.com/NodeBB/NodeBB/issues/2062)
+* [Recent post data is now shown in subcategory object hash](https://github.com/NodeBB/NodeBB/issues/2088)
+* [Opening `/chats` route as guest will prompt a login](https://github.com/NodeBB/NodeBB/issues/2096)
+* [Ability to load older chats](https://github.com/NodeBB/NodeBB/issues/2052)
+* [Searches can now contain the `/` character](https://github.com/NodeBB/NodeBB/issues/2067)
+* [Better reloader handling](https://github.com/NodeBB/NodeBB/issues/2108) (also [this](https://github.com/NodeBB/NodeBB/issues/2149))
+* [**Multi-Core support via cluster module**](https://github.com/NodeBB/NodeBB/issues/1983)
+* [If NodeBB can't find the "templates" directory defined in a theme, it will try `templates/` first before falling back to vanilla](https://github.com/NodeBB/NodeBB/issues/2084)
+* [Favouring Redis for session and socket.io pub/sub handing when applicable](https://github.com/NodeBB/NodeBB/issues/2097)
+* [Ability to be notified via email when a new chat message is received](https://github.com/NodeBB/NodeBB/issues/2098)
+* [CSRF is now only included on pages that do POSTs](https://github.com/NodeBB/NodeBB/issues/2082)
+* [Remote pictures can be linked to as an avatar](https://github.com/NodeBB/NodeBB/issues/1935)
+* [Cold load performance upgrades](https://github.com/NodeBB/NodeBB/issues/2164)
+* [Sending of chat messages will no longer make a sound](https://github.com/NodeBB/NodeBB/issues/1959)
+* [If custom css is not defined but used, NodeBB no longer crashes](https://github.com/NodeBB/NodeBB/issues/2152)
+* [Entering a topic requiring a login will return you there afterwards](https://github.com/NodeBB/NodeBB/issues/2087)
+* [Better log rotation](https://github.com/NodeBB/NodeBB/issues/2185)
 
-## Version History
 ### 0.5.0
 
 * **New Languages** - Korean (ko), Romanian (ro)
