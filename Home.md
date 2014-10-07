@@ -1,9 +1,13 @@
-### Hi! We've since migrated our wiki over to a standalone documentation portal found at https://docs.nodebb.org/
-**Don't forget to visit our community forums at http://community.nodebb.org**
+# NodeBB Developer Wiki
 
-Report any issues to this project's [issue tracker](https://github.com/designcreateplay/NodeBB/issues).
+Welcome to the NodeBB Developer Wiki. The vast majority of documentation can be found at our [documentation portal - https://docs.nodebb.org](https://docs.nodebb.org/).
 
-The project's rough roadmap/version history can be found at [[Version History / Roadmap|Version-History-&-Roadmap]]
+Questions and comments? Please visit our community forums at https://community.nodebb.org. Report any issues to this project's [issue tracker](https://github.com/NodeBB/NodeBB/issues).
+
+## Table of Contents
+
+* [[Version History / Roadmap|Version-History-&-Roadmap]]
+* [[Plugin Hooks]]
 
 ----
 
