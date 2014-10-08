@@ -1,15 +1,4 @@
-# Available Hooks
-
-The following is a list of all hooks present in NodeBB. This list is intended to guide developers who are looking to write plugins for NodeBB. For more information, please consult [Writing Plugins for NodeBB](https://docs.nodebb.org/en/latest/plugins/create.html).
-
-There are three types of hooks, **filters**, **actions**, and **static**.
-
-* Filters take an input (provided as a single argument), parse it in some way, and return the changed value.
-* Actions take multiple inputs, and execute actions based on the inputs received. Actions do not return anything.
-* Static hooks take an input, execute actions based on the inputs received, and executes a callback when it is finished. Anything returned in the callback is ignored.
-
-**Important**: This list is by no means exhaustive. Hooks are added on an as-needed basis (or if we can see a potential use case ahead of time), and all requests to add new hooks to NodeBB should be sent to us via the [issue tracker](https://github.com/NodeBB/NodeBB/issues).
-
+[Please consult our documentation for information on how to build plugins](https://docs.nodebb.org/en/latest/plugins/create.html)
 
 ## Filters
 
