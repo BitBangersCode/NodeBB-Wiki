@@ -8,6 +8,7 @@ Questions and comments? Please visit our community forums at https://community.n
 
 * [[Version History / Roadmap|Version-History-&-Roadmap]]
 * [[Plugin Hooks]]
+* [[Client Side Hooks]]
 
 ----
 
