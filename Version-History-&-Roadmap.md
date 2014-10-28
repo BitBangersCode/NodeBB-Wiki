@@ -2,11 +2,35 @@ To upgrade your NodeBB, please follow the upgrade steps provided in [the upgrade
 
 ## Upcoming Releases / Roadmap
 
-#### 0.5.2
+#### 0.6.0
 
 *TBD*
 
 ## Version History
+
+### 0.5.3
+
+* Bugfixes and usability fixes
+* [Sitemap now i18n compatible](https://github.com/NodeBB/NodeBB/issues/2287)
+* [New Responsible Disclosure instructions](https://github.com/NodeBB/NodeBB/issues/2280)
+* [Uploaded files can be made private (registered users only)](https://github.com/NodeBB/NodeBB/issues/2295)
+* [Administrators always have access to all categories, even if the Group Permissions don't allow it](https://github.com/NodeBB/NodeBB/issues/2279)
+
+### 0.5.2
+
+**Note**: v0.5.2 contains a security update, all NodeBB owners are encouraged to update as soon as possible.
+
+* [Updates to the new ACP Graph code](https://github.com/NodeBB/NodeBB/issues/2202)
+* [Listing of banned users](https://github.com/NodeBB/NodeBB/issues/2133)
+* [Ability to read the NodeBB log from the ACP](https://github.com/NodeBB/NodeBB/issues/2175)
+* [Multiple tag editing](https://github.com/NodeBB/NodeBB/issues/2223)
+* [User emails can be validated via ACP](https://github.com/NodeBB/NodeBB/issues/2213)
+* [Full names can now be shown/hidden](https://github.com/NodeBB/NodeBB/issues/2195)
+* [A user's profile now shows what groups they belong to](https://github.com/NodeBB/NodeBB/issues/2233)
+* [All posts that have been flagged can now be reviewed in the ACP](https://github.com/NodeBB/NodeBB/issues/2132)
+* [Better organisation of the `public/uploads` folder](https://github.com/NodeBB/NodeBB/issues/2157)
+* [Ability to specify a URL for imgur uploads](https://github.com/NodeBB/NodeBB/issues/2170)
+* [Maintenance Mode setting](https://github.com/NodeBB/NodeBB/issues/2099)
 
 ### 0.5.1
 
