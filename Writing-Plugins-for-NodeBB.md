@@ -1,5 +1,6 @@
 **plugin.json**
 
+````
 {
       "id": "nodebb-plugin-youtube"
     , "name": "NodeBB YouTube Plugin"
@@ -14,7 +15,7 @@
         }
     ]
 }
-
+````
 **library.js**
 
 /*
