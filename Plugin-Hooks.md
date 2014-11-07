@@ -38,12 +38,19 @@ Executed whenever a post is retrieved, but before being sent to the client.
 **Allows plugins to add new elements to the registration form. At the moment, the only one supported is `data.captcha`**
 
 
-### filter:post.parse
+### filter:parse.post
 
-**Argument(s)**: A post or signature's raw text (String)
+**Argument(s)**: A post data object and the uid of the user making the call
 
-Executed when a post or signature needs to be parsed from raw text to HTML (for output to client). This is useful if you'd like to use a parser to prettify posts, such as [Markdown](http://daringfireball.net/projects/markdown/), or [BBCode](http://www.bbcode.org/).
+Executed when a post needs to be parsed from raw text to HTML (for output to client). This is useful if you'd like to use a parser to prettify posts, such as [Markdown](http://daringfireball.net/projects/markdown/), or [BBCode](http://www.bbcode.org/).
 
+### filter:parse.signature
+
+**Argument(s)**: A user data object and the uid of the user making the call
+
+### filter:parse.raw
+
+**Argument(s)**: A single string argument to be parsed
 
 ### filter:posts.custom_profile_info
 
@@ -84,9 +91,6 @@ This is the user object found in any post array. It's a smaller subset of the fu
 
 
 ### filter:search.query
-
-
-### filter:post.parse
 
 
 ### filter:messaging.save
