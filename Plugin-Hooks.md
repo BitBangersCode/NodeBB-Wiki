@@ -10,7 +10,7 @@ Allows plugins to create new navigation links in the ACP
 
 ### filter:post.save
 
-**Argument(s)**: A post's content (markdown text)
+**Argument(s)**: A post data object
 
 Executed whenever a post is created or edited, but before it is saved into the database.
 
