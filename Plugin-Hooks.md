@@ -313,7 +313,7 @@ Parameters: fromUid, toUid
 
 ### action:user.set
 
-Parameters: field (str), value, type ('set', 'increment', or 'decrement')
+Parameters: {field: field (str), value: value, type:type ('set', 'increment', or 'decrement')}
 Useful for things like awarding badges or achievements after a user has reached some value (ex. 100 posts)
 
 
