@@ -30,10 +30,10 @@ Executed whenever a post is retrieved, but before being sent to the client.
 ### filter:register.build
 
 **Argument(s)**:
-
+`{req: req, res: res, templateData: data}`
  * `req` the express request object (javascript Object)
  * `res` the express response object (javascript Object)
- * `data` the data passed to the template (javascript Object)
+ * `templateData` the data passed to the template (javascript Object)
 
 **Allows plugins to add new elements to the registration form. At the moment, the only one supported is `data.captcha`**
 
