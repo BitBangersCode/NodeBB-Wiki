@@ -65,7 +65,7 @@ This is the user object found in any post array. It's a smaller subset of the fu
 ### filter:register.check
 
 **Argument(s)**:
-
+{req: req, res: res, userData: data}
  * `req` the express request object (javascript Object)
  * `res` the express response object (javascript Object)
  * `userData` the user data parsed from the form
