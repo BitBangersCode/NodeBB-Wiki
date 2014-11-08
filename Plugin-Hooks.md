@@ -179,6 +179,11 @@ Allows you to add custom ajaxification rules in the `api/get_templates_listing` 
 An object consisting of a `uidsTo` array, a `uidFrom` integer, and a `type` ("newPost" or "newTopic". Useful for modifying who gets notifications of new posts (ex: ignore lists, etc).
 
 
+### filter:category.get
+
+**Argument(s)**:
+ {category: category, uid: uid}
+
 
 ## Actions
 
