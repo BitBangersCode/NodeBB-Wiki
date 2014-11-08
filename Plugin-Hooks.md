@@ -155,8 +155,9 @@ Allows you to append custom fields to the newly created user, ex. mobileNumber
 ### filter:register.complete
 
 **Argument(s)**:
+{uid: uid, referrer: req.body.referrer}
  * `uid` The new user id (javascript Number)
- * `destination` The referral url (String)
+ * `referrer` The referral url (String)
 
 Set the post-registration destination, or do post-register tasks here.
 
