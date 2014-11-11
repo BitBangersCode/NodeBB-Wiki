@@ -274,7 +274,14 @@ Object: tid, fromCid, toCid, uid
 
 
 ### action:post.delete
+Argument: *String* `pid` Post Index
 
+Called when deleting a post
+
+### action:post.purge
+Argument: *String* `pid` Post Index
+
+Called when purging a post
 
 ### action:post.restore
 
@@ -292,7 +299,14 @@ Executed whenever a notification is pushed to a user.
 
 
 ### action:topic.delete
+Argument: *String* `tid` Topic Index
 
+Called when deleting a topic
+
+### action:topic.purge
+Argument: *String* `tid` Topic Index
+
+Called when purging a topic
 
 ### action:user.create
 
