@@ -183,7 +183,10 @@ An object consisting of a `uidsTo` array, a `uidFrom` integer, and a `type` ("ne
 ### filter:category.get
 
 **Argument(s)**:
- {category: category, uid: uid}
+* *Object*, containing:
+    * `category`: *Object*
+    * `uid`: *Number*
+    * `cid`: *Number*, if applicable
 
 
 ## Actions
