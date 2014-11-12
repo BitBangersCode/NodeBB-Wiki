@@ -182,12 +182,38 @@ An object consisting of a `uidsTo` array, a `uidFrom` integer, and a `type` ("ne
 
 ### filter:category.get
 
-**Argument(s)**:
 * *Object*, containing:
     * `category`: *Object*
     * `uid`: *Number*
     * `cid`: *Number*, if applicable
 
+Fired when a category is retrieved.
+
+### filter:category.topics.get
+
+Fired *before* a category retrieves a listing of topics
+
+* *Object*, containing:
+    * `cid`
+    * `start` The index to start at (e.g. `0`)
+    * `end` The end index (e.g. `19`, for a total of 20)
+    * `uid` The calling user id
+    * `targetUid` The requested uid filter, if applicable
+
+### filter:privileges.topics.get
+
+Fired when privileges are requested prior to topic access
+
+* *Object*, containing:
+    * `uid` The requesting user id
+    * `tid` The requested topic id
+    * `topics:reply` Reply privilege
+    * `read` Access and read privilege
+    * `view_thread_tools`
+    * `editable`
+    * `deletable`
+    * `view_deleted`
+    * `disabled`
 
 ## Actions
 
