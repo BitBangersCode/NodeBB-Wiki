@@ -1,5 +1,12 @@
 [Please consult our documentation for information on how to build plugins](https://docs.nodebb.org/en/latest/plugins/create.html)
 
+## Static
+### static:app.load
+
+**Argument(s)**: {app: app, router: router, middleware: middleware, controllers: controllers}
+
+Executed when NodeBB is loaded, used to kickstart scripts in plugins (i.e. cron jobs, etc)
+
 ## Filters
 
 
@@ -217,14 +224,6 @@ Fired when privileges are requested prior to topic access
 
 ## Actions
 
-
-### action:app.load
-
-**Argument(s)**: None
-
-Executed when NodeBB is loaded, used to kickstart scripts in plugins (i.e. cron jobs, etc)
-
-
 ### action:page.load
 
 **Argument(s)**: An object containing the following properties:
@@ -317,9 +316,9 @@ Called when purging a post
 
 ### action:notification.pushed
 
-**Argument(s)**: A notification object (javascript Object)
+**Argument(s)**: A notification object (javascript Object), an array of uids
 
-Executed whenever a notification is pushed to a user.
+Executed whenever a notification is pushed to user(s).
 
 ### action:config.set
 
