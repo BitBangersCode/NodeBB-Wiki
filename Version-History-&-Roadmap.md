@@ -4,7 +4,7 @@ To upgrade your NodeBB, please follow the upgrade steps provided in [the upgrade
 
 #### 0.6.0
 
-* New Language: Greek (el)
+* New Language: Bengali (bn), Greek (el)
 
 ## Version History
 
